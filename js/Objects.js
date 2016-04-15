@@ -31,7 +31,7 @@ function Connection (world, s1, s2, l) {
     this.line = new THREE.Line(lineGeometry, lineMaterial);
     world.scene.add(this.line);
     world.connectionList.push(this);
-    world.phyWorld.addConstraint(new CANNON.DistanceConstraint(s1.body, s2.body, l, 0.001));
+    world.phyWorld.addConstraint(new CANNON.DistanceConstraint(s1.body, s2.body, l, 0.01));
 }
 
 Connection.prototype.update = function () {

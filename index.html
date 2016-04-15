@@ -7,6 +7,7 @@
         </style>
     </head>
     <body>
+        <script src="inkscape.js"></script>
         <script src="js/cannon.min.js"></script>
         <script src="js/three.min.js"></script>
         <script src="js/orbitControls.js"></script>
@@ -20,13 +21,13 @@
 
             basicMaterial = new THREE.MeshLambertMaterial({color: 0xffff00});
 
-            var particleCount = 300;
-            var radius = 30;
-            var lastSphere = null;
+            var radius = 50;
             var beta = 0;
 
-            for (var i=0; i<particleCount; i++) {
-                var alpha = 360 / particleCount * i;
+            var pkg = JSON.parse(dep_json);
+
+            for (var i=0; i<pkg.pkg.nodes.length; i++) {
+                var alpha = 360 / pkg.pkg.nodes.length * i;
                 var offset = (Math.random() * radius);
                 var a = Math.sin(alpha) * offset;
                 var b = Math.cos(alpha) * offset;
@@ -36,23 +37,11 @@
                 var pY = Math.sin(beta) * b;
                 var pZ = Math.cos(beta) * offset;
 
-                var currentSphere = new Sphere(world, basicMaterial, pX, pY, pZ);
-                if (lastSphere) {
-                    var c_a = new Connection(world, currentSphere, lastSphere, 0.7);
-                }
-
-                lastSphere = currentSphere;
+                var sphere = new Sphere(world, basicMaterial, pX, pY, pZ);
             }
 
-            var numRandomConnections = 600;
-            for (var z=0; z<numRandomConnections; z++) {
-                var rand1 = Math.round(Math.random() * (world.sphereList.length-1));
-                var rand2 = Math.round(Math.random() * (world.sphereList.length-1));
-                if (Math.abs(rand2-rand1) == 1) {
-                    z--;
-                    continue;
-                }
-                var c_b = new Connection(world, world.sphereList[rand1], world.sphereList[rand2], 1.5);
+            for (var z=0; z<pkg.pkg.links.length; z++) {
+                var c_b = new Connection(world, world.sphereList[pkg.pkg.links[z][0]], world.sphereList[pkg.pkg.links[z][1]], 1.5);
             }
 
             world.clock.getDelta();
