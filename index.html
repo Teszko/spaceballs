@@ -21,7 +21,7 @@
 
             basicMaterial = new THREE.MeshLambertMaterial({color: 0xffff00});
 
-            var radius = 50;
+            var radius = 30;
             var beta = 0;
 
             var pkg = JSON.parse(dep_json);
@@ -36,12 +36,11 @@
                 var pX = Math.sin(beta) * a;
                 var pY = Math.sin(beta) * b;
                 var pZ = Math.cos(beta) * offset;
-
-                var sphere = new Sphere(world, basicMaterial, pX, pY, pZ);
+                var sphere = new Sphere(world, basicMaterial, CANNON.Body.DYNAMIC, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ);
             }
 
             for (var z=0; z<pkg.pkg.links.length; z++) {
-                var c_b = new Connection(world, world.sphereList[pkg.pkg.links[z][0]], world.sphereList[pkg.pkg.links[z][1]], 1.5);
+                var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 1.7);
             }
 
             world.clock.getDelta();
