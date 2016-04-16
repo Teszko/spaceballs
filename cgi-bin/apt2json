@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+
+local ($buffer, @pairs, $pair, $name, $value, %FORM);
+# Read in text
+$ENV{'REQUEST_METHOD'} =~ tr/a-z/A-Z/;
+if ($ENV{'REQUEST_METHOD'} eq "GET")
+{
+	$buffer = $ENV{'QUERY_STRING'};
+}
+# Split information into name/value pairs
+@pairs = split(/&/, $buffer);
+foreach $pair (@pairs)
+{
+	($name, $value) = split(/=/, $pair);
+	$value =~ tr/+/ /;
+	$value =~ s/%(..)/pack("C", hex($1))/eg;
+	$FORM{$name} = $value;
+}
+
+$pkgname = $FORM{pkg};
+$pkgname =~ s/[^-a-z:_]/./g;
+$pkgnamex= $pkgname;
+
+
+# uncomment and use a fixed pkgname from commandline
+#$pkgname ="inkscape";
+open(FS,"apt-cache xvcg $pkgname|");
+$i=0;
+while(<FS>){
+   if(/^node:/ and not /:i386/){ 
+      @line=split;
+      $line[3] =~ s/"//g;
+      #print "node: $line[3]\n";
+      $nodes{$line[3]}=$i++;
+      # --> $nodes{"packagename"}=indexnumber
+      }
+
+   # removing lines with "label:" filters out any "breaks" "confilcts" etc
+   if(/^edge:/ and not /label:/ and not /:i386/){
+       @line=split;
+       $line[3] =~ s/"//g;
+       $line[5] =~ s/"//g;
+       $deps{$line[3]}{$line[5]}+=1;
+       $rdeps{$line[5]}{$line[3]}+=1;
+       }
+}
+close(FS);
+
+
+print "Content-Type: application/javascript\r\n\r\n";
+print "{\"pkg\": {\n   \"name\": \"$pkgname\",\n";
+#print "   \"name1\": \"$pkgnamex\",\n";
+print "   \"nodes\": [\n";
+
+$first=1;
+ # $thisnode contains pkgname;  $nodes{$thisnode} the id number
+foreach my $thisnode (sort { $nodes{$a} <=> $nodes{$b} }  keys %nodes) {
+  $number_deps = keys %{$deps{$thisnode}};
+  $number_rdeps= keys %{$rdeps{$thisnode}};
+  if($number_deps or $number_rdeps){
+     if($first){$first=0;} else{print ",\n"};# comma/lf separated
+     printf "{\"id\": %5i, \"name\": \"%s\",\"deps\": %s,\"rdeps\",%s}",
+          $nodes{$thisnode},$thisnode,$number_deps,$number_rdeps;
+  }
+}
+print "],\n";
+print "\"links\": [\n";
+
+$first=1;
+foreach my $pkg1 ( sort keys %deps ) {
+   $nl="\n";
+   foreach my $pkg2 ( sort keys %deps{$pkg1} ) {
+   if($first){$first=0;} else{print ",$nl";$nl="";};
+   printf("[%i,%i]",$nodes{$pkg1},$nodes{$pkg2});
+   }
+}
+print "]\n}\n}\n";
+print "\n";
