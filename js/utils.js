@@ -4,7 +4,7 @@ function copy (a, b) {
     a.z = b.z;
 }
 
-function updatePhysics(world) {
+function updatePhysics (world) {
     var maxSubSteps = 3;
     var fixedTimeStep = 1.0 / 60.0;
 
@@ -15,4 +15,12 @@ function updatePhysics(world) {
 
     for (var h=0; h<world.connectionList.length; h++)
         world.connectionList[h].update();
+}
+
+function getNodeIdByName (world, name) {
+    if (world.nodeIDs[name]) {
+        return world.nodeIDs[name];
+    }
+    console.warn("getNodeIdByName: Node with name ", name, " does not exist.");
+    return null;
 }

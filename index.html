@@ -21,7 +21,7 @@
 
             basicMaterial = new THREE.MeshLambertMaterial({color: 0xffff00});
 
-            var radius = 30;
+            var radius = 100;
             var beta = 0;
 
             var pkg = JSON.parse(dep_json);
@@ -40,7 +40,8 @@
             }
 
             for (var z=0; z<pkg.pkg.links.length; z++) {
-                var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 1.7);
+                if (getNodeIdByName(world, "libc6") != pkg.pkg.links[z][1] && getNodeIdByName(world, "libc6") != pkg.pkg.links[z][0])
+                    var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 2.2);
             }
 
             world.clock.getDelta();

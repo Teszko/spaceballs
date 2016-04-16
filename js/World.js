@@ -3,6 +3,7 @@ function World () {
     this.phyWorld = null;
     this.sphereList = [];
     this.connectionList = [];
+    this.nodeIDs = []; // associative array, name => id
     this.clock = null;
     this.renderer = null;
     this.camera = null;
@@ -19,7 +20,7 @@ World.prototype.init = function (parent_dom_element) {
 
     this.clock = new THREE.Clock();
 
-    this.renderer = new THREE.WebGLRenderer();
+    this.renderer = new THREE.WebGLRenderer({antialias: true});
     this.renderer.setSize(window.innerWidth, window.innerHeight);
     parent_dom_element.appendChild(this.renderer.domElement);
 
