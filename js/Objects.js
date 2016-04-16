@@ -25,13 +25,23 @@ Sphere.prototype.update = function () {
     copy(this.mesh.position, this.body.position);
 };
 
+function get_sphere_by_id (world, id) {
+    for (var i=0; i<world.sphereList.length; i++) {
+        if (world.sphereList[i].id == id) {
+            return world.sphereList[i];
+        }
+    }
+    console.warn("Could not find node with ID ", id);
+    return null;
+}
+
 function Connection (world, si1, si2, l) {
-    if (si1 > (world.sphereList.length-1) || si2 > (world.sphereList.length-1)) {
-        console.warn("No node with index ", si1, " or ", si2, " listed (has to be smaller than ", world.sphereList.length, "). Connection ignored.");
+    this.s1 = get_sphere_by_id(world, si1);
+    this.s2 = get_sphere_by_id(world, si2);
+    if (!this.s1 || !this.s2) {
+        console.warn("Connection ignored.");
         return;
     }
-    this.s1 = world.sphereList[si1];
-    this.s2 = world.sphereList[si2];
 
     var lineMaterial = new THREE.LineBasicMaterial({
         color: 0xffffff
