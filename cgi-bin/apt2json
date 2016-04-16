@@ -23,7 +23,7 @@ $pkgnamex= $pkgname;
 
 
 # uncomment and use a fixed pkgname from commandline
-#$pkgname ="inkscape";
+$pkgname ="inkscape";
 open(FS,"apt-cache xvcg $pkgname|");
 $i=0;
 while(<FS>){
@@ -53,13 +53,15 @@ print "{\"pkg\": {\n   \"name\": \"$pkgname\",\n";
 print "   \"nodes\": [\n";
 
 $first=1;
+$i=0;
  # $thisnode contains pkgname;  $nodes{$thisnode} the id number
 foreach my $thisnode (sort { $nodes{$a} <=> $nodes{$b} }  keys %nodes) {
   $number_deps = keys %{$deps{$thisnode}};
   $number_rdeps= keys %{$rdeps{$thisnode}};
   if($number_deps or $number_rdeps){
      if($first){$first=0;} else{print ",\n"};# comma/lf separated
-     printf "{\"id\": %5i, \"name\": \"%s\",\"deps\": %s,\"rdeps\":%s}",
+     $nodes{$thisnode}=$i++;
+     printf "{\"id\": %5i, \"name\": \"%s\",\"deps\": %s,\"rdeps\": %s}",
           $nodes{$thisnode},$thisnode,$number_deps,$number_rdeps;
   }
 }
