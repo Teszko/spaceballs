@@ -59,7 +59,7 @@ foreach my $thisnode (sort { $nodes{$a} <=> $nodes{$b} }  keys %nodes) {
   $number_rdeps= keys %{$rdeps{$thisnode}};
   if($number_deps or $number_rdeps){
      if($first){$first=0;} else{print ",\n"};# comma/lf separated
-     printf "{\"id\": %5i, \"name\": \"%s\",\"deps\": %s,\"rdeps\",%s}",
+     printf "{\"id\": %5i, \"name\": \"%s\",\"deps\": %s,\"rdeps\":%s}",
           $nodes{$thisnode},$thisnode,$number_deps,$number_rdeps;
   }
 }
