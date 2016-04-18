@@ -30,6 +30,7 @@
         <script src="js/World.js"></script>
         <script src="js/Objects.js"></script>
         <script src="js/utils.js"></script>
+        <script src="js/dat.gui.min.js"></script>
         <script>
             var stats = new Stats();
             stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
@@ -56,15 +57,21 @@
                 var pX = Math.sin(beta) * a;
                 var pY = Math.sin(beta) * b;
                 var pZ = Math.cos(beta) * offset;
-                var sphere = new Sphere(world, basicMaterial, CANNON.Body.DYNAMIC, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ);
+                var sumdeps=pkg.pkg.nodes[i].deps+pkg.pkg.nodes[i].rdeps;
+                console.log(pkg.pkg.nodes[i].name+" deps "+pkg.pkg.nodes[i].deps+" rdeps "+pkg.pkg.nodes[i].rdeps+" sum "+sumdeps);
+                var sphereRadius = Math.sqrt(sumdeps/20);
+               console.log(pkg.pkg.nodes[i].name+" phys: "+sphereRadius+" vis "+sphereRadius/6);
+               var sphere = new Sphere(world, basicMaterial, CANNON.Body.DYNAMIC, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ,sphereRadius,sphereRadius/6);
             }
 
             for (var z=0; z<pkg.pkg.links.length; z++) {
                 if (getNodeIdByName(world, "libc6") != pkg.pkg.links[z][1] && getNodeIdByName(world, "libc6") != pkg.pkg.links[z][0])
                     var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 2.2);
             }
+            
 
             world.clock.getDelta();
+
             function render() {
                 requestAnimationFrame(render);
                 stats.begin();
