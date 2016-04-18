@@ -1,0 +1,1889 @@
+graph: { title: "packages"
+xmax: 700 ymax: 700 x: 30 y: 30
+layout_downfactor: 8
+edge: { sourcename: "inkscape" targetname: "python:any" class: 2 }
+edge: { sourcename: "inkscape" targetname: "gconf-service" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libaspell15" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libatk1.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libatkmm-1.6-1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libc6" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libcairomm-1.0-1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libexif12" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgc1c2" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgconf-2-4" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgdk-pixbuf2.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libglibmm-2.4-1c2a" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgnomevfs2-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgomp1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgsl0ldbl" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgtk2.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgtkmm-2.4-1c2a" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libgtkspell0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libjpeg62-turbo" class: 2 }
+edge: { sourcename: "inkscape" targetname: "liblcms2-2" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libmagick++-6.q16-5" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libmagickcore-6.q16-2" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libmagickwand-6.q16-2" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpangocairo-1.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpangoft2-1.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpangomm-1.4-1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpoppler-glib8" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpoppler46" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libpopt0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "librevenge-0.0-0" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libsigc++-2.0-0c2a" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libwpg-0.3-3" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libxml2" class: 2 }
+edge: { sourcename: "inkscape" targetname: "libxslt1.1" class: 2 }
+edge: { sourcename: "inkscape" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libpixman-1-0" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libxcb-render0" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libxcb-shm0" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libxcb1" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "libxrender1" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libcairo2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libcairo2" targetname: "libwebkit2gtk-3.0-25" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libcairo2" targetname: "libwebkitgtk-1.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libcairo2" targetname: "libwebkitgtk-3.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libcairo2" targetname: "weston" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxml2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxml2" targetname: "liblzma5" class: 2 }
+edge: { sourcename: "libxml2" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libxml2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgsl0ldbl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgsl0ldbl" targetname: "gsl" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgsl0ldbl" targetname: "libgsl0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgtk2.0-0" targetname: "libgtk2.0-common" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libatk1.0-0" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libcups2" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libgdk-pixbuf2.0-0" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libpangocairo-1.0-0" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libpangoft2-1.0-0" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxcomposite1" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxcursor1" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxdamage1" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxfixes3" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxi6" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxinerama1" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxrandr2" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "libxrender1" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "shared-mime-info" class: 2 }
+edge: { sourcename: "libgtk2.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libatk1.0-0" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libglibmm-2.4-1c2a" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libsigc++-2.0-0c2a" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libatkmm-1.6-1" targetname: "libgtkmm-2.4-1c2a" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxcb-shm0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxcb-shm0" targetname: "libxcb1" class: 2 }
+edge: { sourcename: "libxcb-shm0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgnomevfs2-0" targetname: "gconf-service" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libacl1" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libavahi-client3" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libavahi-common3" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libavahi-glib1" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libdbus-1-3" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libdbus-glib-1-2" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libgconf-2-4" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libgnutls-deb0-28" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libxml2" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libgnomevfs2-common" class: 2 }
+edge: { sourcename: "libgnomevfs2-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgnomevfs2-0" targetname: "libbonobo2-0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgconf-2-4" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgconf-2-4" targetname: "libdbus-1-3" class: 2 }
+edge: { sourcename: "libgconf-2-4" targetname: "libdbus-glib-1-2" class: 2 }
+edge: { sourcename: "libgconf-2-4" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libgconf-2-4" targetname: "gconf2-common" class: 2 }
+edge: { sourcename: "libgconf-2-4" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgconf-2-4" targetname: "libbonobo2-0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgconf-2-4" targetname: "gconf2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgconf-2-4" targetname: "libgconf2-4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgconf-2-4" targetname: "libgconf2.0-cil" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxslt1.1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxslt1.1" targetname: "libgcrypt20" class: 2 }
+edge: { sourcename: "libxslt1.1" targetname: "libxml2" class: 2 }
+edge: { sourcename: "libxslt1.1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "libgomp1" class: 2 }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "libmagickcore-6.q16-2" class: 2 }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "imagemagick-common" class: 2 }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libmagickwand-6.q16-2" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxinerama1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxinerama1" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxinerama1" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libxinerama1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libjasper1" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libjpeg62-turbo" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libtiff5" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libgdk-pixbuf2.0-common" class: 2 }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libgtk2.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libgtk2.0-bin" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "librsvg2-2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgdk-pixbuf2.0-0" targetname: "libwmf0.2-7" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "zlib1g" targetname: "libc6" class: 2 }
+edge: { sourcename: "zlib1g" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "zlib1g" targetname: "zlib1" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "zlib1g" targetname: "libxml2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "zlib1g" targetname: "texlive-binaries" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxcomposite1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxcomposite1" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxcomposite1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxdamage1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxdamage1" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxdamage1" targetname: "libxfixes3" class: 2 }
+edge: { sourcename: "libxdamage1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libmagick++-6.q16-5" targetname: "libc6" class: 2 }
+edge: { sourcename: "libmagick++-6.q16-5" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libmagick++-6.q16-5" targetname: "libmagickcore-6.q16-2" class: 2 }
+edge: { sourcename: "libmagick++-6.q16-5" targetname: "libmagickwand-6.q16-2" class: 2 }
+edge: { sourcename: "libmagick++-6.q16-5" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libmagick++-6.q16-5" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libjpeg62-turbo" targetname: "libc6" class: 2 }
+edge: { sourcename: "libjpeg62-turbo" targetname: "libjpeg62" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "imagemagick-common" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "imagemagick-common" targetname: "libmagickcore-6.q16-2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libstdc++6" targetname: "gcc-4.9-base" class: 2 }
+edge: { sourcename: "libstdc++6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libstdc++6" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libstdc++6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libstdc++6" targetname: "scim" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libstdc++6" targetname: "gcc-4.3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libstdc++6" targetname: "gcc-4.4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libstdc++6" targetname: "gcc-4.5" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libbz2-1.0" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libfftw3-double3" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libgomp1" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libjbig0" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libjpeg62-turbo" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "liblcms2-2" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "liblqr-1-0" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libltdl7" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "liblzma5" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libtiff5" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "libxml2" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "imagemagick-common" class: 2 }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libmagickcore-6.q16-2" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libx11-6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libx11-6" targetname: "libxcb1" class: 2 }
+edge: { sourcename: "libx11-6" targetname: "libx11-data" class: 2 }
+edge: { sourcename: "libx11-6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxrandr2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxrandr2" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxrandr2" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libxrandr2" targetname: "libxrender1" class: 2 }
+edge: { sourcename: "libxrandr2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "gcc-4.9-base" targetname: "dehydra" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "gcc-4.9-base" targetname: "gcc-4.4-base" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "gcc-4.9-base" targetname: "gcc-4.7-base" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "gcc-4.9-base" targetname: "gcj-4.4-base" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "gcc-4.9-base" targetname: "gcj-4.6-base" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "gcc-4.9-base" targetname: "gnat-4.4-base" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "gcc-4.9-base" targetname: "gnat-4.6" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "shared-mime-info" targetname: "libc6" class: 2 }
+edge: { sourcename: "shared-mime-info" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "shared-mime-info" targetname: "libxml2" class: 2 }
+edge: { sourcename: "shared-mime-info" targetname: "libglib2.0-0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "shared-mime-info" targetname: "libgnomevfs2-0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "shared-mime-info" targetname: "tracker" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgcrypt20" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgcrypt20" targetname: "libgpg-error0" class: 2 }
+edge: { sourcename: "libgcrypt20" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libcairomm-1.0-1" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libglibmm-2.4-1c2a" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libpangocairo-1.0-0" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libsigc++-2.0-0c2a" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libpangomm-1.4-1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "liblqr-1-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "liblqr-1-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "liblqr-1-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libdbus-glib-1-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libdbus-glib-1-2" targetname: "libdbus-1-3" class: 2 }
+edge: { sourcename: "libdbus-glib-1-2" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libdbus-glib-1-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "liblcms2-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "liblcms2-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxfixes3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxfixes3" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxfixes3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "multiarch-support" targetname: "libc6" class: 2 }
+edge: { sourcename: "libatk1.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libatk1.0-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libatk1.0-0" targetname: "libatk1.0-data" class: 2 }
+edge: { sourcename: "libatk1.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libwpg-0.3-3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libwpg-0.3-3" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libwpg-0.3-3" targetname: "librevenge-0.0-0" class: 2 }
+edge: { sourcename: "libwpg-0.3-3" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libwpg-0.3-3" targetname: "libwpd-0.10-10" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libatk1.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libatkmm-1.6-1" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libcairomm-1.0-1" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libgdk-pixbuf2.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libglibmm-2.4-1c2a" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libgtk2.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libpangocairo-1.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libpangoft2-1.0-0" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libpangomm-1.4-1" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libsigc++-2.0-0c2a" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libgtkmm-2.4-1c2a" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxext6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxext6" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxext6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "gconf2-common" targetname: "ucf" class: 2 }
+edge: { sourcename: "gconf2-common" targetname: "libgconf2-4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libaspell15" targetname: "libc6" class: 2 }
+edge: { sourcename: "libaspell15" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libaspell15" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libaspell15" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libaspell15" targetname: "aspell6-dictionary" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libaspell15" targetname: "aspell-bin" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libaspell15" targetname: "aspell-da" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libaspell15" targetname: "aspell-no" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libltdl7" targetname: "libc6" class: 2 }
+edge: { sourcename: "libltdl7" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "libgmp10" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "libhogweed2" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "libnettle4" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "libp11-kit0" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "libtasn1-6" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "gnutls0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgnutls-deb0-28" targetname: "gnutls0.4" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libbz2-1.0" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "dpkg" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "dpkg" targetname: "liblzma5" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "dpkg" targetname: "libselinux1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "dpkg" targetname: "zlib1g" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "dpkg" targetname: "tar" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "dpkg" targetname: "ada-reference-manual" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "asn1-mode" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "bogosort" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "cl-yacc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "cpp-4.1-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "cpp-4.2-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gcc-4.1-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gcc-4.2-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gcj-4.1-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gcj-4.2-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gfortran-4.1-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gfortran-4.2-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "ggz-docs" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "glame" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gnat-4.1-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gnat-4.2-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gtalk" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libalogg-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libgtk1.2-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libnettle-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "liborbit-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libreadline5-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "librep-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "mmucl" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "nxml-mode" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "octave3.0-info" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "octave3.2-info" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "polgen-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "r6rs-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "serveez-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "slat" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "texlive-base-bin-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "ttcn-el" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "ulog-acctd" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "xconq-doc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "zenirc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "apt" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "apt-cudf" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "aptitude" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "auctex" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "ccache" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "cups" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "debian-security-support" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "distcc" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "doc-base" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "dpkg-dev" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "fontconfig" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "fusionforge-plugin-mediawiki" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gap-core" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gitweb" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "grace" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "gxine" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "hoogle" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "icecc" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "install-info" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libapache2-mod-php5" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libapache2-mod-php5filter" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libdpkg-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "libjs-protoaculous" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "man-db" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "mcollective" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "php5-fpm" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "pypy" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "readahead-fedora" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "wordpress" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "xfonts-traditional" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dpkg" targetname: "xine-ui" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libsigc++-2.0-0c2a" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "libxrender1" class: 2 }
+edge: { sourcename: "libcairomm-1.0-1" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libpopt0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpopt0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpopt0" targetname: "libpopt-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpopt0" targetname: "popt" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpopt0" targetname: "rpm" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgomp1" targetname: "gcc-4.9-base" class: 2 }
+edge: { sourcename: "libgomp1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgomp1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgomp1" targetname: "gcc-4.3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgomp1" targetname: "gcc-4.4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgomp1" targetname: "gcc-4.5" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxi6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxi6" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxi6" targetname: "libxext6" class: 2 }
+edge: { sourcename: "libxi6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpng12-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpng12-0" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libpng12-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpng12-0" targetname: "libpng12-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpng12-0" targetname: "mzscheme" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpng12-0" targetname: "pngcrush" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpng12-0" targetname: "pngmeta" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpng12-0" targetname: "povray-3.5" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpng12-0" targetname: "qemacs" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpango-1.0-0" targetname: "fontconfig" class: 2 }
+edge: { sourcename: "libpango-1.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpango-1.0-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libpango-1.0-0" targetname: "libthai0" class: 2 }
+edge: { sourcename: "libpango-1.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpango-1.0-0" targetname: "libpango1.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpango-1.0-0" targetname: "plymouth" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxcursor1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxcursor1" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxcursor1" targetname: "libxfixes3" class: 2 }
+edge: { sourcename: "libxcursor1" targetname: "libxrender1" class: 2 }
+edge: { sourcename: "libxcursor1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libacl1" targetname: "libattr1" class: 2 }
+edge: { sourcename: "libacl1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libacl1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libacl1" targetname: "acl" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libacl1" targetname: "libacl1-kerberos4kth" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgc1c2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgc1c2" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libgc1c2" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libgc1c2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgc1c2" targetname: "libgc1" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libattr1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libattr1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libattr1" targetname: "attr" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgdk-pixbuf2.0-common" targetname: "libgdk-pixbuf2.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libfontconfig1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libfontconfig1" targetname: "libexpat1" class: 2 }
+edge: { sourcename: "libfontconfig1" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libfontconfig1" targetname: "fontconfig-config" class: 2 }
+edge: { sourcename: "libfontconfig1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libfontconfig1" targetname: "xpdf" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "librevenge-0.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "librevenge-0.0-0" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "librevenge-0.0-0" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "librevenge-0.0-0" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libcups2" targetname: "libavahi-client3" class: 2 }
+edge: { sourcename: "libcups2" targetname: "libavahi-common3" class: 2 }
+edge: { sourcename: "libcups2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcups2" targetname: "libgnutls-deb0-28" class: 2 }
+edge: { sourcename: "libcups2" targetname: "libgssapi-krb5-2" class: 2 }
+edge: { sourcename: "libcups2" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libcups2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libcups2" targetname: "cups" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libtiff5" targetname: "libc6" class: 2 }
+edge: { sourcename: "libtiff5" targetname: "libjbig0" class: 2 }
+edge: { sourcename: "libtiff5" targetname: "libjpeg62-turbo" class: 2 }
+edge: { sourcename: "libtiff5" targetname: "liblzma5" class: 2 }
+edge: { sourcename: "libtiff5" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libtiff5" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libfftw3-double3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libfftw3-double3" targetname: "libgomp1" class: 2 }
+edge: { sourcename: "libfftw3-double3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libfftw3-double3" targetname: "libfftw3-3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libselinux1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libselinux1" targetname: "libpcre3" class: 2 }
+edge: { sourcename: "libselinux1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libglibmm-2.4-1c2a" targetname: "libc6" class: 2 }
+edge: { sourcename: "libglibmm-2.4-1c2a" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libglibmm-2.4-1c2a" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libglibmm-2.4-1c2a" targetname: "libsigc++-2.0-0c2a" class: 2 }
+edge: { sourcename: "libglibmm-2.4-1c2a" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libglibmm-2.4-1c2a" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libx11-data" targetname: "libx11-6" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libfreetype6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libfreetype6" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "libfreetype6" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libfreetype6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxcb1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxcb1" targetname: "libxau6" class: 2 }
+edge: { sourcename: "libxcb1" targetname: "libxdmcp6" class: 2 }
+edge: { sourcename: "libxcb1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxcb1" targetname: "alsa-utils" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxcb1" targetname: "libxcb-xlib0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libbz2-1.0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libbz2-1.0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgcc1" targetname: "gcc-4.9-base" class: 2 }
+edge: { sourcename: "libgcc1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgcc1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgcc1" targetname: "gcc-4.3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgcc1" targetname: "gcc-4.4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgcc1" targetname: "gcc-4.5" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libpangoft2-1.0-0" class: 2 }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpangocairo-1.0-0" targetname: "libpango1.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libsigc++-2.0-0c2a" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsigc++-2.0-0c2a" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libsigc++-2.0-0c2a" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libsigc++-2.0-0c2a" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "fontconfig" targetname: "libc6" class: 2 }
+edge: { sourcename: "fontconfig" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "fontconfig" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "fontconfig" targetname: "fontconfig-config" class: 2 }
+edge: { sourcename: "fontconfig" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libc6" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libc6" targetname: "prelink" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "tzdata" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "tzdata-etch" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "hurd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "libtirpc1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "locales" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "locales-all" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "lsb-core" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc6" targetname: "nscd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libexif12" targetname: "libc6" class: 2 }
+edge: { sourcename: "libexif12" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libglib2.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libglib2.0-0" targetname: "libffi6" class: 2 }
+edge: { sourcename: "libglib2.0-0" targetname: "libpcre3" class: 2 }
+edge: { sourcename: "libglib2.0-0" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "libglib2.0-0" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libglib2.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libglib2.0-0" targetname: "glib-networking" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libglib2.0-0" targetname: "gvfs" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libglib2.0-0" targetname: "libgnome-desktop-3-2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libglib2.0-0" targetname: "python-gi" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpoppler-glib8" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpoppler-glib8" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libpoppler-glib8" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libpoppler-glib8" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libpoppler-glib8" targetname: "libpoppler46" class: 2 }
+edge: { sourcename: "libpoppler-glib8" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libpoppler-glib8" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgtk2.0-common" targetname: "libgtk2.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpoppler46" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libjpeg62-turbo" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "liblcms2-2" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libopenjpeg5" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libpng12-0" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "libtiff5" class: 2 }
+edge: { sourcename: "libpoppler46" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxcb-render0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxcb-render0" targetname: "libxcb1" class: 2 }
+edge: { sourcename: "libxcb-render0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libxrender1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxrender1" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "libxrender1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libdbus-1-3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libdbus-1-3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libdbus-1-3" targetname: "kde-window-manager" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libdbus-1-3" targetname: "kdebase-workspace-bin" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libavahi-glib1" targetname: "libavahi-common3" class: 2 }
+edge: { sourcename: "libavahi-glib1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libavahi-glib1" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libavahi-glib1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "fontconfig-config" targetname: "debconf" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "debconf-2.0" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "ucf" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "fonts-dejavu-core" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "ttf-bitstream-vera" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "fonts-liberation" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "fonts-freefont" class: 2 }
+edge: { sourcename: "fontconfig-config" targetname: "fontconfig" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libthai0" targetname: "libthai-data" class: 2 }
+edge: { sourcename: "libthai0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libthai0" targetname: "libdatrie1" class: 2 }
+edge: { sourcename: "libthai0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "liblzma5" targetname: "libc6" class: 2 }
+edge: { sourcename: "liblzma5" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "gconf-service" targetname: "libc6" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "libdbus-1-3" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "libdbus-glib-1-2" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "libgconf-2-4" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "libldap-2.4-2" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "libxml2" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "gconf2-common" class: 2 }
+edge: { sourcename: "gconf-service" targetname: "gconf2-common" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpixman-1-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpixman-1-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libldap-2.4-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libldap-2.4-2" targetname: "libgnutls-deb0-28" class: 2 }
+edge: { sourcename: "libldap-2.4-2" targetname: "libsasl2-2" class: 2 }
+edge: { sourcename: "libldap-2.4-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libldap-2.4-2" targetname: "ldap-utils" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libharfbuzz0b" class: 2 }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpangoft2-1.0-0" targetname: "libpango1.0-0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgtkspell0" targetname: "libatk1.0-0" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libcairo2" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libenchant1c2a" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libfontconfig1" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libgdk-pixbuf2.0-0" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libgtk2.0-0" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libpango-1.0-0" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libpangocairo-1.0-0" class: 2 }
+edge: { sourcename: "libgtkspell0" targetname: "libpangoft2-1.0-0" class: 2 }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libc6" class: 2 }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libwpd-0.10-10" targetname: "librevenge-0.0-0" class: 2 }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd2" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd3" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd4" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd5" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd6" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libwpd-0.10-10" targetname: "libwpd8" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libxdmcp6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxdmcp6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libavahi-client3" targetname: "libavahi-common3" class: 2 }
+edge: { sourcename: "libavahi-client3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libavahi-client3" targetname: "libdbus-1-3" class: 2 }
+edge: { sourcename: "libavahi-client3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgmp10" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgmp10" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libthai-data" targetname: "libthai0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libhogweed2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libhogweed2" targetname: "libgmp10" class: 2 }
+edge: { sourcename: "libhogweed2" targetname: "libnettle4" class: 2 }
+edge: { sourcename: "libhogweed2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libjasper1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libjasper1" targetname: "libjpeg62-turbo" class: 2 }
+edge: { sourcename: "libjasper1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libjasper1" targetname: "libjasper-1.700-2" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libp11-kit0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libp11-kit0" targetname: "libffi6" class: 2 }
+edge: { sourcename: "libp11-kit0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgnomevfs2-common" targetname: "gconf2" class: 2 }
+edge: { sourcename: "libgnomevfs2-common" targetname: "gnome-mime-data" class: 2 }
+edge: { sourcename: "libgnomevfs2-common" targetname: "shared-mime-info" class: 2 }
+edge: { sourcename: "libgnomevfs2-common" targetname: "gnome-panel" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgnomevfs2-common" targetname: "libgnomevfs2-0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libgnomevfs2-common" targetname: "libgnomevfs2-extra" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libavahi-common3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libavahi-common3" targetname: "libavahi-common-data" class: 2 }
+edge: { sourcename: "libavahi-common3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libnettle4" targetname: "libc6" class: 2 }
+edge: { sourcename: "libnettle4" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgpg-error0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgpg-error0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "ucf" targetname: "debconf" class: 2 }
+edge: { sourcename: "ucf" targetname: "coreutils" class: 2 }
+edge: { sourcename: "libsasl2-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsasl2-2" targetname: "libsasl2-modules-db" class: 2 }
+edge: { sourcename: "libsasl2-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsasl2-2" targetname: "postfix" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libsasl2-2" targetname: "slapd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libexpat1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libexpat1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libexpat1" targetname: "wink" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libjbig0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libjbig0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libdatrie1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libdatrie1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libtasn1-6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libtasn1-6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpcre3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpcre3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpcre3" targetname: "libpcre3-dev" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "approx" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "cduce" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "cmigrep" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "galax" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "libpcre-ocaml" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "liquidsoap" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpcre3" targetname: "ocsigen" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "fonts-dejavu-core" targetname: "ttf-dejavu" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "fonts-dejavu-core" targetname: "ttf-dejavu-core" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "locales" targetname: "libc-bin" class: 2 }
+edge: { sourcename: "locales" targetname: "debconf" class: 2 }
+edge: { sourcename: "locales" targetname: "debconf-2.0" class: 2 }
+edge: { sourcename: "locales" targetname: "base-config" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "locales" targetname: "belocs-locales-bin" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "locales" targetname: "belocs-locales-data" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "tar" targetname: "libacl1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "tar" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "tar" targetname: "libselinux1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "tar" targetname: "cpio" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "tar" targetname: "dpkg-dev" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libffi6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libffi6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "gconf2" targetname: "gconf-service" class: 2 }
+edge: { sourcename: "gconf2" targetname: "libc6" class: 2 }
+edge: { sourcename: "gconf2" targetname: "libgconf-2-4" class: 2 }
+edge: { sourcename: "gconf2" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "gconf2" targetname: "libxml2" class: 2 }
+edge: { sourcename: "gconf2" targetname: "psmisc" class: 2 }
+edge: { sourcename: "gconf2" targetname: "dbus-x11" class: 2 }
+edge: { sourcename: "gconf2" targetname: "python:any" class: 2 }
+edge: { sourcename: "libsasl2-modules-db" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsasl2-modules-db" targetname: "libdb5.3" class: 2 }
+edge: { sourcename: "libsasl2-modules-db" targetname: "libsasl2-2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libxau6" targetname: "libc6" class: 2 }
+edge: { sourcename: "libxau6" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libcomerr2" class: 2 }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libk5crypto3" class: 2 }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libkeyutils1" class: 2 }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libkrb5-3" class: 2 }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libkrb5support0" class: 2 }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgssapi-krb5-2" targetname: "libgssglue1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "perl-base" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "debconf" targetname: "apt" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "cdebconf" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "debconf-tiny" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "debconf-utils" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "dialog" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "menu" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "whiptail" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "debconf" targetname: "whiptail-utf8" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "coreutils" targetname: "libacl1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "coreutils" targetname: "libattr1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "coreutils" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "coreutils" targetname: "libselinux1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "coreutils" targetname: "timeout" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libkrb5-3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libkrb5-3" targetname: "libcomerr2" class: 2 }
+edge: { sourcename: "libkrb5-3" targetname: "libk5crypto3" class: 2 }
+edge: { sourcename: "libkrb5-3" targetname: "libkeyutils1" class: 2 }
+edge: { sourcename: "libkrb5-3" targetname: "libkrb5support0" class: 2 }
+edge: { sourcename: "libkrb5-3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libkrb5-3" targetname: "libkrb53" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libkrb5-3" targetname: "libsmbclient" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libkrb5-3" targetname: "sssd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "nscd" targetname: "libaudit1" class: 2 }
+edge: { sourcename: "nscd" targetname: "libc6" class: 2 }
+edge: { sourcename: "nscd" targetname: "libc6" class: 2 }
+edge: { sourcename: "nscd" targetname: "libcap2" class: 2 }
+edge: { sourcename: "nscd" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "libcomerr2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcomerr2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libopenjpeg5" targetname: "libc6" class: 2 }
+edge: { sourcename: "libopenjpeg5" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "fonts-liberation" targetname: "ttf-liberation" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc-bin" targetname: "libc6" class: 2 }
+edge: { sourcename: "libc-bin" targetname: "libc6" class: 2 }
+edge: { sourcename: "libc-bin" targetname: "libc0.1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc-bin" targetname: "libc0.3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc-bin" targetname: "libc6" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libc-bin" targetname: "libc6.1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "psmisc" targetname: "libc6" class: 2 }
+edge: { sourcename: "psmisc" targetname: "libtinfo5" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "aspell-en" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "myspell-dictionary" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "aspell-dictionary" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "ispell-dictionary" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "hunspell-dictionary" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "libaspell15" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "libc6" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "libhunspell-1.3-0" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "libenchant1c2a" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libenchant1c2a" targetname: "ispell" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libenchant1c2a" targetname: "libenchant1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libenchant1c2a" targetname: "libenchant1c2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libharfbuzz0b" targetname: "libc6" class: 2 }
+edge: { sourcename: "libharfbuzz0b" targetname: "libfreetype6" class: 2 }
+edge: { sourcename: "libharfbuzz0b" targetname: "libglib2.0-0" class: 2 }
+edge: { sourcename: "libharfbuzz0b" targetname: "libgraphite2-3" class: 2 }
+edge: { sourcename: "libharfbuzz0b" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libharfbuzz0b" targetname: "libharfbuzz0" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libharfbuzz0b" targetname: "libharfbuzz0a" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libcap2" targetname: "libattr1" class: 2 }
+edge: { sourcename: "libcap2" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcap2" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libaudit1" targetname: "libaudit-common" class: 2 }
+edge: { sourcename: "libaudit1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libaudit1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libaudit-common" targetname: "libaudit0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libaudit-common" targetname: "libaudit1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dbus-x11" targetname: "libc6" class: 2 }
+edge: { sourcename: "dbus-x11" targetname: "libx11-6" class: 2 }
+edge: { sourcename: "dbus-x11" targetname: "dbus" class: 2 }
+edge: { sourcename: "dbus-x11" targetname: "x11-common" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "aspell-en" targetname: "aspell" class: 2 }
+edge: { sourcename: "aspell-en" targetname: "dictionaries-common" class: 2 }
+edge: { sourcename: "libkeyutils1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libkeyutils1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libkrb5support0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libkrb5support0" targetname: "libkeyutils1" class: 2 }
+edge: { sourcename: "libkrb5support0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libkrb5support0" targetname: "libkrb53" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libkrb5support0" targetname: "libgssapi-krb5-2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libkrb5support0" targetname: "libk5crypto3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libkrb5support0" targetname: "libkadm5clnt-mit9" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libkrb5support0" targetname: "libkadm5srv-mit9" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libkrb5support0" targetname: "libkdb5-7" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libk5crypto3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libk5crypto3" targetname: "libkeyutils1" class: 2 }
+edge: { sourcename: "libk5crypto3" targetname: "libkrb5support0" class: 2 }
+edge: { sourcename: "libk5crypto3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libk5crypto3" targetname: "libkrb53" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libk5crypto3" targetname: "libgssapi-krb5-2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libk5crypto3" targetname: "libkrb5-3" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libhunspell-1.3-0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libhunspell-1.3-0" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "libhunspell-1.3-0" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "libhunspell-1.3-0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libhunspell-1.3-0" targetname: "openoffice.org-core" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libdb5.3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libdb5.3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libtinfo5" targetname: "libc6" class: 2 }
+edge: { sourcename: "libtinfo5" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libtinfo5" targetname: "dialog" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "aspell" targetname: "libaspell15" class: 2 }
+edge: { sourcename: "aspell" targetname: "libc6" class: 2 }
+edge: { sourcename: "aspell" targetname: "libgcc1" class: 2 }
+edge: { sourcename: "aspell" targetname: "libncursesw5" class: 2 }
+edge: { sourcename: "aspell" targetname: "libstdc++6" class: 2 }
+edge: { sourcename: "aspell" targetname: "libtinfo5" class: 2 }
+edge: { sourcename: "aspell" targetname: "dictionaries-common" class: 2 }
+edge: { sourcename: "aspell" targetname: "aspell-bin" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "perl-base" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "perl-base" targetname: "defoma" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "doc-base" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "mono-gac" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "safe-rm" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "update-inetd" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "autoconf2.13" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libalien-wxwidgets-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libanyevent-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libcommon-sense-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libfile-path-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libfile-spec-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libfile-temp-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libgtk2-perl-doc" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libio-socket-ip-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libjcode-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libmarc-charset-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libscalar-list-utils-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libsocket-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "libxsloader-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "pdl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-base" targetname: "perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libgraphite2-3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgraphite2-3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libgraphite2-3" targetname: "libgraphite2-2.0.0" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dbus" targetname: "libaudit1" class: 2 }
+edge: { sourcename: "dbus" targetname: "libc6" class: 2 }
+edge: { sourcename: "dbus" targetname: "libcap-ng0" class: 2 }
+edge: { sourcename: "dbus" targetname: "libdbus-1-3" class: 2 }
+edge: { sourcename: "dbus" targetname: "libexpat1" class: 2 }
+edge: { sourcename: "dbus" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "dbus" targetname: "libsystemd0" class: 2 }
+edge: { sourcename: "dbus" targetname: "adduser" class: 2 }
+edge: { sourcename: "dbus" targetname: "lsb-base" class: 2 }
+edge: { sourcename: "libscalar-list-utils-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libscalar-list-utils-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "libscalar-list-utils-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "adduser" targetname: "perl-base" class: 2 }
+edge: { sourcename: "adduser" targetname: "passwd" class: 2 }
+edge: { sourcename: "adduser" targetname: "debconf" class: 2 }
+edge: { sourcename: "adduser" targetname: "debconf-2.0" class: 2 }
+edge: { sourcename: "libcap-ng0" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcap-ng0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libncursesw5" targetname: "libtinfo5" class: 2 }
+edge: { sourcename: "libncursesw5" targetname: "libc6" class: 2 }
+edge: { sourcename: "libncursesw5" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libio-socket-ip-perl" targetname: "netbase" class: 2 }
+edge: { sourcename: "libio-socket-ip-perl" targetname: "perl-base" class: 2 }
+edge: { sourcename: "libio-socket-ip-perl" targetname: "libsocket-perl" class: 2 }
+edge: { sourcename: "dictionaries-common" targetname: "debconf" class: 2 }
+edge: { sourcename: "dictionaries-common" targetname: "debconf-2.0" class: 2 }
+edge: { sourcename: "dictionaries-common" targetname: "libtext-iconv-perl" class: 2 }
+edge: { sourcename: "dictionaries-common" targetname: "emacsen-common" class: 2 }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-ar" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-da" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-de-at" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-de-ch" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-de-de" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-en-us" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-eu-es" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-gl-es" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-kk" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-ko" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-se" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hunspell-uz" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "hyphen-en-us" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-bg" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ca" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-cs" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-cs-cz" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-da" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-de-at" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-de-ch" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-de-de" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-de-de-oldspell" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-el-gr" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-en-au" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-eo" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-es" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-et" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-eu-es" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-fa" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-fi" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-fo" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-fr" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-fr-gut" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ga" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-gd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-gl-es" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-gv" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-he" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-hr" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-hu" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-hy" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ku" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-lv" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-nb" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-nl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-nn" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-nr" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ns" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-pl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-pt-br" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-pt-pt" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ru" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-sk" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-sl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ss" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-sv-se" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-tn" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ts" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-uk" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-ve" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-xh" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "myspell-zu" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "mythes-it" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "dictionaries-common" targetname: "openoffice.org-thesaurus-it" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libtext-iconv-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libtext-iconv-perl" targetname: "perl-base" class: 2 }
+edge: { sourcename: "libtext-iconv-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "myspell-hu" targetname: "dictionaries-common" class: 2 }
+edge: { sourcename: "myspell-hu" targetname: "myhungarian" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "myspell-hu" targetname: "openoffice.org" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "passwd" targetname: "libaudit1" class: 2 }
+edge: { sourcename: "passwd" targetname: "libc6" class: 2 }
+edge: { sourcename: "passwd" targetname: "libpam0g" class: 2 }
+edge: { sourcename: "passwd" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "passwd" targetname: "libsemanage1" class: 2 }
+edge: { sourcename: "passwd" targetname: "libpam-modules" class: 2 }
+edge: { sourcename: "passwd" targetname: "debianutils" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libsemanage-common" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libaudit1" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libbz2-1.0" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libsepol1" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "libustr-1.0-1" class: 2 }
+edge: { sourcename: "libsemanage1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsystemd0" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsystemd0" targetname: "libgcrypt20" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsystemd0" targetname: "liblzma5" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsystemd0" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsocket-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libsocket-perl" targetname: "perlapi-5.20.1" class: 2 }
+edge: { sourcename: "libsocket-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "debianutils" targetname: "sensible-utils" class: 2 }
+edge: { sourcename: "debianutils" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libsemanage-common" targetname: "libsemanage1" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libsemanage-common" targetname: "libsemanage1-dev" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libustr-1.0-1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libustr-1.0-1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "perl" targetname: "perl-base" class: 2 }
+edge: { sourcename: "perl" targetname: "perl-modules" class: 2 }
+edge: { sourcename: "perl" targetname: "libbz2-1.0" class: 2 }
+edge: { sourcename: "perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "perl" targetname: "libdb5.3" class: 2 }
+edge: { sourcename: "perl" targetname: "libgdbm3" class: 2 }
+edge: { sourcename: "perl" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "perl" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "perl" targetname: "libjson-pp-perl" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl" targetname: "dh-make-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "ftpmirror" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libcompress-raw-bzip2-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libcompress-raw-zlib-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libcompress-zlib-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libdigest-md5-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libdigest-sha-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libencode-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libhtml-template-compiled-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libio-compress-base-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libio-compress-bzip2-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libio-compress-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libio-compress-zlib-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libload-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libmime-base64-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libnet-jifty-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libperl-apireference-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libregexp-optimizer-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libsoap-lite-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libstorable-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libsys-syslog-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libthreads-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libthreads-shared-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libtime-hires-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libtime-piece-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libxml-parser-lite-tree-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "libyaml-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "mrtg" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl" targetname: "perl-doc" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpam0g" targetname: "libaudit1" class: 2 }
+edge: { sourcename: "libpam0g" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpam0g" targetname: "debconf" class: 2 }
+edge: { sourcename: "libpam0g" targetname: "debconf-2.0" class: 2 }
+edge: { sourcename: "libpam0g" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libcompress-raw-zlib-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcompress-raw-zlib-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "libcompress-raw-zlib-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libcompress-raw-zlib-perl" targetname: "zlib1g" class: 2 }
+edge: { sourcename: "netbase" targetname: "lsb-base" class: 2 }
+edge: { sourcename: "netbase" targetname: "ifupdown" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libdigest-sha-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libdigest-sha-perl" targetname: "perlapi-5.20.1" class: 2 }
+edge: { sourcename: "libdigest-sha-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsepol1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsepol1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "ifupdown" targetname: "iproute2" class: 2 }
+edge: { sourcename: "ifupdown" targetname: "iproute" class: 2 }
+edge: { sourcename: "ifupdown" targetname: "libc6" class: 2 }
+edge: { sourcename: "ifupdown" targetname: "lsb-base" class: 2 }
+edge: { sourcename: "ifupdown" targetname: "initscripts" class: 2 }
+edge: { sourcename: "ifupdown" targetname: "adduser" class: 2 }
+edge: { sourcename: "ifupdown" targetname: "dhcp3-client" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "ifupdown" targetname: "netbase" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpam-modules" targetname: "libaudit1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "libdb5.3" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "libpam0g" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "libselinux1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "debconf" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "debconf-2.0" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "libpam-modules-bin" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpam-modules" targetname: "libpam-mkhomedir" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpam-modules" targetname: "libpam-motd" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libpam-modules" targetname: "libpam-umask" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "libcompress-raw-bzip2-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcompress-raw-bzip2-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "libcompress-raw-bzip2-perl" targetname: "libbz2-1.0" class: 2 }
+edge: { sourcename: "libcompress-raw-bzip2-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "perl-modules" targetname: "perl-base" class: 2 }
+edge: { sourcename: "perl-modules" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "perl-modules" targetname: "defoma" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "mono-gac" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "cli-common" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libansicolor-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libarchive-tar-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libattribute-handlers-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libautodie-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libcgi-pm-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libcpan-meta-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libcpan-meta-requirements-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libcpan-meta-yaml-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libdigest-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libexperimental-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libextutils-cbuilder-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libextutils-command-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libextutils-install-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libextutils-parsexs-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libfile-spec-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libhttp-tiny-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libi18n-langtags-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libio-zlib-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libjson-pp-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "liblocale-codes-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "liblocale-maketext-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "liblocale-maketext-simple-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmath-bigint-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmath-complex-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmodule-build-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmodule-corelist-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmodule-load-conditional-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmodule-load-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libmodule-metadata-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libnet-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libnet-ping-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libpackage-constants-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libparams-check-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libparent-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libparse-cpan-meta-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libperl-ostype-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libpod-escapes-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libpod-parser-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libpod-simple-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libtest-harness-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libtest-simple-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libthread-queue-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libtime-local-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libunicode-collate-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libversion-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "libversion-requirements-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "mono-apache-server2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "mono-apache-server4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "mono-fastcgi-server2" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "mono-fastcgi-server4" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "patcher" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "pdl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "podlators-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "polygen-data" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "pristine-tar" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "pure-ftpd-common" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "rinse" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "shorewall" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "shorewall-core" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "perl-modules" targetname: "tvtime" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libcpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "libjson-pp-perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "libcpan-meta-requirements-perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "libcpan-meta-yaml-perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-perl" targetname: "libparse-cpan-meta-perl" class: 2 }
+edge: { sourcename: "libgdbm3" targetname: "libc6" class: 2 }
+edge: { sourcename: "libgdbm3" targetname: "dpkg" class: 2 }
+edge: { sourcename: "libgdbm3" targetname: "install-info" class: 2 }
+edge: { sourcename: "libgdbm3" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libextutils-cbuilder-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libmath-bigint-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libmodule-load-conditional-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libjson-pp-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libjson-pp-perl" targetname: "libjson-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libpam-modules-bin" targetname: "libaudit1" class: 2 }
+edge: { sourcename: "libpam-modules-bin" targetname: "libc6" class: 2 }
+edge: { sourcename: "libpam-modules-bin" targetname: "libpam0g" class: 2 }
+edge: { sourcename: "libpam-modules-bin" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "libencode-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libencode-perl" targetname: "perlapi-5.20.2" class: 2 }
+edge: { sourcename: "libencode-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libmath-complex-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-yaml-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "iproute" targetname: "iproute2" class: 2 }
+edge: { sourcename: "libparse-cpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libparse-cpan-meta-perl" targetname: "libcpan-meta-yaml-perl" class: 2 }
+edge: { sourcename: "libparse-cpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libparse-cpan-meta-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libparse-cpan-meta-perl" targetname: "libjson-pp-perl" class: 2 }
+edge: { sourcename: "initscripts" targetname: "libc6" class: 2 }
+edge: { sourcename: "initscripts" targetname: "mount" class: 2 }
+edge: { sourcename: "initscripts" targetname: "debianutils" class: 2 }
+edge: { sourcename: "initscripts" targetname: "lsb-base" class: 2 }
+edge: { sourcename: "initscripts" targetname: "sysvinit-utils" class: 2 }
+edge: { sourcename: "initscripts" targetname: "sysv-rc" class: 2 }
+edge: { sourcename: "initscripts" targetname: "file-rc" class: 2 }
+edge: { sourcename: "initscripts" targetname: "coreutils" class: 2 }
+edge: { sourcename: "initscripts" targetname: "libdevmapper1.02.1" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "aide" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "atm-tools" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "autofs" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "bootchart" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "console-common" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "console-setup" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "cruft" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "eepc-acpi-scripts" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "fcheck" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "hostapd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "hurd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "ifupdown" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "initramfs-tools" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "libpam-mount" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "live-build" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "ltsp-client-core" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "mdadm" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "nbd-client" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "nfs-common" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "portmap" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "readahead-fedora" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "resolvconf" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "rpcbind" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "rsyslog" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "selinux-policy-default" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "splashy" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "sysklogd" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "util-linux" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "wpasupplicant" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "initscripts" targetname: "xymon" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libsys-syslog-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libsys-syslog-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "libsys-syslog-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libio-compress-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libio-compress-perl" targetname: "libcompress-raw-bzip2-perl" class: 2 }
+edge: { sourcename: "libio-compress-perl" targetname: "libcompress-raw-zlib-perl" class: 2 }
+edge: { sourcename: "libio-compress-perl" targetname: "libcompress-zlib-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libio-compress-perl" targetname: "libio-compress-base-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libio-compress-perl" targetname: "libio-compress-bzip2-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libio-compress-perl" targetname: "libio-compress-zlib-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libautodie-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libautodie-perl" targetname: "libsub-identify-perl" class: 2 }
+edge: { sourcename: "libmodule-metadata-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libmodule-metadata-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libmodule-metadata-perl" targetname: "libversion-perl" class: 2 }
+edge: { sourcename: "install-info" targetname: "libc6" class: 2 }
+edge: { sourcename: "install-info" targetname: "dpkg" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "install-info" targetname: "texinfo" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libcpan-meta-requirements-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-requirements-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libcpan-meta-requirements-perl" targetname: "libversion-perl" class: 2 }
+edge: { sourcename: "libcpan-meta-requirements-perl" targetname: "libcpan-meta-perl" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libmodule-corelist-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libtest-simple-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libextutils-parsexs-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "iproute2" targetname: "libc6" class: 2 }
+edge: { sourcename: "iproute2" targetname: "libdb5.3" class: 2 }
+edge: { sourcename: "iproute2" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "iproute2" targetname: "arpd" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "iproute2" targetname: "iproute" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "mount" targetname: "libc6" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "mount" targetname: "libmount1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "mount" targetname: "libselinux1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "mount" targetname: "libsmartcols1" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libpod-simple-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libunicode-collate-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libunicode-collate-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "libunicode-collate-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libmount1" targetname: "libblkid1" class: 2 }
+edge: { sourcename: "libmount1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libmount1" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "libmount1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libhttp-tiny-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libversion-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libversion-perl" targetname: "perlapi-5.20.0" class: 2 }
+edge: { sourcename: "libversion-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "libdigest-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libexperimental-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libtest-harness-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "file-rc" targetname: "insserv" class: 2 }
+edge: { sourcename: "file-rc" targetname: "ash" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "file-rc" targetname: "insserv" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "sysv-rc" targetname: "debconf" class: 2 }
+edge: { sourcename: "sysv-rc" targetname: "debconf-2.0" class: 2 }
+edge: { sourcename: "sysv-rc" targetname: "sysvinit-utils" class: 2 }
+edge: { sourcename: "sysv-rc" targetname: "insserv" class: 2 }
+edge: { sourcename: "sysv-rc" targetname: "startpar" class: 2 }
+edge: { sourcename: "sysv-rc" targetname: "file-rc" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "sysv-rc" targetname: "initscripts" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "startpar" targetname: "libc6" class: 2 }
+edge: { sourcename: "startpar" targetname: "sysvinit-utils" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libsub-identify-perl" targetname: "perl" class: 2 }
+edge: { sourcename: "libsub-identify-perl" targetname: "perlapi-5.20.1" class: 2 }
+edge: { sourcename: "libsub-identify-perl" targetname: "libc6" class: 2 }
+edge: { sourcename: "sysvinit-utils" targetname: "libc6" class: 2 }
+edge: { sourcename: "sysvinit-utils" targetname: "libselinux1" class: 2 }
+edge: { sourcename: "sysvinit-utils" targetname: "startpar" class: 2 }
+edge: { sourcename: "sysvinit-utils" targetname: "chkconfig" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "sysvinit-utils" targetname: "last" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "sysvinit-utils" targetname: "startpar" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "sysvinit-utils" targetname: "sysvconfig" class: 2 label: "conflicts" color: lightgreen }
+edge: { sourcename: "sysvinit-utils" targetname: "upstart" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libblkid1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libblkid1" targetname: "libuuid1" class: 2 }
+edge: { sourcename: "libblkid1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "insserv" targetname: "libc6" class: 2 }
+edge: { sourcename: "insserv" targetname: "sysv-rc" class: 2 label: "breaks" color: lightgreen }
+edge: { sourcename: "libsmartcols1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libsmartcols1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+edge: { sourcename: "libuuid1" targetname: "passwd" class: 2 }
+edge: { sourcename: "libuuid1" targetname: "libc6" class: 2 }
+edge: { sourcename: "libuuid1" targetname: "multiarch-support" class: 2 label: "predepends" color: blue }
+node: { title: "octave3.0-info" label: "octave3.0-info" shape: ellipse }
+node: { title: "icecc" label: "icecc" color: orange shape: box }
+node: { title: "libperl-apireference-perl" label: "libperl-apireference-perl" color: orange shape: box }
+node: { title: "initscripts" label: "initscripts" shape: box }
+node: { title: "libsys-syslog-perl" label: "libsys-syslog-perl" shape: rhomb }
+node: { title: "libhunspell-1.3-0" label: "libhunspell-1.3-0" shape: box }
+node: { title: "libpcre-ocaml" label: "libpcre-ocaml" color: orange shape: box }
+node: { title: "myspell-zu" label: "myspell-zu" shape: ellipse }
+node: { title: "emacsen-common" label: "emacsen-common" shape: box }
+node: { title: "libio-compress-bzip2-perl" label: "libio-compress-bzip2-perl" shape: triangle }
+node: { title: "slat" label: "slat" shape: ellipse }
+node: { title: "libpangomm-1.4-1" label: "libpangomm-1.4-1" shape: box }
+node: { title: "myspell-de-de-oldspell" label: "myspell-de-de-oldspell" color: orange shape: box }
+node: { title: "debian-security-support" label: "debian-security-support" color: orange shape: box }
+node: { title: "libdb5.3" label: "libdb5.3" shape: box }
+node: { title: "liblqr-1-0" label: "liblqr-1-0" shape: box }
+node: { title: "aspell-bin" label: "aspell-bin" shape: triangle }
+node: { title: "libio-compress-perl" label: "libio-compress-perl" shape: rhomb }
+node: { title: "whiptail" label: "whiptail" color: orange shape: box }
+node: { title: "libpam-umask" label: "libpam-umask" shape: triangle }
+node: { title: "myhungarian" label: "myhungarian" shape: triangle }
+node: { title: "apt" label: "apt" color: orange shape: box }
+node: { title: "libautodie-perl" label: "libautodie-perl" shape: rhomb }
+node: { title: "liborbit-dev" label: "liborbit-dev" shape: ellipse }
+node: { title: "ttf-bitstream-vera" label: "ttf-bitstream-vera" shape: box }
+node: { title: "libgtk2-perl-doc" label: "libgtk2-perl-doc" shape: ellipse }
+node: { title: "libdbus-glib-1-2" label: "libdbus-glib-1-2" shape: box }
+node: { title: "libtinfo5" label: "libtinfo5" shape: box }
+node: { title: "gconf2" label: "gconf2" shape: box }
+node: { title: "libload-perl" label: "libload-perl" color: orange shape: box }
+node: { title: "libsasl2-modules-db" label: "libsasl2-modules-db" shape: box }
+node: { title: "libmodule-metadata-perl" label: "libmodule-metadata-perl" shape: rhomb }
+node: { title: "debianutils" label: "debianutils" shape: box }
+node: { title: "aspell-no" label: "aspell-no" color: orange shape: box }
+node: { title: "liblcms2-2" label: "liblcms2-2" shape: box }
+node: { title: "openoffice.org-core" label: "openoffice.org-core" shape: ellipse }
+node: { title: "popt" label: "popt" shape: ellipse }
+node: { title: "libsemanage-common" label: "libsemanage-common" shape: box }
+node: { title: "libwmf0.2-7" label: "libwmf0.2-7" color: orange shape: box }
+node: { title: "libustr-1.0-1" label: "libustr-1.0-1" shape: box }
+node: { title: "install-info" label: "install-info" shape: box }
+node: { title: "libxfixes3" label: "libxfixes3" shape: box }
+node: { title: "multiarch-support" label: "multiarch-support" shape: box }
+node: { title: "base-config" label: "base-config" shape: ellipse }
+node: { title: "libcpan-meta-requirements-perl" label: "libcpan-meta-requirements-perl" shape: rhomb }
+node: { title: "resolvconf" label: "resolvconf" color: orange shape: box }
+node: { title: "libatk1.0-0" label: "libatk1.0-0" shape: box }
+node: { title: "libwpg-0.3-3" label: "libwpg-0.3-3" shape: box }
+node: { title: "perl" label: "perl" shape: box }
+node: { title: "chkconfig" label: "chkconfig" color: orange shape: box }
+node: { title: "libmodule-corelist-perl" label: "libmodule-corelist-perl" shape: rhomb }
+node: { title: "pypy" label: "pypy" color: orange shape: box }
+node: { title: "ash" label: "ash" color: orange shape: box }
+node: { title: "update-inetd" label: "update-inetd" color: orange shape: box }
+node: { title: "libjasper-1.700-2" label: "libjasper-1.700-2" shape: ellipse }
+node: { title: "libxau6" label: "libxau6" shape: box }
+node: { title: "postfix" label: "postfix" color: orange shape: box }
+node: { title: "myspell-de-at" label: "myspell-de-at" color: orange shape: box }
+node: { title: "ftpmirror" label: "ftpmirror" shape: ellipse }
+node: { title: "libenchant1c2" label: "libenchant1c2" shape: ellipse }
+node: { title: "approx" label: "approx" color: orange shape: box }
+node: { title: "mono-apache-server2" label: "mono-apache-server2" color: orange shape: box }
+node: { title: "cpp-4.2-doc" label: "cpp-4.2-doc" shape: ellipse }
+node: { title: "mono-apache-server4" label: "mono-apache-server4" color: orange shape: box }
+node: { title: "libgtkmm-2.4-1c2a" label: "libgtkmm-2.4-1c2a" shape: box }
+node: { title: "man-db" label: "man-db" color: orange shape: box }
+node: { title: "bootchart" label: "bootchart" shape: ellipse }
+node: { title: "patcher" label: "patcher" color: orange shape: box }
+node: { title: "librsvg2-2" label: "librsvg2-2" color: orange shape: box }
+node: { title: "cruft" label: "cruft" color: orange shape: box }
+node: { title: "aspell" label: "aspell" shape: box }
+node: { title: "perl-base" label: "perl-base" shape: box }
+node: { title: "libapache2-mod-php5filter" label: "libapache2-mod-php5filter" color: orange shape: box }
+node: { title: "libjcode-perl" label: "libjcode-perl" color: orange shape: box }
+node: { title: "myspell-de-ch" label: "myspell-de-ch" color: orange shape: box }
+node: { title: "nbd-client" label: "nbd-client" color: orange shape: box }
+node: { title: "rpcbind" label: "rpcbind" color: orange shape: box }
+node: { title: "libpam0g" label: "libpam0g" shape: box }
+node: { title: "libgraphite2-3" label: "libgraphite2-3" shape: box }
+node: { title: "php5-fpm" label: "php5-fpm" color: orange shape: box }
+node: { title: "gnat-4.2-doc" label: "gnat-4.2-doc" shape: ellipse }
+node: { title: "pristine-tar" label: "pristine-tar" color: orange shape: box }
+node: { title: "tracker" label: "tracker" color: orange shape: box }
+node: { title: "dhcp3-client" label: "dhcp3-client" shape: ellipse }
+node: { title: "libxext6" label: "libxext6" shape: box }
+node: { title: "shorewall-core" label: "shorewall-core" color: orange shape: box }
+node: { title: "ocsigen" label: "ocsigen" shape: ellipse }
+node: { title: "libregexp-optimizer-perl" label: "libregexp-optimizer-perl" color: orange shape: box }
+node: { title: "gconf2-common" label: "gconf2-common" shape: box }
+node: { title: "mono-gac" label: "mono-gac" color: orange shape: box }
+node: { title: "myspell-de-de" label: "myspell-de-de" color: orange shape: box }
+node: { title: "dh-make-perl" label: "dh-make-perl" color: orange shape: box }
+node: { title: "dbus" label: "dbus" shape: box }
+node: { title: "libaspell15" label: "libaspell15" shape: box }
+node: { title: "libltdl7" label: "libltdl7" shape: box }
+node: { title: "libio-compress-base-perl" label: "libio-compress-base-perl" shape: triangle }
+node: { title: "gcc-4.7-base" label: "gcc-4.7-base" shape: ellipse }
+node: { title: "libgnutls-deb0-28" label: "libgnutls-deb0-28" shape: box }
+node: { title: "ulog-acctd" label: "ulog-acctd" shape: ellipse }
+node: { title: "libgssapi-krb5-2" label: "libgssapi-krb5-2" shape: box }
+node: { title: "libenchant1" label: "libenchant1" shape: ellipse }
+node: { title: "libapache2-mod-php5" label: "libapache2-mod-php5" color: orange shape: box }
+node: { title: "aspell-dictionary" label: "aspell-dictionary" shape: triangle }
+node: { title: "gnutls0.4" label: "gnutls0.4" shape: ellipse }
+node: { title: "dpkg" label: "dpkg" shape: box }
+node: { title: "libcairomm-1.0-1" label: "libcairomm-1.0-1" shape: box }
+node: { title: "debconf-tiny" label: "debconf-tiny" shape: ellipse }
+node: { title: "polygen-data" label: "polygen-data" color: orange shape: box }
+node: { title: "libcompress-raw-zlib-perl" label: "libcompress-raw-zlib-perl" shape: rhomb }
+node: { title: "r6rs-doc" label: "r6rs-doc" shape: ellipse }
+node: { title: "libpopt0" label: "libpopt0" shape: box }
+node: { title: "libgomp1" label: "libgomp1" shape: box }
+node: { title: "fusionforge-plugin-mediawiki" label: "fusionforge-plugin-mediawiki" color: orange shape: box }
+node: { title: "libtest-simple-perl" label: "libtest-simple-perl" shape: rhomb }
+node: { title: "libxi6" label: "libxi6" shape: box }
+node: { title: "debconf" label: "debconf" shape: box }
+node: { title: "myspell-en-au" label: "myspell-en-au" color: orange shape: box }
+node: { title: "hyphen-en-us" label: "hyphen-en-us" color: orange shape: box }
+node: { title: "libextutils-parsexs-perl" label: "libextutils-parsexs-perl" shape: rhomb }
+node: { title: "libpng12-0" label: "libpng12-0" shape: box }
+node: { title: "libscalar-list-utils-perl" label: "libscalar-list-utils-perl" shape: rhomb }
+node: { title: "qemacs" label: "qemacs" shape: ellipse }
+node: { title: "libacl1-kerberos4kth" label: "libacl1-kerberos4kth" shape: ellipse }
+node: { title: "libpango-1.0-0" label: "libpango-1.0-0" shape: box }
+node: { title: "libxcursor1" label: "libxcursor1" shape: box }
+node: { title: "adduser" label: "adduser" shape: box }
+node: { title: "libacl1" label: "libacl1" shape: box }
+node: { title: "coreutils" label: "coreutils" shape: box }
+node: { title: "liblocale-maketext-simple-perl" label: "liblocale-maketext-simple-perl" shape: triangle }
+node: { title: "arpd" label: "arpd" shape: triangle }
+node: { title: "libgc1c2" label: "libgc1c2" shape: box }
+node: { title: "hunspell-gl-es" label: "hunspell-gl-es" color: orange shape: box }
+node: { title: "libkrb5-3" label: "libkrb5-3" shape: box }
+node: { title: "nscd" label: "nscd" shape: rhomb }
+node: { title: "libattr1" label: "libattr1" shape: box }
+node: { title: "libpod-parser-perl" label: "libpod-parser-perl" shape: triangle }
+node: { title: "console-setup" label: "console-setup" color: orange shape: box }
+node: { title: "libwebkitgtk-1.0-0" label: "libwebkitgtk-1.0-0" color: orange shape: box }
+node: { title: "libgdk-pixbuf2.0-common" label: "libgdk-pixbuf2.0-common" shape: box }
+node: { title: "perl-doc" label: "perl-doc" color: orange shape: box }
+node: { title: "dpkg-dev" label: "dpkg-dev" color: orange shape: box }
+node: { title: "cpio" label: "cpio" color: orange shape: box }
+node: { title: "libfontconfig1" label: "libfontconfig1" shape: box }
+node: { title: "ttcn-el" label: "ttcn-el" shape: ellipse }
+node: { title: "iproute2" label: "iproute2" shape: box }
+node: { title: "libnet-perl" label: "libnet-perl" shape: triangle }
+node: { title: "texlive-base-bin-doc" label: "texlive-base-bin-doc" shape: ellipse }
+node: { title: "librevenge-0.0-0" label: "librevenge-0.0-0" shape: box }
+node: { title: "libxsloader-perl" label: "libxsloader-perl" shape: triangle }
+node: { title: "cmigrep" label: "cmigrep" color: orange shape: box }
+node: { title: "libcups2" label: "libcups2" shape: box }
+node: { title: "libsmartcols1" label: "libsmartcols1" shape: box }
+node: { title: "libmodule-load-perl" label: "libmodule-load-perl" shape: triangle }
+node: { title: "sensible-utils" label: "sensible-utils" shape: box }
+node: { title: "libtiff5" label: "libtiff5" shape: box }
+node: { title: "libcomerr2" label: "libcomerr2" shape: box }
+node: { title: "libgnome-desktop-3-2" label: "libgnome-desktop-3-2" shape: ellipse }
+node: { title: "libfftw3-double3" label: "libfftw3-double3" shape: box }
+node: { title: "libselinux1" label: "libselinux1" shape: box }
+node: { title: "netbase" label: "netbase" shape: box }
+node: { title: "libglibmm-2.4-1c2a" label: "libglibmm-2.4-1c2a" shape: box }
+node: { title: "libcap-ng0" label: "libcap-ng0" shape: box }
+node: { title: "libx11-data" label: "libx11-data" shape: box }
+node: { title: "timeout" label: "timeout" shape: ellipse }
+node: { title: "libdigest-sha-perl" label: "libdigest-sha-perl" shape: rhomb }
+node: { title: "libnettle-dev" label: "libnettle-dev" shape: ellipse }
+node: { title: "libjson-perl" label: "libjson-perl" color: orange shape: box }
+node: { title: "libkadm5clnt-mit9" label: "libkadm5clnt-mit9" color: orange shape: box }
+node: { title: "openoffice.org" label: "openoffice.org" shape: ellipse }
+node: { title: "mount" label: "mount" shape: box }
+node: { title: "libopenjpeg5" label: "libopenjpeg5" shape: box }
+node: { title: "gap-core" label: "gap-core" color: orange shape: box }
+node: { title: "myspell-cs-cz" label: "myspell-cs-cz" shape: triangle }
+node: { title: "libarchive-tar-perl" label: "libarchive-tar-perl" shape: triangle }
+node: { title: "ccache" label: "ccache" color: orange shape: box }
+node: { title: "libfreetype6" label: "libfreetype6" shape: box }
+node: { title: "libxcb1" label: "libxcb1" shape: box }
+node: { title: "libpopt-dev" label: "libpopt-dev" color: orange shape: box }
+node: { title: "libmime-base64-perl" label: "libmime-base64-perl" shape: triangle }
+node: { title: "libsoap-lite-perl" label: "libsoap-lite-perl" color: orange shape: box }
+node: { title: "liblocale-maketext-perl" label: "liblocale-maketext-perl" shape: triangle }
+node: { title: "mmucl" label: "mmucl" shape: ellipse }
+node: { title: "libbz2-1.0" label: "libbz2-1.0" shape: box }
+node: { title: "pngcrush" label: "pngcrush" color: orange shape: box }
+node: { title: "libncursesw5" label: "libncursesw5" shape: box }
+node: { title: "libpod-simple-perl" label: "libpod-simple-perl" shape: rhomb }
+node: { title: "rinse" label: "rinse" color: orange shape: box }
+node: { title: "libgcc1" label: "libgcc1" shape: box }
+node: { title: "atm-tools" label: "atm-tools" color: orange shape: box }
+node: { title: "gcc-4.1-doc" label: "gcc-4.1-doc" shape: ellipse }
+node: { title: "libgtk1.2-doc" label: "libgtk1.2-doc" shape: ellipse }
+node: { title: "hostapd" label: "hostapd" color: orange shape: box }
+node: { title: "libpangocairo-1.0-0" label: "libpangocairo-1.0-0" shape: box }
+node: { title: "libgsl0" label: "libgsl0" shape: ellipse }
+node: { title: "libmarc-charset-perl" label: "libmarc-charset-perl" color: orange shape: box }
+node: { title: "libtirpc1" label: "libtirpc1" color: orange shape: box }
+node: { title: "libsigc++-2.0-0c2a" label: "libsigc++-2.0-0c2a" shape: box }
+node: { title: "fontconfig" label: "fontconfig" shape: box }
+node: { title: "menu" label: "menu" color: orange shape: box }
+node: { title: "libunicode-collate-perl" label: "libunicode-collate-perl" shape: rhomb }
+node: { title: "fonts-freefont" label: "fonts-freefont" shape: ellipse }
+node: { title: "fonts-liberation" label: "fonts-liberation" shape: box }
+node: { title: "ispell" label: "ispell" color: orange shape: box }
+node: { title: "libreadline5-dev" label: "libreadline5-dev" shape: ellipse }
+node: { title: "libsemanage1-dev" label: "libsemanage1-dev" color: orange shape: box }
+node: { title: "myspell-pt-br" label: "myspell-pt-br" color: orange shape: box }
+node: { title: "last" label: "last" shape: ellipse }
+node: { title: "libc-bin" label: "libc-bin" shape: box }
+node: { title: "libc6" label: "libc6" shape: box }
+node: { title: "mdadm" label: "mdadm" color: orange shape: box }
+node: { title: "libexif12" label: "libexif12" shape: box }
+node: { title: "kdebase-workspace-bin" label: "kdebase-workspace-bin" color: orange shape: box }
+node: { title: "libglib2.0-0" label: "libglib2.0-0" shape: box }
+node: { title: "hunspell-ar" label: "hunspell-ar" color: orange shape: box }
+node: { title: "portmap" label: "portmap" shape: triangle }
+node: { title: "wink" label: "wink" shape: ellipse }
+node: { title: "libextutils-command-perl" label: "libextutils-command-perl" shape: triangle }
+node: { title: "mcollective" label: "mcollective" color: orange shape: box }
+node: { title: "libmodule-build-perl" label: "libmodule-build-perl" color: orange shape: box }
+node: { title: "libsepol1" label: "libsepol1" shape: box }
+node: { title: "psmisc" label: "psmisc" shape: box }
+node: { title: "pngmeta" label: "pngmeta" color: orange shape: box }
+node: { title: "sysvconfig" label: "sysvconfig" shape: ellipse }
+node: { title: "libpam-mount" label: "libpam-mount" color: orange shape: box }
+node: { title: "libuuid1" label: "libuuid1" shape: box }
+node: { title: "libgtk2.0-bin" label: "libgtk2.0-bin" color: orange shape: box }
+node: { title: "cups" label: "cups" color: orange shape: box }
+node: { title: "libmount1" label: "libmount1" shape: box }
+node: { title: "libpoppler-glib8" label: "libpoppler-glib8" shape: box }
+node: { title: "belocs-locales-data" label: "belocs-locales-data" shape: ellipse }
+node: { title: "weston" label: "weston" color: orange shape: box }
+node: { title: "libgtk2.0-common" label: "libgtk2.0-common" shape: box }
+node: { title: "libextutils-install-perl" label: "libextutils-install-perl" shape: triangle }
+node: { title: "mono-fastcgi-server2" label: "mono-fastcgi-server2" color: orange shape: box }
+node: { title: "libversion-requirements-perl" label: "libversion-requirements-perl" shape: triangle }
+node: { title: "mono-fastcgi-server4" label: "mono-fastcgi-server4" color: orange shape: box }
+node: { title: "openoffice.org-thesaurus-it" label: "openoffice.org-thesaurus-it" shape: ellipse }
+node: { title: "libpoppler46" label: "libpoppler46" shape: box }
+node: { title: "ltsp-client-core" label: "ltsp-client-core" color: orange shape: box }
+node: { title: "libenchant1c2a" label: "libenchant1c2a" shape: box }
+node: { title: "libhttp-tiny-perl" label: "libhttp-tiny-perl" shape: rhomb }
+node: { title: "autoconf2.13" label: "autoconf2.13" color: orange shape: box }
+node: { title: "libversion-perl" label: "libversion-perl" shape: rhomb }
+node: { title: "nfs-common" label: "nfs-common" color: orange shape: box }
+node: { title: "hunspell-da" label: "hunspell-da" color: orange shape: box }
+node: { title: "libatk1.0-data" label: "libatk1.0-data" shape: box }
+node: { title: "serveez-doc" label: "serveez-doc" shape: ellipse }
+node: { title: "libxcb-render0" label: "libxcb-render0" shape: box }
+node: { title: "libxrender1" label: "libxrender1" shape: box }
+node: { title: "gnome-panel" label: "gnome-panel" color: orange shape: box }
+node: { title: "libdbus-1-3" label: "libdbus-1-3" shape: box }
+node: { title: "libavahi-glib1" label: "libavahi-glib1" shape: box }
+node: { title: "xconq-doc" label: "xconq-doc" shape: ellipse }
+node: { title: "fontconfig-config" label: "fontconfig-config" shape: box }
+node: { title: "libgc1" label: "libgc1" shape: ellipse }
+node: { title: "gcc-4.4-base" label: "gcc-4.4-base" shape: ellipse }
+node: { title: "ifupdown" label: "ifupdown" shape: rhomb }
+node: { title: "libthai0" label: "libthai0" shape: box }
+node: { title: "alsa-utils" label: "alsa-utils" color: orange shape: box }
+node: { title: "liblzma5" label: "liblzma5" shape: box }
+node: { title: "libcgi-pm-perl" label: "libcgi-pm-perl" color: orange shape: box }
+node: { title: "libharfbuzz0a" label: "libharfbuzz0a" shape: ellipse }
+node: { title: "libharfbuzz0b" label: "libharfbuzz0b" shape: box }
+node: { title: "libthread-queue-perl" label: "libthread-queue-perl" shape: triangle }
+node: { title: "myspell-eu-es" label: "myspell-eu-es" shape: triangle }
+node: { title: "gconf-service" label: "gconf-service" shape: box }
+node: { title: "libpixman-1-0" label: "libpixman-1-0" shape: box }
+node: { title: "cl-yacc" label: "cl-yacc" shape: ellipse }
+node: { title: "libcap2" label: "libcap2" shape: box }
+node: { title: "plymouth" label: "plymouth" color: orange shape: box }
+node: { title: "kde-window-manager" label: "kde-window-manager" color: orange shape: box }
+node: { title: "initramfs-tools" label: "initramfs-tools" color: orange shape: box }
+node: { title: "libldap-2.4-2" label: "libldap-2.4-2" shape: box }
+node: { title: "hunspell-de-at" label: "hunspell-de-at" color: orange shape: box }
+node: { title: "galax" label: "galax" color: orange shape: box }
+node: { title: "libpam-modules" label: "libpam-modules" shape: box }
+node: { title: "libpangoft2-1.0-0" label: "libpangoft2-1.0-0" shape: box }
+node: { title: "lsb-base" label: "lsb-base" shape: box }
+node: { title: "libcompress-raw-bzip2-perl" label: "libcompress-raw-bzip2-perl" shape: rhomb }
+node: { title: "libgtkspell0" label: "libgtkspell0" shape: box }
+node: { title: "hoogle" label: "hoogle" color: orange shape: box }
+node: { title: "gcj-4.1-doc" label: "gcj-4.1-doc" shape: ellipse }
+node: { title: "python-gi" label: "python-gi" color: orange shape: box }
+node: { title: "mzscheme" label: "mzscheme" shape: ellipse }
+node: { title: "inkscape" label: "inkscape" shape: box }
+node: { title: "gcc-4.2-doc" label: "gcc-4.2-doc" shape: ellipse }
+node: { title: "hunspell-de-ch" label: "hunspell-de-ch" color: orange shape: box }
+node: { title: "libcompress-zlib-perl" label: "libcompress-zlib-perl" shape: triangle }
+node: { title: "ttf-dejavu" label: "ttf-dejavu" color: orange shape: box }
+node: { title: "libparams-check-perl" label: "libparams-check-perl" shape: triangle }
+node: { title: "libcairo2" label: "libcairo2" shape: box }
+node: { title: "ttf-dejavu-core" label: "ttf-dejavu-core" color: orange shape: box }
+node: { title: "liblocale-codes-perl" label: "liblocale-codes-perl" shape: triangle }
+node: { title: "libstorable-perl" label: "libstorable-perl" shape: triangle }
+node: { title: "podlators-perl" label: "podlators-perl" shape: triangle }
+node: { title: "libio-socket-ip-perl" label: "libio-socket-ip-perl" shape: rhomb }
+node: { title: "myspell-bg" label: "myspell-bg" color: orange shape: box }
+node: { title: "gnutls0" label: "gnutls0" shape: ellipse }
+node: { title: "hunspell-de-de" label: "hunspell-de-de" color: orange shape: box }
+node: { title: "libxml2" label: "libxml2" shape: box }
+node: { title: "libkrb53" label: "libkrb53" shape: ellipse }
+node: { title: "libdigest-perl" label: "libdigest-perl" shape: rhomb }
+node: { title: "gvfs" label: "gvfs" color: orange shape: box }
+node: { title: "libfile-temp-perl" label: "libfile-temp-perl" shape: triangle }
+node: { title: "belocs-locales-bin" label: "belocs-locales-bin" shape: ellipse }
+node: { title: "myspell-ca" label: "myspell-ca" color: orange shape: box }
+node: { title: "libwpd-0.10-10" label: "libwpd-0.10-10" shape: box }
+node: { title: "libexperimental-perl" label: "libexperimental-perl" shape: rhomb }
+node: { title: "libaudit0" label: "libaudit0" shape: ellipse }
+node: { title: "libaudit1" label: "libaudit1" shape: box }
+node: { title: "libansicolor-perl" label: "libansicolor-perl" shape: triangle }
+node: { title: "myspell-el-gr" label: "myspell-el-gr" color: orange shape: box }
+node: { title: "libavahi-common-data" label: "libavahi-common-data" shape: box }
+node: { title: "libxdmcp6" label: "libxdmcp6" shape: box }
+node: { title: "myspell-cs" label: "myspell-cs" color: orange shape: box }
+node: { title: "libgconf2-4" label: "libgconf2-4" color: orange shape: box }
+node: { title: "libaudit-common" label: "libaudit-common" shape: box }
+node: { title: "hunspell-kk" label: "hunspell-kk" color: orange shape: box }
+node: { title: "ldap-utils" label: "ldap-utils" color: orange shape: box }
+node: { title: "myspell-da" label: "myspell-da" color: orange shape: box }
+node: { title: "hunspell-ko" label: "hunspell-ko" color: orange shape: box }
+node: { title: "libharfbuzz0" label: "libharfbuzz0" shape: ellipse }
+node: { title: "libtest-harness-perl" label: "libtest-harness-perl" shape: rhomb }
+node: { title: "tvtime" label: "tvtime" color: orange shape: box }
+node: { title: "libgsl0ldbl" label: "libgsl0ldbl" shape: box }
+node: { title: "ttf-liberation" label: "ttf-liberation" color: orange shape: box }
+node: { title: "libavahi-client3" label: "libavahi-client3" shape: box }
+node: { title: "lsb-core" label: "lsb-core" color: orange shape: box }
+node: { title: "dictionaries-common" label: "dictionaries-common" shape: box }
+node: { title: "sysklogd" label: "sysklogd" shape: ellipse }
+node: { title: "perl-modules" label: "perl-modules" shape: box }
+node: { title: "libalien-wxwidgets-perl" label: "libalien-wxwidgets-perl" color: orange shape: box }
+node: { title: "libpod-escapes-perl" label: "libpod-escapes-perl" shape: triangle }
+node: { title: "xymon" label: "xymon" color: orange shape: box }
+node: { title: "glame" label: "glame" shape: ellipse }
+node: { title: "libwebkitgtk-3.0-0" label: "libwebkitgtk-3.0-0" color: orange shape: box }
+node: { title: "dialog" label: "dialog" color: orange shape: box }
+node: { title: "libanyevent-perl" label: "libanyevent-perl" color: orange shape: box }
+node: { title: "myspell-eo" label: "myspell-eo" color: orange shape: box }
+node: { title: "myspell-es" label: "myspell-es" color: orange shape: box }
+node: { title: "myspell-et" label: "myspell-et" color: orange shape: box }
+node: { title: "libtext-iconv-perl" label: "libtext-iconv-perl" shape: box }
+node: { title: "hunspell-dictionary" label: "hunspell-dictionary" shape: triangle }
+node: { title: "libgmp10" label: "libgmp10" shape: box }
+node: { title: "libcpan-meta-perl" label: "libcpan-meta-perl" shape: rhomb }
+node: { title: "ggz-docs" label: "ggz-docs" shape: ellipse }
+node: { title: "libio-compress-zlib-perl" label: "libio-compress-zlib-perl" shape: triangle }
+node: { title: "myspell-fa" label: "myspell-fa" color: orange shape: box }
+node: { title: "texlive-binaries" label: "texlive-binaries" color: orange shape: box }
+node: { title: "shorewall" label: "shorewall" color: orange shape: box }
+node: { title: "myspell-fi" label: "myspell-fi" shape: ellipse }
+node: { title: "gxine" label: "gxine" color: orange shape: box }
+node: { title: "libgdbm3" label: "libgdbm3" shape: box }
+node: { title: "libthai-data" label: "libthai-data" shape: box }
+node: { title: "myspell-fo" label: "myspell-fo" color: orange shape: box }
+node: { title: "myspell-fr" label: "myspell-fr" color: orange shape: box }
+node: { title: "libhtml-template-compiled-perl" label: "libhtml-template-compiled-perl" color: orange shape: box }
+node: { title: "console-common" label: "console-common" color: orange shape: box }
+node: { title: "libpcre3-dev" label: "libpcre3-dev" color: orange shape: box }
+node: { title: "libpng12-dev" label: "libpng12-dev" color: orange shape: box }
+node: { title: "libhogweed2" label: "libhogweed2" shape: box }
+node: { title: "myspell-ga" label: "myspell-ga" color: orange shape: box }
+node: { title: "myspell-gd" label: "myspell-gd" color: orange shape: box }
+node: { title: "file-rc" label: "file-rc" shape: box }
+node: { title: "gtalk" label: "gtalk" shape: ellipse }
+node: { title: "libdpkg-perl" label: "libdpkg-perl" color: orange shape: box }
+node: { title: "myspell-gv" label: "myspell-gv" color: orange shape: box }
+node: { title: "debconf-2.0" label: "debconf-2.0" shape: triangle }
+node: { title: "myspell-pt-pt" label: "myspell-pt-pt" color: orange shape: box }
+node: { title: "libdigest-md5-perl" label: "libdigest-md5-perl" shape: triangle }
+node: { title: "libfftw3-3" label: "libfftw3-3" color: orange shape: box }
+node: { title: "libgconf2.0-cil" label: "libgconf2.0-cil" color: orange shape: box }
+node: { title: "myspell-he" label: "myspell-he" color: orange shape: box }
+node: { title: "libfile-path-perl" label: "libfile-path-perl" shape: triangle }
+node: { title: "distcc" label: "distcc" color: orange shape: box }
+node: { title: "libthreads-perl" label: "libthreads-perl" shape: triangle }
+node: { title: "gcc-4.3" label: "gcc-4.3" shape: ellipse }
+node: { title: "gcc-4.4" label: "gcc-4.4" shape: ellipse }
+node: { title: "gcc-4.5" label: "gcc-4.5" shape: ellipse }
+node: { title: "gcj-4.6-base" label: "gcj-4.6-base" shape: ellipse }
+node: { title: "myspell-dictionary" label: "myspell-dictionary" shape: triangle }
+node: { title: "libbonobo2-0" label: "libbonobo2-0" color: orange shape: box }
+node: { title: "libjasper1" label: "libjasper1" shape: box }
+node: { title: "myspell-hr" label: "myspell-hr" color: orange shape: box }
+node: { title: "libp11-kit0" label: "libp11-kit0" shape: box }
+node: { title: "myspell-hu" label: "myspell-hu" shape: rhomb }
+node: { title: "libgtk2.0-0" label: "libgtk2.0-0" shape: box }
+node: { title: "libxml-parser-lite-tree-perl" label: "libxml-parser-lite-tree-perl" color: orange shape: box }
+node: { title: "myspell-hy" label: "myspell-hy" color: orange shape: box }
+node: { title: "libi18n-langtags-perl" label: "libi18n-langtags-perl" shape: triangle }
+node: { title: "aspell6-dictionary" label: "aspell6-dictionary" shape: ellipse }
+node: { title: "povray-3.5" label: "povray-3.5" shape: ellipse }
+node: { title: "wordpress" label: "wordpress" color: orange shape: box }
+node: { title: "rpm" label: "rpm" color: orange shape: box }
+node: { title: "slapd" label: "slapd" color: orange shape: box }
+node: { title: "gcj-4.2-doc" label: "gcj-4.2-doc" shape: ellipse }
+node: { title: "libextutils-cbuilder-perl" label: "libextutils-cbuilder-perl" shape: rhomb }
+node: { title: "libpango1.0-0" label: "libpango1.0-0" color: orange shape: box }
+node: { title: "libmath-bigint-perl" label: "libmath-bigint-perl" shape: rhomb }
+node: { title: "apt-cudf" label: "apt-cudf" color: orange shape: box }
+node: { title: "debconf-utils" label: "debconf-utils" color: orange shape: box }
+node: { title: "sysv-rc" label: "sysv-rc" shape: rhomb }
+node: { title: "xpdf" label: "xpdf" color: orange shape: box }
+node: { title: "libatkmm-1.6-1" label: "libatkmm-1.6-1" shape: box }
+node: { title: "librep-doc" label: "librep-doc" shape: triangle }
+node: { title: "startpar" label: "startpar" shape: box }
+node: { title: "grace" label: "grace" color: orange shape: box }
+node: { title: "libgnomevfs2-common" label: "libgnomevfs2-common" shape: box }
+node: { title: "libc6.1" label: "libc6.1" shape: ellipse }
+node: { title: "gitweb" label: "gitweb" color: orange shape: box }
+node: { title: "defoma" label: "defoma" shape: ellipse }
+node: { title: "libthreads-shared-perl" label: "libthreads-shared-perl" shape: triangle }
+node: { title: "libxcb-shm0" label: "libxcb-shm0" shape: box }
+node: { title: "upstart" label: "upstart" color: orange shape: box }
+node: { title: "libsub-identify-perl" label: "libsub-identify-perl" shape: box }
+node: { title: "cduce" label: "cduce" color: orange shape: box }
+node: { title: "libpam-motd" label: "libpam-motd" shape: triangle }
+node: { title: "libavahi-common3" label: "libavahi-common3" shape: box }
+node: { title: "myspell-ku" label: "myspell-ku" color: orange shape: box }
+node: { title: "libalogg-dev" label: "libalogg-dev" shape: ellipse }
+node: { title: "fcheck" label: "fcheck" color: orange shape: box }
+node: { title: "hunspell-se" label: "hunspell-se" color: orange shape: box }
+node: { title: "libgraphite2-2.0.0" label: "libgraphite2-2.0.0" shape: triangle }
+node: { title: "xfonts-traditional" label: "xfonts-traditional" color: orange shape: box }
+node: { title: "libgnomevfs2-extra" label: "libgnomevfs2-extra" color: orange shape: box }
+node: { title: "myspell-lv" label: "myspell-lv" color: orange shape: box }
+node: { title: "pure-ftpd-common" label: "pure-ftpd-common" color: orange shape: box }
+node: { title: "libgnomevfs2-0" label: "libgnomevfs2-0" shape: box }
+node: { title: "live-build" label: "live-build" color: orange shape: box }
+node: { title: "libmodule-load-conditional-perl" label: "libmodule-load-conditional-perl" shape: rhomb }
+node: { title: "libtime-piece-perl" label: "libtime-piece-perl" shape: triangle }
+node: { title: "libdevmapper1.02.1" label: "libdevmapper1.02.1" color: orange shape: box }
+node: { title: "libgconf-2-4" label: "libgconf-2-4" shape: box }
+node: { title: "passwd" label: "passwd" shape: box }
+node: { title: "libjson-pp-perl" label: "libjson-pp-perl" shape: rhomb }
+node: { title: "libjs-protoaculous" label: "libjs-protoaculous" color: orange shape: box }
+node: { title: "python:any" label: "python:any" shape: triangle }
+node: { title: "doc-base" label: "doc-base" color: orange shape: box }
+node: { title: "gfortran-4.1-doc" label: "gfortran-4.1-doc" shape: ellipse }
+node: { title: "libnettle4" label: "libnettle4" shape: box }
+node: { title: "libxslt1.1" label: "libxslt1.1" shape: box }
+node: { title: "myspell-nb" label: "myspell-nb" color: orange shape: box }
+node: { title: "myspell-nl" label: "myspell-nl" color: orange shape: box }
+node: { title: "hunspell-uz" label: "hunspell-uz" color: orange shape: box }
+node: { title: "myspell-nn" label: "myspell-nn" color: orange shape: box }
+node: { title: "myspell-nr" label: "myspell-nr" shape: ellipse }
+node: { title: "myspell-ns" label: "myspell-ns" shape: ellipse }
+node: { title: "cli-common" label: "cli-common" color: orange shape: box }
+node: { title: "acl" label: "acl" color: orange shape: box }
+node: { title: "aptitude" label: "aptitude" color: orange shape: box }
+node: { title: "libpam-modules-bin" label: "libpam-modules-bin" shape: box }
+node: { title: "aide" label: "aide" color: orange shape: box }
+node: { title: "safe-rm" label: "safe-rm" color: orange shape: box }
+node: { title: "wpasupplicant" label: "wpasupplicant" color: orange shape: box }
+node: { title: "libio-zlib-perl" label: "libio-zlib-perl" shape: triangle }
+node: { title: "libmagickwand-6.q16-2" label: "libmagickwand-6.q16-2" shape: box }
+node: { title: "gnat-4.6" label: "gnat-4.6" shape: ellipse }
+node: { title: "splashy" label: "splashy" shape: ellipse }
+node: { title: "asn1-mode" label: "asn1-mode" shape: ellipse }
+node: { title: "sysvinit-utils" label: "sysvinit-utils" shape: box }
+node: { title: "libnet-jifty-perl" label: "libnet-jifty-perl" color: orange shape: box }
+node: { title: "ada-reference-manual" label: "ada-reference-manual" shape: ellipse }
+node: { title: "tzdata-etch" label: "tzdata-etch" shape: ellipse }
+node: { title: "libgpg-error0" label: "libgpg-error0" shape: box }
+node: { title: "libxinerama1" label: "libxinerama1" shape: box }
+node: { title: "libpam-mkhomedir" label: "libpam-mkhomedir" shape: triangle }
+node: { title: "libsemanage1" label: "libsemanage1" shape: box }
+node: { title: "libblkid1" label: "libblkid1" shape: box }
+node: { title: "libparent-perl" label: "libparent-perl" shape: triangle }
+node: { title: "octave3.2-info" label: "octave3.2-info" shape: ellipse }
+node: { title: "myspell-pl" label: "myspell-pl" color: orange shape: box }
+node: { title: "gnome-mime-data" label: "gnome-mime-data" shape: box }
+node: { title: "ucf" label: "ucf" shape: box }
+node: { title: "ispell-dictionary" label: "ispell-dictionary" shape: triangle }
+node: { title: "dbus-x11" label: "dbus-x11" shape: box }
+node: { title: "libyaml-perl" label: "libyaml-perl" color: orange shape: box }
+node: { title: "libgdk-pixbuf2.0-0" label: "libgdk-pixbuf2.0-0" shape: box }
+node: { title: "pdl" label: "pdl" color: orange shape: box }
+node: { title: "polgen-doc" label: "polgen-doc" shape: ellipse }
+node: { title: "libtime-local-perl" label: "libtime-local-perl" shape: triangle }
+node: { title: "zlib1g" label: "zlib1g" shape: box }
+node: { title: "libxcomposite1" label: "libxcomposite1" shape: box }
+node: { title: "libpackage-constants-perl" label: "libpackage-constants-perl" color: orange shape: box }
+node: { title: "libnet-ping-perl" label: "libnet-ping-perl" shape: triangle }
+node: { title: "libsasl2-2" label: "libsasl2-2" shape: box }
+node: { title: "gcj-4.4-base" label: "gcj-4.4-base" shape: ellipse }
+node: { title: "hunspell-eu-es" label: "hunspell-eu-es" color: orange shape: box }
+node: { title: "libxdamage1" label: "libxdamage1" shape: box }
+node: { title: "selinux-policy-default" label: "selinux-policy-default" shape: ellipse }
+node: { title: "libgssglue1" label: "libgssglue1" color: orange shape: box }
+node: { title: "libexpat1" label: "libexpat1" shape: box }
+node: { title: "libjbig0" label: "libjbig0" shape: box }
+node: { title: "myspell-ru" label: "myspell-ru" color: orange shape: box }
+node: { title: "hurd" label: "hurd" shape: ellipse }
+node: { title: "myspell-gl-es" label: "myspell-gl-es" shape: triangle }
+node: { title: "tzdata" label: "tzdata" color: orange shape: box }
+node: { title: "aspell-da" label: "aspell-da" color: orange shape: box }
+node: { title: "libmagick++-6.q16-5" label: "libmagick++-6.q16-5" shape: box }
+node: { title: "readahead-fedora" label: "readahead-fedora" color: orange shape: box }
+node: { title: "gnat-4.4-base" label: "gnat-4.4-base" shape: ellipse }
+node: { title: "libjpeg62-turbo" label: "libjpeg62-turbo" shape: box }
+node: { title: "myspell-sk" label: "myspell-sk" color: orange shape: box }
+node: { title: "myspell-sl" label: "myspell-sl" color: orange shape: box }
+node: { title: "myspell-ss" label: "myspell-ss" shape: ellipse }
+node: { title: "eepc-acpi-scripts" label: "eepc-acpi-scripts" shape: ellipse }
+node: { title: "imagemagick-common" label: "imagemagick-common" shape: box }
+node: { title: "dehydra" label: "dehydra" shape: ellipse }
+node: { title: "libattribute-handlers-perl" label: "libattribute-handlers-perl" shape: triangle }
+node: { title: "libc0.1" label: "libc0.1" shape: ellipse }
+node: { title: "libc0.3" label: "libc0.3" shape: ellipse }
+node: { title: "libsystemd0" label: "libsystemd0" shape: box }
+node: { title: "libencode-perl" label: "libencode-perl" shape: rhomb }
+node: { title: "libfile-spec-perl" label: "libfile-spec-perl" shape: triangle }
+node: { title: "aspell-en" label: "aspell-en" shape: box }
+node: { title: "libkdb5-7" label: "libkdb5-7" color: orange shape: box }
+node: { title: "myspell-tn" label: "myspell-tn" shape: ellipse }
+node: { title: "libmath-complex-perl" label: "libmath-complex-perl" shape: rhomb }
+node: { title: "auctex" label: "auctex" color: orange shape: box }
+node: { title: "myspell-ts" label: "myspell-ts" shape: ellipse }
+node: { title: "prelink" label: "prelink" color: orange shape: box }
+node: { title: "autofs" label: "autofs" color: orange shape: box }
+node: { title: "x11-common" label: "x11-common" color: orange shape: box }
+node: { title: "libdatrie1" label: "libdatrie1" shape: box }
+node: { title: "mrtg" label: "mrtg" color: orange shape: box }
+node: { title: "libperl-ostype-perl" label: "libperl-ostype-perl" shape: triangle }
+node: { title: "util-linux" label: "util-linux" color: orange shape: box }
+node: { title: "libcpan-meta-yaml-perl" label: "libcpan-meta-yaml-perl" shape: rhomb }
+node: { title: "gsl" label: "gsl" shape: ellipse }
+node: { title: "bogosort" label: "bogosort" shape: ellipse }
+node: { title: "iproute" label: "iproute" shape: box }
+node: { title: "libwpd0" label: "libwpd0" shape: ellipse }
+node: { title: "myspell-uk" label: "myspell-uk" color: orange shape: box }
+node: { title: "libwpd2" label: "libwpd2" shape: ellipse }
+node: { title: "libwpd3" label: "libwpd3" shape: ellipse }
+node: { title: "libwpd4" label: "libwpd4" shape: ellipse }
+node: { title: "libwpd5" label: "libwpd5" shape: ellipse }
+node: { title: "libwpd6" label: "libwpd6" shape: ellipse }
+node: { title: "libwpd8" label: "libwpd8" shape: ellipse }
+node: { title: "myspell-fr-gut" label: "myspell-fr-gut" color: orange shape: box }
+node: { title: "libtasn1-6" label: "libtasn1-6" shape: box }
+node: { title: "libwebkit2gtk-3.0-25" label: "libwebkit2gtk-3.0-25" color: orange shape: box }
+node: { title: "libstdc++6" label: "libstdc++6" shape: box }
+node: { title: "attr" label: "attr" color: orange shape: box }
+node: { title: "libpcre3" label: "libpcre3" shape: box }
+node: { title: "libjpeg62" label: "libjpeg62" shape: triangle }
+node: { title: "myspell-ve" label: "myspell-ve" shape: ellipse }
+node: { title: "cdebconf" label: "cdebconf" color: orange shape: box }
+node: { title: "mythes-it" label: "mythes-it" color: orange shape: box }
+node: { title: "insserv" label: "insserv" shape: box }
+node: { title: "libmagickcore-6.q16-2" label: "libmagickcore-6.q16-2" shape: box }
+node: { title: "perlapi-5.20.0" label: "perlapi-5.20.0" shape: triangle }
+node: { title: "perlapi-5.20.1" label: "perlapi-5.20.1" shape: triangle }
+node: { title: "gfortran-4.2-doc" label: "gfortran-4.2-doc" shape: ellipse }
+node: { title: "perlapi-5.20.2" label: "perlapi-5.20.2" shape: triangle }
+node: { title: "libcommon-sense-perl" label: "libcommon-sense-perl" color: orange shape: box }
+node: { title: "liquidsoap" label: "liquidsoap" color: orange shape: box }
+node: { title: "fonts-dejavu-core" label: "fonts-dejavu-core" shape: box }
+node: { title: "libkeyutils1" label: "libkeyutils1" shape: box }
+node: { title: "libx11-6" label: "libx11-6" shape: box }
+node: { title: "locales" label: "locales" shape: rhomb }
+node: { title: "cpp-4.1-doc" label: "cpp-4.1-doc" shape: ellipse }
+node: { title: "libxcb-xlib0" label: "libxcb-xlib0" shape: ellipse }
+node: { title: "glib-networking" label: "glib-networking" color: orange shape: box }
+node: { title: "libxrandr2" label: "libxrandr2" shape: box }
+node: { title: "locales-all" label: "locales-all" color: orange shape: box }
+node: { title: "nxml-mode" label: "nxml-mode" shape: ellipse }
+node: { title: "zenirc" label: "zenirc" shape: ellipse }
+node: { title: "scim" label: "scim" color: orange shape: box }
+node: { title: "libkadm5srv-mit9" label: "libkadm5srv-mit9" color: orange shape: box }
+node: { title: "libkrb5support0" label: "libkrb5support0" shape: box }
+node: { title: "libk5crypto3" label: "libk5crypto3" shape: box }
+node: { title: "libparse-cpan-meta-perl" label: "libparse-cpan-meta-perl" shape: rhomb }
+node: { title: "libsocket-perl" label: "libsocket-perl" shape: rhomb }
+node: { title: "xine-ui" label: "xine-ui" color: orange shape: box }
+node: { title: "myspell-sv-se" label: "myspell-sv-se" color: orange shape: box }
+node: { title: "myspell-xh" label: "myspell-xh" shape: ellipse }
+node: { title: "texinfo" label: "texinfo" color: orange shape: box }
+node: { title: "libsmbclient" label: "libsmbclient" color: orange shape: box }
+node: { title: "zlib1" label: "zlib1" shape: ellipse }
+node: { title: "gnat-4.1-doc" label: "gnat-4.1-doc" shape: ellipse }
+node: { title: "libtime-hires-perl" label: "libtime-hires-perl" shape: triangle }
+node: { title: "gcc-4.9-base" label: "gcc-4.9-base" shape: box }
+node: { title: "sssd" label: "sssd" color: orange shape: box }
+node: { title: "whiptail-utf8" label: "whiptail-utf8" shape: ellipse }
+node: { title: "rsyslog" label: "rsyslog" color: orange shape: box }
+node: { title: "shared-mime-info" label: "shared-mime-info" shape: box }
+node: { title: "tar" label: "tar" shape: box }
+node: { title: "hunspell-en-us" label: "hunspell-en-us" color: orange shape: box }
+node: { title: "libgcrypt20" label: "libgcrypt20" shape: box }
+node: { title: "libffi6" label: "libffi6" shape: box }
+}
