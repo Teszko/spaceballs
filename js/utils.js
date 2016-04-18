@@ -46,6 +46,8 @@ function makeTextSprite (message, parameters) {
     var spriteAlignment = {x: 0, y: 1};
 
     var canvas = document.createElement('canvas');
+    canvas.width=256;
+    canvas.height=128;
     var context = canvas.getContext('2d');
     context.font = "Bold " + fontsize + "px " + fontface;
 
@@ -74,7 +76,8 @@ function makeTextSprite (message, parameters) {
     texture.needsUpdate = true;
 
     var spriteMaterial = new THREE.SpriteMaterial(
-        { map: texture, useScreenCoordinates: false, alignment: spriteAlignment } );
+        { map: texture} );
+    // unknown to my tree.js , useScreenCoordinates: false, alignment: spriteAlignment } );
     var sprite = new THREE.Sprite( spriteMaterial );
     sprite.scale.set(1,0.5,1.0);
     return sprite;
