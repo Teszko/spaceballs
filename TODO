@@ -1,0 +1,19 @@
+This is more a rough list of possibly-interesting ideas, not a real TODO.
+
+* Size of nodes and length of links depends on the number of links a node has.
+  --> constant area per link? --> r=sqrt((links * constant)/(4*pi); physical size 
+      ~10 times the visual to creat enough space between nodes
+      links between A and B have length of const*(r(A)+r(B)) (physical size)
+  --> possibly even a way to enter new formulae for node size?
+
+* Sliders to change physical and visual size of nodes
+
+* click on node to select it. Type c(?) to center world rotation on that node
+  - possibly needs different modes 
+  - be able to drag nodes around
+
+* List of /search for packages, selecting package colors node
+  - remove all links from that node / add back in
+  - 
+* switch to stop physics-updates - or stop physics updates automatically 
+
