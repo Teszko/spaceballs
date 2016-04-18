@@ -10,6 +10,11 @@ function Sphere (world, material, type, id, name, vx, vy, vz) {
     var geometry = new THREE.SphereGeometry(0.2, 8, 8);
     this.mesh = new THREE.Mesh(geometry, material);
     world.scene.add(this.mesh);
+
+    var sprite = makeTextSprite(this.name, { fontsize: 18, borderColor: {r:30, g:30, b:120, a:1.0}, backgroundColor: {r:150, g:150, b:200, a:0.9} } );
+    sprite.position.set(0,0.1,0);
+    this.mesh.add(sprite);
+
     this.body = new CANNON.Body({
         mass: 0.2, // kg
         position: new CANNON.Vec3(vx, vy, vz), // m
