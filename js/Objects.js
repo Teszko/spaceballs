@@ -1,10 +1,14 @@
-function Sphere (world, material, type, id, name, vx, vy, vz,physSize,visSize) {
+function Sphere (world, material, type, id, name, vx, vy, vz,physSize,visSize,deps,rdeps) {
     if (id != world.sphereList.length)
         console.warn("Node ID ", id, "does not match node index ", world.sphereList.length);
     this.mesh = null;
     this.body = null;
     this.name = name;
     this.id = id;
+    this.deps = deps;
+    this.rdeps = rdeps;
+    this.startphyssize = physSize;
+    this.startvissize = visSize;
 
     world.nodeIDs[this.name] = this.id;
     var geometry = new THREE.SphereGeometry(visSize, 8, 8);
