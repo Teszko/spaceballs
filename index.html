@@ -1,6 +1,8 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
         <title>Spaceballs</title>
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <style>
             body { margin: 0; }
             canvas { width: 100%; height: 100% }
@@ -30,7 +32,9 @@
         <script src="js/World.js"></script>
         <script src="js/Objects.js"></script>
         <script src="js/utils.js"></script>
+        <script src="js/dat.gui.min.js"></script>
         <script>
+            var debugmsg = false;
             var stats = new Stats();
             stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
             document.body.appendChild( stats.dom );
@@ -56,21 +60,45 @@
                 var pX = Math.sin(beta) * a;
                 var pY = Math.sin(beta) * b;
                 var pZ = Math.cos(beta) * offset;
-                var sphere = new Sphere(world, basicMaterial, CANNON.Body.DYNAMIC, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ);
+                var sumdeps=pkg.pkg.nodes[i].deps+pkg.pkg.nodes[i].rdeps;
+                var sphereRadius = Math.sqrt(sumdeps/20);
+                if (debugmsg){
+                    console.log(pkg.pkg.nodes[i].name+" deps "+pkg.pkg.nodes[i].deps+" rdeps "+pkg.pkg.nodes[i].rdeps+" sum "+sumdeps);
+                    console.log(pkg.pkg.nodes[i].name+" phys: "+sphereRadius+" vis "+sphereRadius/6);
+                }
+                var sphere = new Sphere(world, basicMaterial, CANNON.Body.DYNAMIC, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ,
+                                       sphereRadius,sphereRadius/6,pkg.pkg.nodes[i].deps,pkg.pkg.nodes[i].rdeps);
             }
 
             for (var z=0; z<pkg.pkg.links.length; z++) {
                 if (getNodeIdByName(world, "libc6") != pkg.pkg.links[z][1] && getNodeIdByName(world, "libc6") != pkg.pkg.links[z][0])
                     var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 2.2);
             }
+            
+            var slidervars = { damping: 1.0 ,
+                               rdepmass: false ,
+                               physicsRadius: 1.0 ,
+                               visualRadius: 1.0,
+                               maxfps: 30
+                             };
+
+            var gui = new dat.GUI();
+            gui.add(slidervars, 'damping',0,1);
+            gui.add(slidervars, 'rdepmass');
+            gui.add(slidervars, 'physicsRadius',0,1.5);
+            gui.add(slidervars, 'maxfps',1,60);
+            //gui.add(slidervars, 'visualRadius');
 
             world.clock.getDelta();
+
             function render() {
-                requestAnimationFrame(render);
-                stats.begin();
-                updatePhysics(world);
+                setTimeout( function (){
+                   requestAnimationFrame(render);
+                   stats.begin();
+                   updatePhysics(world);
+                   stats.end();
+                },1000/slidervars.maxfps);
                 world.renderer.render(world.scene, world.camera);
-                stats.end();
             }
             render();
         </script>
