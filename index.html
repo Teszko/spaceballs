@@ -78,23 +78,27 @@
             var slidervars = { damping: 1.0 ,
                                rdepmass: false ,
                                physicsRadius: 1.0 ,
-                               visualRadius: 1.0
+                               visualRadius: 1.0,
+                               maxfps: 30
                              };
 
             var gui = new dat.GUI();
             gui.add(slidervars, 'damping',0,1);
             gui.add(slidervars, 'rdepmass');
             gui.add(slidervars, 'physicsRadius',0,1.5);
+            gui.add(slidervars, 'maxfps',1,60);
             //gui.add(slidervars, 'visualRadius');
 
             world.clock.getDelta();
 
             function render() {
-                requestAnimationFrame(render);
-                stats.begin();
-                updatePhysics(world);
+                setTimeout( function (){
+                   requestAnimationFrame(render);
+                   stats.begin();
+                   updatePhysics(world);
+                   stats.end();
+                },1000/slidervars.maxfps);
                 world.renderer.render(world.scene, world.camera);
-                stats.end();
             }
             render();
         </script>
