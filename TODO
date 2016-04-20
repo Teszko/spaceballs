@@ -11,9 +11,14 @@ This is more a rough list of possibly-interesting ideas, not a real TODO.
 * click on node to select it. Type c(?) to center world rotation on that node
   - possibly needs different modes 
   - be able to drag nodes around
+  - collapse node-groups into one node to simplify. 
+    e.g. node A connected with B,C,D --> r(B)=R(c)=R(D)=0; 
+    l(AB)=l(AC)=l(AD)=r
 
 * List of /search for packages, selecting package colors node
   - remove all links from that node / add back in
   - 
 * switch to stop physics-updates - or stop physics updates automatically 
+
+* be able to save coordinates
 
