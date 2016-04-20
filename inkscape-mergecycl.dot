@@ -1,0 +1,9471 @@
+digraph "packages" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		concentrate = "true"
+		size = "30,40"
+	]
+	node [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "ellipse"
+		style = "solid"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"python:any" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"gconf-service" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libaspell15" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libatk1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libexif12" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgc1c2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgconf-2-4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libglibmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgnomevfs2-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgomp1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgsl0ldbl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgtk2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgtkspell0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"liblcms2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libmagick++-6.q16-5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpoppler-glib8" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpoppler46" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpopt0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"librevenge-0.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libwpg-0.3-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxslt1.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpixman-1-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxcb-render0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxcb-shm0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxcb1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxrender1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libwebkit2gtk-3.0-25" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libwebkitgtk-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libwebkitgtk-3.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"weston" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"liblzma5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"gsl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libgsl0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libgtk2.0-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libcups2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxcomposite1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxcursor1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxdamage1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxfixes3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxi6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxinerama1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxrandr2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"shared-mime-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libacl1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libavahi-client3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libavahi-common3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libavahi-glib1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libdbus-glib-1-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgnomevfs2-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libbonobo2-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"gconf2-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"gconf2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgconf2-4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgconf2.0-cil" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgcrypt20" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"imagemagick-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libjasper1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libtiff5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgtk2.0-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"librsvg2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libwmf0.2-7" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"zlib1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"texlive-binaries" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libjpeg62" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"gcc-4.9-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"scim" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"gcc-4.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcc-4.4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcc-4.5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libbz2-1.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libfftw3-double3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libjbig0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"liblqr-1-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libltdl7" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libx11-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"dehydra" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcc-4.4-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcc-4.7-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcj-4.4-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcj-4.6-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gnat-4.4-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gnat-4.6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"tracker" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgpg-error0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libatk1.0-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libwpd-0.10-10" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ucf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"aspell6-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"aspell-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"aspell-da" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"aspell-no" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgmp10" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libhogweed2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libnettle4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libp11-kit0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libtasn1-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"gnutls0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gnutls0.4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"tar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ada-reference-manual" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"asn1-mode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"bogosort" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"cl-yacc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"cpp-4.1-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"cpp-4.2-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcc-4.1-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcc-4.2-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcj-4.1-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gcj-4.2-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gfortran-4.1-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gfortran-4.2-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"ggz-docs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"glame" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gnat-4.1-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gnat-4.2-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gtalk" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libalogg-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libgtk1.2-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libnettle-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"liborbit-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libreadline5-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"librep-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"mmucl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"nxml-mode" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"octave3.0-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"octave3.2-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"polgen-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"r6rs-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"serveez-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"slat" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"texlive-base-bin-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"ttcn-el" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"ulog-acctd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"xconq-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"zenirc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"apt" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"apt-cudf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"aptitude" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"auctex" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"ccache" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"cups" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"debian-security-support" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"distcc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"doc-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"dpkg-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"fontconfig" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"fusionforge-plugin-mediawiki" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"gap-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"gitweb" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"grace" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"gxine" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hoogle" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"icecc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"install-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libapache2-mod-php5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libapache2-mod-php5filter" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libdpkg-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libjs-protoaculous" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"man-db" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mcollective" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"php5-fpm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"pypy" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"readahead-fedora" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"wordpress" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"xfonts-traditional" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"xine-ui" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libpopt-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"popt" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"rpm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libpng12-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mzscheme" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"pngcrush" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"pngmeta" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"povray-3.5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"qemacs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libthai0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpango1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"plymouth" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libattr1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"acl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libacl1-kerberos4kth" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libgc1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"attr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libexpat1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"fontconfig-config" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"xpdf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgssapi-krb5-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libfftw3-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libpcre3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxau6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libxdmcp6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"alsa-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libxcb-xlib0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"prelink" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"tzdata" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"tzdata-etch" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"hurd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libtirpc1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"locales" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"locales-all" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"lsb-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"nscd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libffi6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"glib-networking" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"gvfs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgnome-desktop-3-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"python-gi" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libopenjpeg5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"kde-window-manager" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"kdebase-workspace-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"fonts-dejavu-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ttf-bitstream-vera" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"fonts-liberation" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"fonts-freefont" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libthai-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libdatrie1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libldap-2.4-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsasl2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ldap-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libharfbuzz0b" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libenchant1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libwpd0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libwpd2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libwpd3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libwpd4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libwpd5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libwpd6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libwpd8" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libjasper-1.700-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"gnome-mime-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"gnome-panel" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libgnomevfs2-extra" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libavahi-common-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"coreutils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsasl2-modules-db" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"postfix" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"slapd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"wink" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libpcre3-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"approx" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"cduce" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"cmigrep" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"galax" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libpcre-ocaml" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"liquidsoap" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"ocsigen" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"ttf-dejavu" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"ttf-dejavu-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libc-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"base-config" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"belocs-locales-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"belocs-locales-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"cpio" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"psmisc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"dbus-x11" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libdb5.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libcomerr2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libk5crypto3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libkeyutils1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libkrb5-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libkrb5support0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgssglue1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"cdebconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"debconf-tiny" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"debconf-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"dialog" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"menu" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"whiptail" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"whiptail-utf8" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"timeout" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libkrb53" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libsmbclient" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"sssd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libcap2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ttf-liberation" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libc0.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libc0.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libc6.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libtinfo5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"aspell-en" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"myspell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"aspell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"ispell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"hunspell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libhunspell-1.3-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ispell" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libenchant1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libenchant1c2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libgraphite2-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libharfbuzz0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libharfbuzz0a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libaudit-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libaudit0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"dbus" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"x11-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"aspell" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"dictionaries-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libkadm5clnt-mit9" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libkadm5srv-mit9" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libkdb5-7" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"openoffice.org-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libncursesw5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"defoma" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"mono-gac" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"safe-rm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"update-inetd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"autoconf2.13" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libalien-wxwidgets-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libanyevent-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libcommon-sense-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libfile-path-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libfile-spec-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libfile-temp-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libgtk2-perl-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libio-socket-ip-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libjcode-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libmarc-charset-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libscalar-list-utils-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libsocket-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libxsloader-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"pdl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgraphite2-2.0.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libcap-ng0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsystemd0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"adduser" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"lsb-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"passwd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"netbase" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libtext-iconv-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"emacsen-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"hunspell-ar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-da" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-de-at" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-de-ch" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-de-de" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-en-us" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-eu-es" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-gl-es" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-kk" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-ko" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-se" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hunspell-uz" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hyphen-en-us" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-bg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-ca" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-cs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-cs-cz" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"myspell-da" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-de-at" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-de-ch" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-de-de" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-de-de-oldspell" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-el-gr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-en-au" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-eo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-es" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-et" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-eu-es" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"myspell-fa" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-fi" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-fo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-fr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-fr-gut" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-ga" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-gd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-gl-es" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"myspell-gv" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-he" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-hr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-hu" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"myspell-hy" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-ku" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-lv" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-nb" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-nl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-nn" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-nr" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-ns" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-pl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-pt-br" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-pt-pt" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-ru" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-sk" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-sl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-ss" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-sv-se" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-tn" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-ts" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-uk" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"myspell-ve" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-xh" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myspell-zu" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"mythes-it" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"openoffice.org-thesaurus-it" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"myhungarian" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"openoffice.org" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libpam0g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsemanage1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpam-modules" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"debianutils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsemanage-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsepol1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libustr-1.0-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"perlapi-5.20.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"sensible-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsemanage1-dev" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"perl-modules" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libgdbm3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libjson-pp-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"dh-make-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"ftpmirror" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libcompress-raw-bzip2-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libcompress-raw-zlib-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libcompress-zlib-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libdigest-md5-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libdigest-sha-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libencode-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libhtml-template-compiled-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libio-compress-base-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libio-compress-bzip2-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libio-compress-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libio-compress-zlib-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libload-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libmime-base64-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libnet-jifty-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libperl-apireference-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libregexp-optimizer-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libsoap-lite-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libstorable-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libsys-syslog-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libthreads-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libthreads-shared-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libtime-hires-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libtime-piece-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libxml-parser-lite-tree-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libyaml-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mrtg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"perl-doc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"ifupdown" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"iproute2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"iproute" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"initscripts" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"dhcp3-client" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"libpam-modules-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libpam-mkhomedir" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libpam-motd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libpam-umask" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"cli-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libansicolor-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libarchive-tar-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libattribute-handlers-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libautodie-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libcgi-pm-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libcpan-meta-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libcpan-meta-requirements-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libcpan-meta-yaml-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libdigest-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libexperimental-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libextutils-cbuilder-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libextutils-command-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libextutils-install-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libextutils-parsexs-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libhttp-tiny-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libi18n-langtags-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libio-zlib-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"liblocale-codes-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"liblocale-maketext-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"liblocale-maketext-simple-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libmath-bigint-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libmath-complex-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libmodule-build-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libmodule-corelist-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libmodule-load-conditional-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libmodule-load-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libmodule-metadata-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libnet-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libnet-ping-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libpackage-constants-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libparams-check-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libparent-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libparse-cpan-meta-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libperl-ostype-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libpod-escapes-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libpod-parser-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libpod-simple-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libtest-harness-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libtest-simple-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libthread-queue-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libtime-local-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libunicode-collate-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libversion-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"libversion-requirements-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"mono-apache-server2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mono-apache-server4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mono-fastcgi-server2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mono-fastcgi-server4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"patcher" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"podlators-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"polygen-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"pristine-tar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"pure-ftpd-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"rinse" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"shorewall" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"shorewall-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"tvtime" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libjson-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"perlapi-5.20.2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"mount" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"sysvinit-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"sysv-rc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "diamond"
+		style = "solid"
+	]
+	"file-rc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libdevmapper1.02.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"aide" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"atm-tools" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"autofs" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"bootchart" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"console-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"console-setup" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"cruft" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"eepc-acpi-scripts" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"fcheck" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"hostapd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"initramfs-tools" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libpam-mount" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"live-build" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"ltsp-client-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"mdadm" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"nbd-client" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"nfs-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"portmap" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"resolvconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"rpcbind" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"rsyslog" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"selinux-policy-default" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"splashy" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"sysklogd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"util-linux" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"wpasupplicant" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"xymon" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libsub-identify-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"texinfo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"arpd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "triangle"
+		style = "solid"
+	]
+	"libmount1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libsmartcols1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"libblkid1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"insserv" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"ash" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"startpar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"chkconfig" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"last" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"sysvconfig" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "hexagon"
+		style = "solid"
+	]
+	"upstart" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+		color = "orange"
+	]
+	"libuuid1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "box"
+		style = "solid"
+	]
+	"n590" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "\N"
+		shape = "ellipse"
+		style = "solid"
+	]
+	"n591" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "\N"
+		shape = "ellipse"
+		style = "solid"
+	]
+	"n592" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "\N"
+		shape = "ellipse"
+		style = "solid"
+	]
+	"inkscape" -> "python:any" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "gconf-service" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libaspell15" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libatk1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libatkmm-1.6-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libcairomm-1.0-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libexif12" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgc1c2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgconf-2-4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgdk-pixbuf2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libglibmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgnomevfs2-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgomp1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgsl0ldbl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgtk2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgtkmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libgtkspell0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "liblcms2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libmagick++-6.q16-5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libmagickcore-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libmagickwand-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpangocairo-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpangoft2-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpangomm-1.4-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpoppler-glib8" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpoppler46" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libpopt0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "librevenge-0.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libwpg-0.3-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "libxslt1.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"inkscape" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libpixman-1-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libxcb-render0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libxcb-shm0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libxcb1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libxrender1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairo2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+					"libxml2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxml2" -> "liblzma5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxml2" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxml2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgsl0ldbl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+			"libgtk2.0-0" -> "libgtk2.0-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libatk1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libcups2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libgdk-pixbuf2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libpangocairo-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libpangoft2-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxcomposite1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxcursor1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxdamage1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxfixes3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxi6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxinerama1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxrandr2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libxrender1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "shared-mime-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtk2.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libatkmm-1.6-1" -> "libatk1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libglibmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatkmm-1.6-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libxcb-shm0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb-shm0" -> "libxcb1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb-shm0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgnomevfs2-0" -> "gconf-service" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libacl1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libavahi-client3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libavahi-common3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libavahi-glib1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libdbus-glib-1-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libgconf-2-4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libgnutls-deb0-28" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libgnomevfs2-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libgconf-2-4" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgconf-2-4" -> "libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgconf-2-4" -> "libdbus-glib-1-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgconf-2-4" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgconf-2-4" -> "gconf2-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgconf-2-4" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+					"libxslt1.1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxslt1.1" -> "libgcrypt20" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxslt1.1" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxslt1.1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libmagickwand-6.q16-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" -> "libgomp1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" -> "libmagickcore-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" -> "imagemagick-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickwand-6.q16-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libmagickwand-6.q16-2" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxinerama1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxinerama1" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxinerama1" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxinerama1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgdk-pixbuf2.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libjasper1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libtiff5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libgdk-pixbuf2.0-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdk-pixbuf2.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+					"zlib1g" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"zlib1g" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"libxcomposite1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcomposite1" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcomposite1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxdamage1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxdamage1" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxdamage1" -> "libxfixes3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxdamage1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libmagick++-6.q16-5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagick++-6.q16-5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagick++-6.q16-5" -> "libmagickcore-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagick++-6.q16-5" -> "libmagickwand-6.q16-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagick++-6.q16-5" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagick++-6.q16-5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libjpeg62-turbo" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"imagemagick-common" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libstdc++6" -> "gcc-4.9-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libstdc++6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libstdc++6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libstdc++6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+					"libmagickcore-6.q16-2" -> "libbz2-1.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libfftw3-double3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libgomp1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libjbig0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "liblcms2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "liblqr-1-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libltdl7" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "liblzma5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libtiff5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "imagemagick-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmagickcore-6.q16-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libmagickcore-6.q16-2" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libx11-6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libx11-6" -> "libxcb1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libx11-6" -> "libx11-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libx11-6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxrandr2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxrandr2" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxrandr2" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxrandr2" -> "libxrender1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxrandr2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+								"shared-mime-info" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"shared-mime-info" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"shared-mime-info" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+				"libgcrypt20" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgcrypt20" -> "libgpg-error0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgcrypt20" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpangomm-1.4-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libcairomm-1.0-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libglibmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libpangocairo-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangomm-1.4-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"liblqr-1-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"liblqr-1-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"liblqr-1-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libdbus-glib-1-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdbus-glib-1-2" -> "libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdbus-glib-1-2" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdbus-glib-1-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"liblcms2-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"liblcms2-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxfixes3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxfixes3" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxfixes3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libatk1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatk1.0-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatk1.0-0" -> "libatk1.0-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libatk1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libwpg-0.3-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpg-0.3-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpg-0.3-3" -> "librevenge-0.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpg-0.3-3" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpg-0.3-3" -> "libwpd-0.10-10" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libatk1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libatkmm-1.6-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libcairomm-1.0-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libgdk-pixbuf2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libglibmm-2.4-1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libgtk2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libpangocairo-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libpangoft2-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libpangomm-1.4-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkmm-2.4-1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxext6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxext6" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxext6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"gconf2-common" -> "ucf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libaspell15" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libaspell15" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libaspell15" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libaspell15" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+					"libltdl7" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libltdl7" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgnutls-deb0-28" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "libgmp10" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "libhogweed2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "libnettle4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "libp11-kit0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "libtasn1-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnutls-deb0-28" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"dpkg" -> "libbz2-1.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"dpkg" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"dpkg" -> "liblzma5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"dpkg" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"dpkg" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"dpkg" -> "tar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+																																																																				"libcairomm-1.0-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "libxrender1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcairomm-1.0-1" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpopt0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpopt0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"libgomp1" -> "gcc-4.9-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgomp1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgomp1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"libxi6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxi6" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxi6" -> "libxext6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxi6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpng12-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpng12-0" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpng12-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+							"libpango-1.0-0" -> "fontconfig" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpango-1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpango-1.0-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpango-1.0-0" -> "libthai0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpango-1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libxcursor1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcursor1" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcursor1" -> "libxfixes3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcursor1" -> "libxrender1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcursor1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libacl1" -> "libattr1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libacl1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libacl1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libgc1c2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgc1c2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgc1c2" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgc1c2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libattr1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libattr1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libfontconfig1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfontconfig1" -> "libexpat1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfontconfig1" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfontconfig1" -> "fontconfig-config" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfontconfig1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"librevenge-0.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"librevenge-0.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"librevenge-0.0-0" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"librevenge-0.0-0" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "libavahi-client3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "libavahi-common3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "libgnutls-deb0-28" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "libgssapi-krb5-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcups2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libtiff5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtiff5" -> "libjbig0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtiff5" -> "libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtiff5" -> "liblzma5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtiff5" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtiff5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libfftw3-double3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfftw3-double3" -> "libgomp1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfftw3-double3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libselinux1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libselinux1" -> "libpcre3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libselinux1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libglibmm-2.4-1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglibmm-2.4-1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglibmm-2.4-1c2a" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglibmm-2.4-1c2a" -> "libsigc++-2.0-0c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglibmm-2.4-1c2a" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglibmm-2.4-1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libfreetype6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfreetype6" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfreetype6" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libfreetype6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxcb1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb1" -> "libxau6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb1" -> "libxdmcp6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libbz2-1.0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libbz2-1.0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libc6" -> "gcc-4.9-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libpangocairo-1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libpangoft2-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangocairo-1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libsigc++-2.0-0c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsigc++-2.0-0c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsigc++-2.0-0c2a" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsigc++-2.0-0c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"fontconfig" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig" -> "fontconfig-config" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libexif12" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libexif12" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libglib2.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglib2.0-0" -> "libffi6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglib2.0-0" -> "libpcre3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglib2.0-0" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglib2.0-0" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libglib2.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+					"libpoppler-glib8" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler-glib8" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler-glib8" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler-glib8" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler-glib8" -> "libpoppler46" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler-glib8" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler-glib8" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libpoppler46" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "liblcms2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libopenjpeg5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libpng12-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libtiff5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpoppler46" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxcb-render0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb-render0" -> "libxcb1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxcb-render0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libxrender1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxrender1" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxrender1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libdbus-1-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdbus-1-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libavahi-glib1" -> "libavahi-common3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-glib1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-glib1" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-glib1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"fontconfig-config" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig-config" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig-config" -> "ucf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig-config" -> "fonts-dejavu-core" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig-config" -> "ttf-bitstream-vera" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig-config" -> "fonts-liberation" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"fontconfig-config" -> "fonts-freefont" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libthai0" -> "libthai-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libthai0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libthai0" -> "libdatrie1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libthai0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"liblzma5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"liblzma5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"gconf-service" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "libdbus-glib-1-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "libgconf-2-4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "libldap-2.4-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf-service" -> "gconf2-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libpixman-1-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpixman-1-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libldap-2.4-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libldap-2.4-2" -> "libgnutls-deb0-28" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libldap-2.4-2" -> "libsasl2-2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libldap-2.4-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libpangoft2-1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" -> "libharfbuzz0b" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpangoft2-1.0-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libgtkspell0" -> "libatk1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libcairo2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libenchant1c2a" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libfontconfig1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libgdk-pixbuf2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libgtk2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libpango-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libpangocairo-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgtkspell0" -> "libpangoft2-1.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpd-0.10-10" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpd-0.10-10" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpd-0.10-10" -> "librevenge-0.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libwpd-0.10-10" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+								"libxdmcp6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxdmcp6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libavahi-client3" -> "libavahi-common3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-client3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-client3" -> "libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-client3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgmp10" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgmp10" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libhogweed2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libhogweed2" -> "libgmp10" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libhogweed2" -> "libnettle4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libhogweed2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libjasper1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libjasper1" -> "libjpeg62-turbo" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libjasper1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libp11-kit0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libp11-kit0" -> "libffi6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libp11-kit0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgnomevfs2-common" -> "gconf2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-common" -> "gnome-mime-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgnomevfs2-common" -> "shared-mime-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+				"libavahi-common3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-common3" -> "libavahi-common-data" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libavahi-common3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libnettle4" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libnettle4" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgpg-error0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgpg-error0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"ucf" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"ucf" -> "coreutils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsasl2-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsasl2-2" -> "libsasl2-modules-db" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsasl2-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libexpat1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libexpat1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libjbig0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libjbig0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libdatrie1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdatrie1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libtasn1-6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtasn1-6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpcre3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpcre3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+											"locales" -> "libc-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"locales" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"locales" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+				"tar" -> "libacl1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"tar" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"tar" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libffi6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libffi6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"gconf2" -> "gconf-service" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "libgconf-2-4" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "libxml2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "psmisc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "dbus-x11" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"gconf2" -> "python:any" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsasl2-modules-db" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsasl2-modules-db" -> "libdb5.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libxau6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libxau6" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libgssapi-krb5-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgssapi-krb5-2" -> "libcomerr2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgssapi-krb5-2" -> "libk5crypto3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgssapi-krb5-2" -> "libkeyutils1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgssapi-krb5-2" -> "libkrb5-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgssapi-krb5-2" -> "libkrb5support0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgssapi-krb5-2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"debconf" -> "perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+									"coreutils" -> "libacl1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"coreutils" -> "libattr1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"coreutils" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"coreutils" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libkrb5-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5-3" -> "libcomerr2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5-3" -> "libk5crypto3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5-3" -> "libkeyutils1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5-3" -> "libkrb5support0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"nscd" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"nscd" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"nscd" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"nscd" -> "libcap2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"nscd" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcomerr2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcomerr2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libopenjpeg5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libopenjpeg5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libc-bin" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libc-bin" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+					"psmisc" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"psmisc" -> "libtinfo5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "aspell-en" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "myspell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "aspell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "ispell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "hunspell-dictionary" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libaspell15" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libhunspell-1.3-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libenchant1c2a" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"libharfbuzz0b" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libharfbuzz0b" -> "libfreetype6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libharfbuzz0b" -> "libglib2.0-0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libharfbuzz0b" -> "libgraphite2-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libharfbuzz0b" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libcap2" -> "libattr1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcap2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcap2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libaudit1" -> "libaudit-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libaudit1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libaudit1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"dbus-x11" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus-x11" -> "libx11-6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus-x11" -> "dbus" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"aspell-en" -> "aspell" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell-en" -> "dictionaries-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkeyutils1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkeyutils1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libkrb5support0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5support0" -> "libkeyutils1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libkrb5support0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+							"libk5crypto3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libk5crypto3" -> "libkeyutils1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libk5crypto3" -> "libkrb5support0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libk5crypto3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"libhunspell-1.3-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libhunspell-1.3-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libhunspell-1.3-0" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libhunspell-1.3-0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libdb5.3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdb5.3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libtinfo5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtinfo5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"aspell" -> "libaspell15" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell" -> "libncursesw5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell" -> "libstdc++6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell" -> "libtinfo5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"aspell" -> "dictionaries-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"perl-base" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"perl-base" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+																						"libgraphite2-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgraphite2-3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"dbus" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "libcap-ng0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "libdbus-1-3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "libexpat1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "libsystemd0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "adduser" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dbus" -> "lsb-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libscalar-list-utils-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libscalar-list-utils-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libscalar-list-utils-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"adduser" -> "perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"adduser" -> "passwd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"adduser" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"adduser" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcap-ng0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcap-ng0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libncursesw5" -> "libtinfo5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libncursesw5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libncursesw5" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libio-socket-ip-perl" -> "netbase" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libio-socket-ip-perl" -> "perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libio-socket-ip-perl" -> "libsocket-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dictionaries-common" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dictionaries-common" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dictionaries-common" -> "libtext-iconv-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"dictionaries-common" -> "emacsen-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+																																																																	"libtext-iconv-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtext-iconv-perl" -> "perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtext-iconv-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"myspell-hu" -> "dictionaries-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+			"passwd" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"passwd" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"passwd" -> "libpam0g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"passwd" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"passwd" -> "libsemanage1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"passwd" -> "libpam-modules" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"passwd" -> "debianutils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libsemanage-common" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libbz2-1.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libsepol1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libustr-1.0-1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsemanage1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libsystemd0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libsystemd0" -> "libgcrypt20" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libsystemd0" -> "liblzma5" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libsystemd0" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libsocket-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsocket-perl" -> "perlapi-5.20.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsocket-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"debianutils" -> "sensible-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"debianutils" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+			"libustr-1.0-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libustr-1.0-1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"perl" -> "perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "perl-modules" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "libbz2-1.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "libdb5.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "libgdbm3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+																															"libpam0g" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam0g" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam0g" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam0g" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam0g" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libcompress-raw-zlib-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcompress-raw-zlib-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcompress-raw-zlib-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcompress-raw-zlib-perl" -> "zlib1g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"netbase" -> "lsb-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libdigest-sha-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdigest-sha-perl" -> "perlapi-5.20.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdigest-sha-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsepol1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsepol1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"ifupdown" -> "iproute2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"ifupdown" -> "iproute" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"ifupdown" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"ifupdown" -> "lsb-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"ifupdown" -> "initscripts" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"ifupdown" -> "adduser" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+			"libpam-modules" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "libdb5.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "libpam0g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpam-modules" -> "libpam-modules-bin" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+				"libcompress-raw-bzip2-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcompress-raw-bzip2-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcompress-raw-bzip2-perl" -> "libbz2-1.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcompress-raw-bzip2-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl-modules" -> "perl-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"perl-modules" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+																																																																	"libcpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "libjson-pp-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "libcpan-meta-requirements-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "libcpan-meta-yaml-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-perl" -> "libparse-cpan-meta-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdbm3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdbm3" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdbm3" -> "install-info" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libgdbm3" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libextutils-cbuilder-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmath-bigint-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmodule-load-conditional-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libjson-pp-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libpam-modules-bin" -> "libaudit1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam-modules-bin" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam-modules-bin" -> "libpam0g" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libpam-modules-bin" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libencode-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libencode-perl" -> "perlapi-5.20.2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libencode-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmath-complex-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-yaml-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"iproute" -> "iproute2" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libparse-cpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libparse-cpan-meta-perl" -> "libcpan-meta-yaml-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libparse-cpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libparse-cpan-meta-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libparse-cpan-meta-perl" -> "libjson-pp-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "mount" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "debianutils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "lsb-base" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "sysvinit-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "sysv-rc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "file-rc" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"initscripts" -> "coreutils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+																																"libsys-syslog-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsys-syslog-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsys-syslog-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libio-compress-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libio-compress-perl" -> "libcompress-raw-bzip2-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libio-compress-perl" -> "libcompress-raw-zlib-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+					"libautodie-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libautodie-perl" -> "libsub-identify-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmodule-metadata-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmodule-metadata-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmodule-metadata-perl" -> "libversion-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"install-info" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"install-info" -> "dpkg" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+		"libcpan-meta-requirements-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-requirements-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libcpan-meta-requirements-perl" -> "libversion-perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libmodule-corelist-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtest-simple-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libextutils-parsexs-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"iproute2" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"iproute2" -> "libdb5.3" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"iproute2" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+			"mount" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"mount" -> "libmount1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"mount" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"mount" -> "libsmartcols1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libpod-simple-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libunicode-collate-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libunicode-collate-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libunicode-collate-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmount1" -> "libblkid1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmount1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmount1" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libmount1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libhttp-tiny-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libversion-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libversion-perl" -> "perlapi-5.20.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libversion-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libdigest-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libexperimental-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libtest-harness-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"file-rc" -> "insserv" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+			"sysv-rc" -> "debconf" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysv-rc" -> "debconf-2.0" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysv-rc" -> "sysvinit-utils" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysv-rc" -> "insserv" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysv-rc" -> "startpar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+			"startpar" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libsub-identify-perl" -> "perl" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsub-identify-perl" -> "perlapi-5.20.1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsub-identify-perl" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysvinit-utils" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysvinit-utils" -> "libselinux1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"sysvinit-utils" -> "startpar" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+						"libblkid1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libblkid1" -> "libuuid1" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libblkid1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"insserv" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+		"libsmartcols1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libsmartcols1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+	"libuuid1" -> "passwd" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libuuid1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"libuuid1" -> "libc6" [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+		color = "blue"
+	]
+}
