@@ -22,15 +22,18 @@ function findPath (world, s1, s2) {
     while (queue.length) {
         current = queue.pop();
         if (current.id == end_sphere.id) {
-            console.log(end_sphere);
-            console.log("path found");
             break;
         }
         for (var i=0; i<current.connections.length; i++) {
-            if (!isNodeInArray(blacklist, current.connections[i])) {
+            if (!isNodeInArray(blacklist, current.connections[i]) && !isNodeInArray(queue, current.connections[i])) {
                 queue.push(current.connections[i]);
                 current.connections[i].__dist = current.__dist + 1;
                 current.connections[i].__parent = current;
+            } else {
+                if (current.connections[i].__dist > current.__dist + 1) {
+                    current.connections[i].__dist = current.__dist + 1;
+                    current.connections[i].__parent = current;
+                }
             }
         }
         blacklist.push(current);
@@ -43,5 +46,15 @@ function findPath (world, s1, s2) {
         path.push(current);
         current = current.__parent;
     }
+    path.push(start_sphere);
     return path;
+}
+
+function colorNodes (nodesList, material) {
+    if (!nodesList.length)
+        return;
+
+    for (var i=0; i<nodesList.length; i++) {
+        nodesList[i].mesh.material = material;
+    }
 }
