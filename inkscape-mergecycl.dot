@@ -9,2588 +9,2585 @@ digraph "packages" {
 	edge [
 	]
 	"inkscape" [
-		label = "inkscape"
+		name = "inkscape"
 		shape = "box"
 	]
 	"python:any" [
-		label = "python:any"
+		name = "python:any"
 		shape = "triangle"
 	]
 	"gconf-service" [
-		label = "gconf-service"
+		name = "gconf-service"
 		shape = "box"
 	]
 	"libaspell15" [
-		label = "libaspell15"
+		name = "libaspell15"
 		shape = "box"
 	]
 	"libatk1.0-0" [
-		label = "libatk1.0-0"
+		name = "libatk1.0-0"
 		shape = "box"
 	]
 	"libatkmm-1.6-1" [
-		label = "libatkmm-1.6-1"
+		name = "libatkmm-1.6-1"
 		shape = "box"
 	]
 	"libc6" [
-		label = "libc6"
+		name = "libc6"
 		shape = "box"
 	]
 	"libcairo2" [
-		label = "libcairo2"
+		name = "libcairo2"
 		shape = "box"
 	]
 	"libcairomm-1.0-1" [
-		label = "libcairomm-1.0-1"
+		name = "libcairomm-1.0-1"
 		shape = "box"
 	]
 	"libexif12" [
-		label = "libexif12"
+		name = "libexif12"
 		shape = "box"
 	]
 	"libfontconfig1" [
-		label = "libfontconfig1"
+		name = "libfontconfig1"
 		shape = "box"
 	]
 	"libfreetype6" [
-		label = "libfreetype6"
+		name = "libfreetype6"
 		shape = "box"
 	]
 	"libgc1c2" [
-		label = "libgc1c2"
+		name = "libgc1c2"
 		shape = "box"
 	]
 	"libc6" [
-		label = "libc6"
+		name = "libc6"
 		shape = "box"
 	]
 	"libgconf-2-4" [
-		label = "libgconf-2-4"
+		name = "libgconf-2-4"
 		shape = "box"
 	]
 	"libgdk-pixbuf2.0-0" [
-		label = "libgdk-pixbuf2.0-0"
+		name = "libgdk-pixbuf2.0-0"
 		shape = "box"
 	]
 	"libglib2.0-0" [
-		label = "libglib2.0-0"
+		name = "libglib2.0-0"
 		shape = "box"
 	]
 	"libglibmm-2.4-1c2a" [
-		label = "libglibmm-2.4-1c2a"
+		name = "libglibmm-2.4-1c2a"
 		shape = "box"
 	]
 	"libgnomevfs2-0" [
-		label = "libgnomevfs2-0"
+		name = "libgnomevfs2-0"
 		shape = "box"
 	]
 	"libgomp1" [
-		label = "libgomp1"
+		name = "libgomp1"
 		shape = "box"
 	]
 	"libgsl0ldbl" [
-		label = "libgsl0ldbl"
+		name = "libgsl0ldbl"
 		shape = "box"
 	]
 	"libgtk2.0-0" [
-		label = "libgtk2.0-0"
+		name = "libgtk2.0-0"
 		shape = "box"
 	]
 	"libgtkmm-2.4-1c2a" [
-		label = "libgtkmm-2.4-1c2a"
+		name = "libgtkmm-2.4-1c2a"
 		shape = "box"
 	]
 	"libgtkspell0" [
-		label = "libgtkspell0"
+		name = "libgtkspell0"
 		shape = "box"
 	]
 	"libjpeg62-turbo" [
-		label = "libjpeg62-turbo"
+		name = "libjpeg62-turbo"
 		shape = "box"
 	]
 	"liblcms2-2" [
-		label = "liblcms2-2"
+		name = "liblcms2-2"
 		shape = "box"
 	]
 	"libmagick++-6.q16-5" [
-		label = "libmagick++-6.q16-5"
+		name = "libmagick++-6.q16-5"
 		shape = "box"
 	]
 	"libmagickcore-6.q16-2" [
-		label = "libmagickcore-6.q16-2"
+		name = "libmagickcore-6.q16-2"
 		shape = "box"
 	]
 	"libmagickwand-6.q16-2" [
-		label = "libmagickwand-6.q16-2"
+		name = "libmagickwand-6.q16-2"
 		shape = "box"
 	]
 	"libpango-1.0-0" [
-		label = "libpango-1.0-0"
+		name = "libpango-1.0-0"
 		shape = "box"
 	]
 	"libpangocairo-1.0-0" [
-		label = "libpangocairo-1.0-0"
+		name = "libpangocairo-1.0-0"
 		shape = "box"
 	]
 	"libpangoft2-1.0-0" [
-		label = "libpangoft2-1.0-0"
+		name = "libpangoft2-1.0-0"
 		shape = "box"
 	]
 	"libpangomm-1.4-1" [
-		label = "libpangomm-1.4-1"
+		name = "libpangomm-1.4-1"
 		shape = "box"
 	]
 	"libpng12-0" [
-		label = "libpng12-0"
+		name = "libpng12-0"
 		shape = "box"
 	]
 	"libpoppler-glib8" [
-		label = "libpoppler-glib8"
+		name = "libpoppler-glib8"
 		shape = "box"
 	]
 	"libpoppler46" [
-		label = "libpoppler46"
+		name = "libpoppler46"
 		shape = "box"
 	]
 	"libpopt0" [
-		label = "libpopt0"
+		name = "libpopt0"
 		shape = "box"
 	]
 	"librevenge-0.0-0" [
-		label = "librevenge-0.0-0"
+		name = "librevenge-0.0-0"
 		shape = "box"
 	]
 	"libsigc++-2.0-0c2a" [
-		label = "libsigc++-2.0-0c2a"
+		name = "libsigc++-2.0-0c2a"
 		shape = "box"
 	]
 	"libstdc++6" [
-		label = "libstdc++6"
+		name = "libstdc++6"
 		shape = "box"
 	]
 	"libwpg-0.3-3" [
-		label = "libwpg-0.3-3"
+		name = "libwpg-0.3-3"
 		shape = "box"
 	]
 	"libx11-6" [
-		label = "libx11-6"
+		name = "libx11-6"
 		shape = "box"
 	]
 	"libxml2" [
-		label = "libxml2"
+		name = "libxml2"
 		shape = "box"
 	]
 	"libxslt1.1" [
-		label = "libxslt1.1"
+		name = "libxslt1.1"
 		shape = "box"
 	]
 	"zlib1g" [
-		label = "zlib1g"
+		name = "zlib1g"
 		shape = "box"
 	]
 	"libpixman-1-0" [
-		label = "libpixman-1-0"
+		name = "libpixman-1-0"
 		shape = "box"
 	]
 	"libxcb-render0" [
-		label = "libxcb-render0"
+		name = "libxcb-render0"
 		shape = "box"
 	]
 	"libxcb-shm0" [
-		label = "libxcb-shm0"
+		name = "libxcb-shm0"
 		shape = "box"
 	]
 	"libxcb1" [
-		label = "libxcb1"
+		name = "libxcb1"
 		shape = "box"
 	]
 	"libxext6" [
-		label = "libxext6"
+		name = "libxext6"
 		shape = "box"
 	]
 	"libxrender1" [
-		label = "libxrender1"
+		name = "libxrender1"
 		shape = "box"
 	]
 	"libc6" [
-		label = "libc6"
+		name = "libc6"
 		shape = "box"
 	]
 	"libwebkit2gtk-3.0-25" [
-		label = "libwebkit2gtk-3.0-25"
+		name = "libwebkit2gtk-3.0-25"
 		shape = "box"
 		color = "orange"
 	]
 	"libwebkitgtk-1.0-0" [
-		label = "libwebkitgtk-1.0-0"
+		name = "libwebkitgtk-1.0-0"
 		shape = "box"
 		color = "orange"
 	]
 	"libwebkitgtk-3.0-0" [
-		label = "libwebkitgtk-3.0-0"
+		name = "libwebkitgtk-3.0-0"
 		shape = "box"
 		color = "orange"
 	]
 	"weston" [
-		label = "weston"
+		name = "weston"
 		shape = "box"
 		color = "orange"
 	]
 	"liblzma5" [
-		label = "liblzma5"
+		name = "liblzma5"
 		shape = "box"
 	]
 	"gsl" [
-		label = "gsl"
+		name = "gsl"
 		shape = "hexagon"
 	]
 	"libgsl0" [
-		label = "libgsl0"
+		name = "libgsl0"
 		shape = "hexagon"
 	]
 	"libgtk2.0-common" [
-		label = "libgtk2.0-common"
+		name = "libgtk2.0-common"
 		shape = "box"
 	]
 	"libcups2" [
-		label = "libcups2"
+		name = "libcups2"
 		shape = "box"
 	]
 	"libxcomposite1" [
-		label = "libxcomposite1"
+		name = "libxcomposite1"
 		shape = "box"
 	]
 	"libxcursor1" [
-		label = "libxcursor1"
+		name = "libxcursor1"
 		shape = "box"
 	]
 	"libxdamage1" [
-		label = "libxdamage1"
+		name = "libxdamage1"
 		shape = "box"
 	]
 	"libxfixes3" [
-		label = "libxfixes3"
+		name = "libxfixes3"
 		shape = "box"
 	]
 	"libxi6" [
-		label = "libxi6"
+		name = "libxi6"
 		shape = "box"
 	]
 	"libxinerama1" [
-		label = "libxinerama1"
+		name = "libxinerama1"
 		shape = "box"
 	]
 	"libxrandr2" [
-		label = "libxrandr2"
+		name = "libxrandr2"
 		shape = "box"
 	]
 	"shared-mime-info" [
-		label = "shared-mime-info"
+		name = "shared-mime-info"
 		shape = "box"
 	]
 	"libacl1" [
-		label = "libacl1"
+		name = "libacl1"
 		shape = "box"
 	]
 	"libavahi-client3" [
-		label = "libavahi-client3"
+		name = "libavahi-client3"
 		shape = "box"
 	]
 	"libavahi-common3" [
-		label = "libavahi-common3"
+		name = "libavahi-common3"
 		shape = "box"
 	]
 	"libavahi-glib1" [
-		label = "libavahi-glib1"
+		name = "libavahi-glib1"
 		shape = "box"
 	]
 	"libdbus-1-3" [
-		label = "libdbus-1-3"
+		name = "libdbus-1-3"
 		shape = "box"
 	]
 	"libdbus-glib-1-2" [
-		label = "libdbus-glib-1-2"
+		name = "libdbus-glib-1-2"
 		shape = "box"
 	]
 	"libgnutls-deb0-28" [
-		label = "libgnutls-deb0-28"
+		name = "libgnutls-deb0-28"
 		shape = "box"
 	]
 	"libselinux1" [
-		label = "libselinux1"
+		name = "libselinux1"
 		shape = "box"
 	]
 	"libgnomevfs2-common" [
-		label = "libgnomevfs2-common"
+		name = "libgnomevfs2-common"
 		shape = "box"
 	]
 	"libbonobo2-0" [
-		label = "libbonobo2-0"
+		name = "libbonobo2-0"
 		shape = "box"
 		color = "orange"
 	]
 	"gconf2-common" [
-		label = "gconf2-common"
+		name = "gconf2-common"
 		shape = "box"
 	]
 	"gconf2" [
-		label = "gconf2"
+		name = "gconf2"
 		shape = "box"
 	]
 	"libgconf2-4" [
-		label = "libgconf2-4"
+		name = "libgconf2-4"
 		shape = "box"
 		color = "orange"
 	]
 	"libgconf2.0-cil" [
-		label = "libgconf2.0-cil"
+		name = "libgconf2.0-cil"
 		shape = "box"
 		color = "orange"
 	]
 	"libgcrypt20" [
-		label = "libgcrypt20"
+		name = "libgcrypt20"
 		shape = "box"
 	]
 	"imagemagick-common" [
-		label = "imagemagick-common"
+		name = "imagemagick-common"
 		shape = "box"
 	]
 	"dpkg" [
-		label = "dpkg"
+		name = "dpkg"
 		shape = "box"
 	]
 	"libjasper1" [
-		label = "libjasper1"
+		name = "libjasper1"
 		shape = "box"
 	]
 	"libtiff5" [
-		label = "libtiff5"
+		name = "libtiff5"
 		shape = "box"
 	]
 	"libgdk-pixbuf2.0-common" [
-		label = "libgdk-pixbuf2.0-common"
+		name = "libgdk-pixbuf2.0-common"
 		shape = "box"
 	]
 	"libgtk2.0-bin" [
-		label = "libgtk2.0-bin"
+		name = "libgtk2.0-bin"
 		shape = "box"
 		color = "orange"
 	]
 	"librsvg2-2" [
-		label = "librsvg2-2"
+		name = "librsvg2-2"
 		shape = "box"
 		color = "orange"
 	]
 	"libwmf0.2-7" [
-		label = "libwmf0.2-7"
+		name = "libwmf0.2-7"
 		shape = "box"
 		color = "orange"
 	]
 	"zlib1" [
-		label = "zlib1"
+		name = "zlib1"
 		shape = "hexagon"
 	]
 	"texlive-binaries" [
-		label = "texlive-binaries"
+		name = "texlive-binaries"
 		shape = "box"
 		color = "orange"
 	]
 	"libjpeg62" [
-		label = "libjpeg62"
+		name = "libjpeg62"
 		shape = "triangle"
 	]
 	"gcc-4.9-base" [
-		label = "gcc-4.9-base"
+		name = "gcc-4.9-base"
 		shape = "box"
 	]
 	"scim" [
-		label = "scim"
+		name = "scim"
 		shape = "box"
 		color = "orange"
 	]
 	"gcc-4.3" [
-		label = "gcc-4.3"
+		name = "gcc-4.3"
 		shape = "hexagon"
 	]
 	"gcc-4.4" [
-		label = "gcc-4.4"
+		name = "gcc-4.4"
 		shape = "hexagon"
 	]
 	"gcc-4.5" [
-		label = "gcc-4.5"
+		name = "gcc-4.5"
 		shape = "hexagon"
 	]
 	"libbz2-1.0" [
-		label = "libbz2-1.0"
+		name = "libbz2-1.0"
 		shape = "box"
 	]
 	"libfftw3-double3" [
-		label = "libfftw3-double3"
+		name = "libfftw3-double3"
 		shape = "box"
 	]
 	"libjbig0" [
-		label = "libjbig0"
+		name = "libjbig0"
 		shape = "box"
 	]
 	"liblqr-1-0" [
-		label = "liblqr-1-0"
+		name = "liblqr-1-0"
 		shape = "box"
 	]
 	"libltdl7" [
-		label = "libltdl7"
+		name = "libltdl7"
 		shape = "box"
 	]
 	"libx11-data" [
-		label = "libx11-data"
+		name = "libx11-data"
 		shape = "box"
 	]
 	"dehydra" [
-		label = "dehydra"
+		name = "dehydra"
 		shape = "hexagon"
 	]
 	"gcc-4.4-base" [
-		label = "gcc-4.4-base"
+		name = "gcc-4.4-base"
 		shape = "hexagon"
 	]
 	"gcc-4.7-base" [
-		label = "gcc-4.7-base"
+		name = "gcc-4.7-base"
 		shape = "hexagon"
 	]
 	"gcj-4.4-base" [
-		label = "gcj-4.4-base"
+		name = "gcj-4.4-base"
 		shape = "hexagon"
 	]
 	"gcj-4.6-base" [
-		label = "gcj-4.6-base"
+		name = "gcj-4.6-base"
 		shape = "hexagon"
 	]
 	"gnat-4.4-base" [
-		label = "gnat-4.4-base"
+		name = "gnat-4.4-base"
 		shape = "hexagon"
 	]
 	"gnat-4.6" [
-		label = "gnat-4.6"
+		name = "gnat-4.6"
 		shape = "hexagon"
 	]
 	"tracker" [
-		label = "tracker"
+		name = "tracker"
 		shape = "box"
 		color = "orange"
 	]
 	"libgpg-error0" [
-		label = "libgpg-error0"
+		name = "libgpg-error0"
 		shape = "box"
 	]
 	"libatk1.0-data" [
-		label = "libatk1.0-data"
+		name = "libatk1.0-data"
 		shape = "box"
 	]
 	"libwpd-0.10-10" [
-		label = "libwpd-0.10-10"
+		name = "libwpd-0.10-10"
 		shape = "box"
 	]
 	"ucf" [
-		label = "ucf"
+		name = "ucf"
 		shape = "box"
 	]
 	"aspell6-dictionary" [
-		label = "aspell6-dictionary"
+		name = "aspell6-dictionary"
 		shape = "hexagon"
 	]
 	"aspell-bin" [
-		label = "aspell-bin"
+		name = "aspell-bin"
 		shape = "triangle"
 	]
 	"aspell-da" [
-		label = "aspell-da"
+		name = "aspell-da"
 		shape = "box"
 		color = "orange"
 	]
 	"aspell-no" [
-		label = "aspell-no"
+		name = "aspell-no"
 		shape = "box"
 		color = "orange"
 	]
 	"libgmp10" [
-		label = "libgmp10"
+		name = "libgmp10"
 		shape = "box"
 	]
 	"libhogweed2" [
-		label = "libhogweed2"
+		name = "libhogweed2"
 		shape = "box"
 	]
 	"libnettle4" [
-		label = "libnettle4"
+		name = "libnettle4"
 		shape = "box"
 	]
 	"libp11-kit0" [
-		label = "libp11-kit0"
+		name = "libp11-kit0"
 		shape = "box"
 	]
 	"libtasn1-6" [
-		label = "libtasn1-6"
+		name = "libtasn1-6"
 		shape = "box"
 	]
 	"gnutls0" [
-		label = "gnutls0"
+		name = "gnutls0"
 		shape = "hexagon"
 	]
 	"gnutls0.4" [
-		label = "gnutls0.4"
+		name = "gnutls0.4"
 		shape = "hexagon"
 	]
 	"tar" [
-		label = "tar"
+		name = "tar"
 		shape = "box"
 	]
 	"ada-reference-manual" [
-		label = "ada-reference-manual"
+		name = "ada-reference-manual"
 		shape = "hexagon"
 	]
 	"asn1-mode" [
-		label = "asn1-mode"
+		name = "asn1-mode"
 		shape = "hexagon"
 	]
 	"bogosort" [
-		label = "bogosort"
+		name = "bogosort"
 		shape = "hexagon"
 	]
 	"cl-yacc" [
-		label = "cl-yacc"
+		name = "cl-yacc"
 		shape = "hexagon"
 	]
 	"cpp-4.1-doc" [
-		label = "cpp-4.1-doc"
+		name = "cpp-4.1-doc"
 		shape = "hexagon"
 	]
 	"cpp-4.2-doc" [
-		label = "cpp-4.2-doc"
+		name = "cpp-4.2-doc"
 		shape = "hexagon"
 	]
 	"gcc-4.1-doc" [
-		label = "gcc-4.1-doc"
+		name = "gcc-4.1-doc"
 		shape = "hexagon"
 	]
 	"gcc-4.2-doc" [
-		label = "gcc-4.2-doc"
+		name = "gcc-4.2-doc"
 		shape = "hexagon"
 	]
 	"gcj-4.1-doc" [
-		label = "gcj-4.1-doc"
+		name = "gcj-4.1-doc"
 		shape = "hexagon"
 	]
 	"gcj-4.2-doc" [
-		label = "gcj-4.2-doc"
+		name = "gcj-4.2-doc"
 		shape = "hexagon"
 	]
 	"gfortran-4.1-doc" [
-		label = "gfortran-4.1-doc"
+		name = "gfortran-4.1-doc"
 		shape = "hexagon"
 	]
 	"gfortran-4.2-doc" [
-		label = "gfortran-4.2-doc"
+		name = "gfortran-4.2-doc"
 		shape = "hexagon"
 	]
 	"ggz-docs" [
-		label = "ggz-docs"
+		name = "ggz-docs"
 		shape = "hexagon"
 	]
 	"glame" [
-		label = "glame"
+		name = "glame"
 		shape = "hexagon"
 	]
 	"gnat-4.1-doc" [
-		label = "gnat-4.1-doc"
+		name = "gnat-4.1-doc"
 		shape = "hexagon"
 	]
 	"gnat-4.2-doc" [
-		label = "gnat-4.2-doc"
+		name = "gnat-4.2-doc"
 		shape = "hexagon"
 	]
 	"gtalk" [
-		label = "gtalk"
+		name = "gtalk"
 		shape = "hexagon"
 	]
 	"libalogg-dev" [
-		label = "libalogg-dev"
+		name = "libalogg-dev"
 		shape = "hexagon"
 	]
 	"libgtk1.2-doc" [
-		label = "libgtk1.2-doc"
+		name = "libgtk1.2-doc"
 		shape = "hexagon"
 	]
 	"libnettle-dev" [
-		label = "libnettle-dev"
+		name = "libnettle-dev"
 		shape = "hexagon"
 	]
 	"liborbit-dev" [
-		label = "liborbit-dev"
+		name = "liborbit-dev"
 		shape = "hexagon"
 	]
 	"libreadline5-dev" [
-		label = "libreadline5-dev"
+		name = "libreadline5-dev"
 		shape = "hexagon"
 	]
 	"librep-doc" [
-		label = "librep-doc"
+		name = "librep-doc"
 		shape = "triangle"
 	]
 	"mmucl" [
-		label = "mmucl"
+		name = "mmucl"
 		shape = "hexagon"
 	]
 	"nxml-mode" [
-		label = "nxml-mode"
+		name = "nxml-mode"
 		shape = "hexagon"
 	]
 	"octave3.0-info" [
-		label = "octave3.0-info"
+		name = "octave3.0-info"
 		shape = "hexagon"
 	]
 	"octave3.2-info" [
-		label = "octave3.2-info"
+		name = "octave3.2-info"
 		shape = "hexagon"
 	]
 	"polgen-doc" [
-		label = "polgen-doc"
+		name = "polgen-doc"
 		shape = "hexagon"
 	]
 	"r6rs-doc" [
-		label = "r6rs-doc"
+		name = "r6rs-doc"
 		shape = "hexagon"
 	]
 	"serveez-doc" [
-		label = "serveez-doc"
+		name = "serveez-doc"
 		shape = "hexagon"
 	]
 	"slat" [
-		label = "slat"
+		name = "slat"
 		shape = "hexagon"
 	]
 	"texlive-base-bin-doc" [
-		label = "texlive-base-bin-doc"
+		name = "texlive-base-bin-doc"
 		shape = "hexagon"
 	]
 	"ttcn-el" [
-		label = "ttcn-el"
+		name = "ttcn-el"
 		shape = "hexagon"
 	]
 	"ulog-acctd" [
-		label = "ulog-acctd"
+		name = "ulog-acctd"
 		shape = "hexagon"
 	]
 	"xconq-doc" [
-		label = "xconq-doc"
+		name = "xconq-doc"
 		shape = "hexagon"
 	]
 	"zenirc" [
-		label = "zenirc"
+		name = "zenirc"
 		shape = "hexagon"
 	]
 	"apt" [
-		label = "apt"
+		name = "apt"
 		shape = "box"
 		color = "orange"
 	]
 	"apt-cudf" [
-		label = "apt-cudf"
+		name = "apt-cudf"
 		shape = "box"
 		color = "orange"
 	]
 	"aptitude" [
-		label = "aptitude"
+		name = "aptitude"
 		shape = "box"
 		color = "orange"
 	]
 	"auctex" [
-		label = "auctex"
+		name = "auctex"
 		shape = "box"
 		color = "orange"
 	]
 	"ccache" [
-		label = "ccache"
+		name = "ccache"
 		shape = "box"
 		color = "orange"
 	]
 	"cups" [
-		label = "cups"
+		name = "cups"
 		shape = "box"
 		color = "orange"
 	]
 	"debian-security-support" [
-		label = "debian-security-support"
+		name = "debian-security-support"
 		shape = "box"
 		color = "orange"
 	]
 	"distcc" [
-		label = "distcc"
+		name = "distcc"
 		shape = "box"
 		color = "orange"
 	]
 	"doc-base" [
-		label = "doc-base"
+		name = "doc-base"
 		shape = "box"
 		color = "orange"
 	]
 	"dpkg-dev" [
-		label = "dpkg-dev"
+		name = "dpkg-dev"
 		shape = "box"
 		color = "orange"
 	]
 	"fontconfig" [
-		label = "fontconfig"
+		name = "fontconfig"
 		shape = "box"
 	]
 	"fusionforge-plugin-mediawiki" [
-		label = "fusionforge-plugin-mediawiki"
+		name = "fusionforge-plugin-mediawiki"
 		shape = "box"
 		color = "orange"
 	]
 	"gap-core" [
-		label = "gap-core"
+		name = "gap-core"
 		shape = "box"
 		color = "orange"
 	]
 	"gitweb" [
-		label = "gitweb"
+		name = "gitweb"
 		shape = "box"
 		color = "orange"
 	]
 	"grace" [
-		label = "grace"
+		name = "grace"
 		shape = "box"
 		color = "orange"
 	]
 	"gxine" [
-		label = "gxine"
+		name = "gxine"
 		shape = "box"
 		color = "orange"
 	]
 	"hoogle" [
-		label = "hoogle"
+		name = "hoogle"
 		shape = "box"
 		color = "orange"
 	]
 	"icecc" [
-		label = "icecc"
+		name = "icecc"
 		shape = "box"
 		color = "orange"
 	]
 	"install-info" [
-		label = "install-info"
+		name = "install-info"
 		shape = "box"
 	]
 	"libapache2-mod-php5" [
-		label = "libapache2-mod-php5"
+		name = "libapache2-mod-php5"
 		shape = "box"
 		color = "orange"
 	]
 	"libapache2-mod-php5filter" [
-		label = "libapache2-mod-php5filter"
+		name = "libapache2-mod-php5filter"
 		shape = "box"
 		color = "orange"
 	]
 	"libdpkg-perl" [
-		label = "libdpkg-perl"
+		name = "libdpkg-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libjs-protoaculous" [
-		label = "libjs-protoaculous"
+		name = "libjs-protoaculous"
 		shape = "box"
 		color = "orange"
 	]
 	"man-db" [
-		label = "man-db"
+		name = "man-db"
 		shape = "box"
 		color = "orange"
 	]
 	"mcollective" [
-		label = "mcollective"
+		name = "mcollective"
 		shape = "box"
 		color = "orange"
 	]
 	"php5-fpm" [
-		label = "php5-fpm"
+		name = "php5-fpm"
 		shape = "box"
 		color = "orange"
 	]
 	"pypy" [
-		label = "pypy"
+		name = "pypy"
 		shape = "box"
 		color = "orange"
 	]
 	"readahead-fedora" [
-		label = "readahead-fedora"
+		name = "readahead-fedora"
 		shape = "box"
 		color = "orange"
 	]
 	"wordpress" [
-		label = "wordpress"
+		name = "wordpress"
 		shape = "box"
 		color = "orange"
 	]
 	"xfonts-traditional" [
-		label = "xfonts-traditional"
+		name = "xfonts-traditional"
 		shape = "box"
 		color = "orange"
 	]
 	"xine-ui" [
-		label = "xine-ui"
+		name = "xine-ui"
 		shape = "box"
 		color = "orange"
 	]
 	"libpopt-dev" [
-		label = "libpopt-dev"
+		name = "libpopt-dev"
 		shape = "box"
 		color = "orange"
 	]
 	"popt" [
-		label = "popt"
+		name = "popt"
 		shape = "hexagon"
 	]
 	"rpm" [
-		label = "rpm"
+		name = "rpm"
 		shape = "box"
 		color = "orange"
 	]
 	"libpng12-dev" [
-		label = "libpng12-dev"
+		name = "libpng12-dev"
 		shape = "box"
 		color = "orange"
 	]
 	"mzscheme" [
-		label = "mzscheme"
+		name = "mzscheme"
 		shape = "hexagon"
 	]
 	"pngcrush" [
-		label = "pngcrush"
+		name = "pngcrush"
 		shape = "box"
 		color = "orange"
 	]
 	"pngmeta" [
-		label = "pngmeta"
+		name = "pngmeta"
 		shape = "box"
 		color = "orange"
 	]
 	"povray-3.5" [
-		label = "povray-3.5"
+		name = "povray-3.5"
 		shape = "hexagon"
 	]
 	"qemacs" [
-		label = "qemacs"
+		name = "qemacs"
 		shape = "hexagon"
 	]
 	"libthai0" [
-		label = "libthai0"
+		name = "libthai0"
 		shape = "box"
 	]
 	"libpango1.0-0" [
-		label = "libpango1.0-0"
+		name = "libpango1.0-0"
 		shape = "box"
 		color = "orange"
 	]
 	"plymouth" [
-		label = "plymouth"
+		name = "plymouth"
 		shape = "box"
 		color = "orange"
 	]
 	"libattr1" [
-		label = "libattr1"
+		name = "libattr1"
 		shape = "box"
 	]
 	"acl" [
-		label = "acl"
+		name = "acl"
 		shape = "box"
 		color = "orange"
 	]
 	"libacl1-kerberos4kth" [
-		label = "libacl1-kerberos4kth"
+		name = "libacl1-kerberos4kth"
 		shape = "hexagon"
 	]
 	"libgc1" [
-		label = "libgc1"
+		name = "libgc1"
 		shape = "hexagon"
 	]
 	"attr" [
-		label = "attr"
+		name = "attr"
 		shape = "box"
 		color = "orange"
 	]
 	"libexpat1" [
-		label = "libexpat1"
+		name = "libexpat1"
 		shape = "box"
 	]
 	"fontconfig-config" [
-		label = "fontconfig-config"
+		name = "fontconfig-config"
 		shape = "box"
 	]
 	"xpdf" [
-		label = "xpdf"
+		name = "xpdf"
 		shape = "box"
 		color = "orange"
 	]
 	"libgssapi-krb5-2" [
-		label = "libgssapi-krb5-2"
+		name = "libgssapi-krb5-2"
 		shape = "box"
 	]
 	"libfftw3-3" [
-		label = "libfftw3-3"
+		name = "libfftw3-3"
 		shape = "box"
 		color = "orange"
 	]
 	"libpcre3" [
-		label = "libpcre3"
+		name = "libpcre3"
 		shape = "box"
 	]
 	"libxau6" [
-		label = "libxau6"
+		name = "libxau6"
 		shape = "box"
 	]
 	"libxdmcp6" [
-		label = "libxdmcp6"
+		name = "libxdmcp6"
 		shape = "box"
 	]
 	"alsa-utils" [
-		label = "alsa-utils"
+		name = "alsa-utils"
 		shape = "box"
 		color = "orange"
 	]
 	"libxcb-xlib0" [
-		label = "libxcb-xlib0"
+		name = "libxcb-xlib0"
 		shape = "hexagon"
 	]
 	"prelink" [
-		label = "prelink"
+		name = "prelink"
 		shape = "box"
 		color = "orange"
 	]
 	"tzdata" [
-		label = "tzdata"
+		name = "tzdata"
 		shape = "box"
 		color = "orange"
 	]
 	"tzdata-etch" [
-		label = "tzdata-etch"
+		name = "tzdata-etch"
 		shape = "hexagon"
 	]
 	"hurd" [
-		label = "hurd"
+		name = "hurd"
 		shape = "hexagon"
 	]
 	"libtirpc1" [
-		label = "libtirpc1"
+		name = "libtirpc1"
 		shape = "box"
 		color = "orange"
 	]
 	"locales" [
-		label = "locales"
+		name = "locales"
 		shape = "diamond"
 	]
 	"locales-all" [
-		label = "locales-all"
+		name = "locales-all"
 		shape = "box"
 		color = "orange"
 	]
 	"lsb-core" [
-		label = "lsb-core"
+		name = "lsb-core"
 		shape = "box"
 		color = "orange"
 	]
 	"nscd" [
-		label = "nscd"
+		name = "nscd"
 		shape = "diamond"
 	]
 	"libffi6" [
-		label = "libffi6"
+		name = "libffi6"
 		shape = "box"
 	]
 	"glib-networking" [
-		label = "glib-networking"
+		name = "glib-networking"
 		shape = "box"
 		color = "orange"
 	]
 	"gvfs" [
-		label = "gvfs"
+		name = "gvfs"
 		shape = "box"
 		color = "orange"
 	]
 	"libgnome-desktop-3-2" [
-		label = "libgnome-desktop-3-2"
+		name = "libgnome-desktop-3-2"
 		shape = "hexagon"
 	]
 	"python-gi" [
-		label = "python-gi"
+		name = "python-gi"
 		shape = "box"
 		color = "orange"
 	]
 	"libopenjpeg5" [
-		label = "libopenjpeg5"
+		name = "libopenjpeg5"
 		shape = "box"
 	]
 	"kde-window-manager" [
-		label = "kde-window-manager"
+		name = "kde-window-manager"
 		shape = "box"
 		color = "orange"
 	]
 	"kdebase-workspace-bin" [
-		label = "kdebase-workspace-bin"
+		name = "kdebase-workspace-bin"
 		shape = "box"
 		color = "orange"
 	]
 	"debconf" [
-		label = "debconf"
+		name = "debconf"
 		shape = "box"
 	]
 	"debconf-2.0" [
-		label = "debconf-2.0"
+		name = "debconf-2.0"
 		shape = "triangle"
 	]
 	"fonts-dejavu-core" [
-		label = "fonts-dejavu-core"
+		name = "fonts-dejavu-core"
 		shape = "box"
 	]
 	"ttf-bitstream-vera" [
-		label = "ttf-bitstream-vera"
+		name = "ttf-bitstream-vera"
 		shape = "box"
 	]
 	"fonts-liberation" [
-		label = "fonts-liberation"
+		name = "fonts-liberation"
 		shape = "box"
 	]
 	"fonts-freefont" [
-		label = "fonts-freefont"
+		name = "fonts-freefont"
 		shape = "hexagon"
 	]
 	"libthai-data" [
-		label = "libthai-data"
+		name = "libthai-data"
 		shape = "box"
 	]
 	"libdatrie1" [
-		label = "libdatrie1"
+		name = "libdatrie1"
 		shape = "box"
 	]
 	"libldap-2.4-2" [
-		label = "libldap-2.4-2"
+		name = "libldap-2.4-2"
 		shape = "box"
 	]
 	"libsasl2-2" [
-		label = "libsasl2-2"
+		name = "libsasl2-2"
 		shape = "box"
 	]
 	"ldap-utils" [
-		label = "ldap-utils"
+		name = "ldap-utils"
 		shape = "box"
 		color = "orange"
 	]
 	"libharfbuzz0b" [
-		label = "libharfbuzz0b"
+		name = "libharfbuzz0b"
 		shape = "box"
 	]
 	"libenchant1c2a" [
-		label = "libenchant1c2a"
+		name = "libenchant1c2a"
 		shape = "box"
 	]
 	"libwpd0" [
-		label = "libwpd0"
+		name = "libwpd0"
 		shape = "hexagon"
 	]
 	"libwpd2" [
-		label = "libwpd2"
+		name = "libwpd2"
 		shape = "hexagon"
 	]
 	"libwpd3" [
-		label = "libwpd3"
+		name = "libwpd3"
 		shape = "hexagon"
 	]
 	"libwpd4" [
-		label = "libwpd4"
+		name = "libwpd4"
 		shape = "hexagon"
 	]
 	"libwpd5" [
-		label = "libwpd5"
+		name = "libwpd5"
 		shape = "hexagon"
 	]
 	"libwpd6" [
-		label = "libwpd6"
+		name = "libwpd6"
 		shape = "hexagon"
 	]
 	"libwpd8" [
-		label = "libwpd8"
+		name = "libwpd8"
 		shape = "hexagon"
 	]
 	"libjasper-1.700-2" [
-		label = "libjasper-1.700-2"
+		name = "libjasper-1.700-2"
 		shape = "hexagon"
 	]
 	"gnome-mime-data" [
-		label = "gnome-mime-data"
+		name = "gnome-mime-data"
 		shape = "box"
 	]
 	"gnome-panel" [
-		label = "gnome-panel"
+		name = "gnome-panel"
 		shape = "box"
 		color = "orange"
 	]
 	"libgnomevfs2-extra" [
-		label = "libgnomevfs2-extra"
+		name = "libgnomevfs2-extra"
 		shape = "box"
 		color = "orange"
 	]
 	"libavahi-common-data" [
-		label = "libavahi-common-data"
+		name = "libavahi-common-data"
 		shape = "box"
 	]
 	"coreutils" [
-		label = "coreutils"
+		name = "coreutils"
 		shape = "box"
 	]
 	"libsasl2-modules-db" [
-		label = "libsasl2-modules-db"
+		name = "libsasl2-modules-db"
 		shape = "box"
 	]
 	"postfix" [
-		label = "postfix"
+		name = "postfix"
 		shape = "box"
 		color = "orange"
 	]
 	"slapd" [
-		label = "slapd"
+		name = "slapd"
 		shape = "box"
 		color = "orange"
 	]
 	"wink" [
-		label = "wink"
+		name = "wink"
 		shape = "hexagon"
 	]
 	"libpcre3-dev" [
-		label = "libpcre3-dev"
+		name = "libpcre3-dev"
 		shape = "box"
 		color = "orange"
 	]
 	"approx" [
-		label = "approx"
+		name = "approx"
 		shape = "box"
 		color = "orange"
 	]
 	"cduce" [
-		label = "cduce"
+		name = "cduce"
 		shape = "box"
 		color = "orange"
 	]
 	"cmigrep" [
-		label = "cmigrep"
+		name = "cmigrep"
 		shape = "box"
 		color = "orange"
 	]
 	"galax" [
-		label = "galax"
+		name = "galax"
 		shape = "box"
 		color = "orange"
 	]
 	"libpcre-ocaml" [
-		label = "libpcre-ocaml"
+		name = "libpcre-ocaml"
 		shape = "box"
 		color = "orange"
 	]
 	"liquidsoap" [
-		label = "liquidsoap"
+		name = "liquidsoap"
 		shape = "box"
 		color = "orange"
 	]
 	"ocsigen" [
-		label = "ocsigen"
+		name = "ocsigen"
 		shape = "hexagon"
 	]
 	"ttf-dejavu" [
-		label = "ttf-dejavu"
+		name = "ttf-dejavu"
 		shape = "box"
 		color = "orange"
 	]
 	"ttf-dejavu-core" [
-		label = "ttf-dejavu-core"
+		name = "ttf-dejavu-core"
 		shape = "box"
 		color = "orange"
 	]
 	"libc-bin" [
-		label = "libc-bin"
+		name = "libc-bin"
 		shape = "box"
 	]
 	"base-config" [
-		label = "base-config"
+		name = "base-config"
 		shape = "hexagon"
 	]
 	"belocs-locales-bin" [
-		label = "belocs-locales-bin"
+		name = "belocs-locales-bin"
 		shape = "hexagon"
 	]
 	"belocs-locales-data" [
-		label = "belocs-locales-data"
+		name = "belocs-locales-data"
 		shape = "hexagon"
 	]
 	"cpio" [
-		label = "cpio"
+		name = "cpio"
 		shape = "box"
 		color = "orange"
 	]
 	"psmisc" [
-		label = "psmisc"
+		name = "psmisc"
 		shape = "box"
 	]
 	"dbus-x11" [
-		label = "dbus-x11"
+		name = "dbus-x11"
 		shape = "box"
 	]
 	"libdb5.3" [
-		label = "libdb5.3"
+		name = "libdb5.3"
 		shape = "box"
 	]
 	"libcomerr2" [
-		label = "libcomerr2"
+		name = "libcomerr2"
 		shape = "box"
 	]
 	"libk5crypto3" [
-		label = "libk5crypto3"
+		name = "libk5crypto3"
 		shape = "box"
 	]
 	"libkeyutils1" [
-		label = "libkeyutils1"
+		name = "libkeyutils1"
 		shape = "box"
 	]
 	"libkrb5-3" [
-		label = "libkrb5-3"
+		name = "libkrb5-3"
 		shape = "box"
 	]
 	"libkrb5support0" [
-		label = "libkrb5support0"
+		name = "libkrb5support0"
 		shape = "box"
 	]
 	"libgssglue1" [
-		label = "libgssglue1"
+		name = "libgssglue1"
 		shape = "box"
 		color = "orange"
 	]
 	"perl-base" [
-		label = "perl-base"
+		name = "perl-base"
 		shape = "box"
 	]
 	"cdebconf" [
-		label = "cdebconf"
+		name = "cdebconf"
 		shape = "box"
 		color = "orange"
 	]
 	"debconf-tiny" [
-		label = "debconf-tiny"
+		name = "debconf-tiny"
 		shape = "hexagon"
 	]
 	"debconf-utils" [
-		label = "debconf-utils"
+		name = "debconf-utils"
 		shape = "box"
 		color = "orange"
 	]
 	"dialog" [
-		label = "dialog"
+		name = "dialog"
 		shape = "box"
 		color = "orange"
 	]
 	"menu" [
-		label = "menu"
+		name = "menu"
 		shape = "box"
 		color = "orange"
 	]
 	"whiptail" [
-		label = "whiptail"
+		name = "whiptail"
 		shape = "box"
 		color = "orange"
 	]
 	"whiptail-utf8" [
-		label = "whiptail-utf8"
+		name = "whiptail-utf8"
 		shape = "hexagon"
 	]
 	"timeout" [
-		label = "timeout"
+		name = "timeout"
 		shape = "hexagon"
 	]
 	"libkrb53" [
-		label = "libkrb53"
+		name = "libkrb53"
 		shape = "hexagon"
 	]
 	"libsmbclient" [
-		label = "libsmbclient"
+		name = "libsmbclient"
 		shape = "box"
 		color = "orange"
 	]
 	"sssd" [
-		label = "sssd"
+		name = "sssd"
 		shape = "box"
 		color = "orange"
 	]
 	"libaudit1" [
-		label = "libaudit1"
+		name = "libaudit1"
 		shape = "box"
 	]
 	"libcap2" [
-		label = "libcap2"
+		name = "libcap2"
 		shape = "box"
 	]
 	"ttf-liberation" [
-		label = "ttf-liberation"
+		name = "ttf-liberation"
 		shape = "box"
 		color = "orange"
 	]
 	"libc0.1" [
-		label = "libc0.1"
+		name = "libc0.1"
 		shape = "hexagon"
 	]
 	"libc0.3" [
-		label = "libc0.3"
+		name = "libc0.3"
 		shape = "hexagon"
 	]
 	"libc6.1" [
-		label = "libc6.1"
+		name = "libc6.1"
 		shape = "hexagon"
 	]
 	"libtinfo5" [
-		label = "libtinfo5"
+		name = "libtinfo5"
 		shape = "box"
 	]
 	"aspell-en" [
-		label = "aspell-en"
+		name = "aspell-en"
 		shape = "box"
 	]
 	"myspell-dictionary" [
-		label = "myspell-dictionary"
+		name = "myspell-dictionary"
 		shape = "triangle"
 	]
 	"aspell-dictionary" [
-		label = "aspell-dictionary"
+		name = "aspell-dictionary"
 		shape = "triangle"
 	]
 	"ispell-dictionary" [
-		label = "ispell-dictionary"
+		name = "ispell-dictionary"
 		shape = "triangle"
 	]
 	"hunspell-dictionary" [
-		label = "hunspell-dictionary"
+		name = "hunspell-dictionary"
 		shape = "triangle"
 	]
 	"libhunspell-1.3-0" [
-		label = "libhunspell-1.3-0"
+		name = "libhunspell-1.3-0"
 		shape = "box"
 	]
 	"ispell" [
-		label = "ispell"
+		name = "ispell"
 		shape = "box"
 		color = "orange"
 	]
 	"libenchant1" [
-		label = "libenchant1"
+		name = "libenchant1"
 		shape = "hexagon"
 	]
 	"libenchant1c2" [
-		label = "libenchant1c2"
+		name = "libenchant1c2"
 		shape = "hexagon"
 	]
 	"libgraphite2-3" [
-		label = "libgraphite2-3"
+		name = "libgraphite2-3"
 		shape = "box"
 	]
 	"libharfbuzz0" [
-		label = "libharfbuzz0"
+		name = "libharfbuzz0"
 		shape = "hexagon"
 	]
 	"libharfbuzz0a" [
-		label = "libharfbuzz0a"
+		name = "libharfbuzz0a"
 		shape = "hexagon"
 	]
 	"libaudit-common" [
-		label = "libaudit-common"
+		name = "libaudit-common"
 		shape = "box"
 	]
 	"libaudit0" [
-		label = "libaudit0"
+		name = "libaudit0"
 		shape = "hexagon"
 	]
 	"dbus" [
-		label = "dbus"
+		name = "dbus"
 		shape = "box"
 	]
 	"x11-common" [
-		label = "x11-common"
+		name = "x11-common"
 		shape = "box"
 		color = "orange"
 	]
 	"aspell" [
-		label = "aspell"
+		name = "aspell"
 		shape = "box"
 	]
 	"dictionaries-common" [
-		label = "dictionaries-common"
+		name = "dictionaries-common"
 		shape = "box"
 	]
 	"libkadm5clnt-mit9" [
-		label = "libkadm5clnt-mit9"
+		name = "libkadm5clnt-mit9"
 		shape = "box"
 		color = "orange"
 	]
 	"libkadm5srv-mit9" [
-		label = "libkadm5srv-mit9"
+		name = "libkadm5srv-mit9"
 		shape = "box"
 		color = "orange"
 	]
 	"libkdb5-7" [
-		label = "libkdb5-7"
+		name = "libkdb5-7"
 		shape = "box"
 		color = "orange"
 	]
 	"openoffice.org-core" [
-		label = "openoffice.org-core"
+		name = "openoffice.org-core"
 		shape = "hexagon"
 	]
 	"libncursesw5" [
-		label = "libncursesw5"
+		name = "libncursesw5"
 		shape = "box"
 	]
 	"defoma" [
-		label = "defoma"
+		name = "defoma"
 		shape = "hexagon"
 	]
 	"mono-gac" [
-		label = "mono-gac"
+		name = "mono-gac"
 		shape = "box"
 		color = "orange"
 	]
 	"safe-rm" [
-		label = "safe-rm"
+		name = "safe-rm"
 		shape = "box"
 		color = "orange"
 	]
 	"update-inetd" [
-		label = "update-inetd"
+		name = "update-inetd"
 		shape = "box"
 		color = "orange"
 	]
 	"autoconf2.13" [
-		label = "autoconf2.13"
+		name = "autoconf2.13"
 		shape = "box"
 		color = "orange"
 	]
 	"libalien-wxwidgets-perl" [
-		label = "libalien-wxwidgets-perl"
+		name = "libalien-wxwidgets-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libanyevent-perl" [
-		label = "libanyevent-perl"
+		name = "libanyevent-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libcommon-sense-perl" [
-		label = "libcommon-sense-perl"
+		name = "libcommon-sense-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libfile-path-perl" [
-		label = "libfile-path-perl"
+		name = "libfile-path-perl"
 		shape = "triangle"
 	]
 	"libfile-spec-perl" [
-		label = "libfile-spec-perl"
+		name = "libfile-spec-perl"
 		shape = "triangle"
 	]
 	"libfile-temp-perl" [
-		label = "libfile-temp-perl"
+		name = "libfile-temp-perl"
 		shape = "triangle"
 	]
 	"libgtk2-perl-doc" [
-		label = "libgtk2-perl-doc"
+		name = "libgtk2-perl-doc"
 		shape = "hexagon"
 	]
 	"libio-socket-ip-perl" [
-		label = "libio-socket-ip-perl"
+		name = "libio-socket-ip-perl"
 		shape = "diamond"
 	]
 	"libjcode-perl" [
-		label = "libjcode-perl"
+		name = "libjcode-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libmarc-charset-perl" [
-		label = "libmarc-charset-perl"
+		name = "libmarc-charset-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libscalar-list-utils-perl" [
-		label = "libscalar-list-utils-perl"
+		name = "libscalar-list-utils-perl"
 		shape = "diamond"
 	]
 	"libsocket-perl" [
-		label = "libsocket-perl"
+		name = "libsocket-perl"
 		shape = "diamond"
 	]
 	"libxsloader-perl" [
-		label = "libxsloader-perl"
+		name = "libxsloader-perl"
 		shape = "triangle"
 	]
 	"pdl" [
-		label = "pdl"
+		name = "pdl"
 		shape = "box"
 		color = "orange"
 	]
 	"perl" [
-		label = "perl"
+		name = "perl"
 		shape = "box"
 	]
 	"libgraphite2-2.0.0" [
-		label = "libgraphite2-2.0.0"
+		name = "libgraphite2-2.0.0"
 		shape = "triangle"
 	]
 	"libcap-ng0" [
-		label = "libcap-ng0"
+		name = "libcap-ng0"
 		shape = "box"
 	]
 	"libsystemd0" [
-		label = "libsystemd0"
+		name = "libsystemd0"
 		shape = "box"
 	]
 	"adduser" [
-		label = "adduser"
+		name = "adduser"
 		shape = "box"
 	]
 	"lsb-base" [
-		label = "lsb-base"
+		name = "lsb-base"
 		shape = "box"
 	]
 	"perlapi-5.20.0" [
-		label = "perlapi-5.20.0"
+		name = "perlapi-5.20.0"
 		shape = "triangle"
 	]
 	"passwd" [
-		label = "passwd"
+		name = "passwd"
 		shape = "box"
 	]
 	"netbase" [
-		label = "netbase"
+		name = "netbase"
 		shape = "box"
 	]
 	"libtext-iconv-perl" [
-		label = "libtext-iconv-perl"
+		name = "libtext-iconv-perl"
 		shape = "box"
 	]
 	"emacsen-common" [
-		label = "emacsen-common"
+		name = "emacsen-common"
 		shape = "box"
 	]
 	"hunspell-ar" [
-		label = "hunspell-ar"
+		name = "hunspell-ar"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-da" [
-		label = "hunspell-da"
+		name = "hunspell-da"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-de-at" [
-		label = "hunspell-de-at"
+		name = "hunspell-de-at"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-de-ch" [
-		label = "hunspell-de-ch"
+		name = "hunspell-de-ch"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-de-de" [
-		label = "hunspell-de-de"
+		name = "hunspell-de-de"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-en-us" [
-		label = "hunspell-en-us"
+		name = "hunspell-en-us"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-eu-es" [
-		label = "hunspell-eu-es"
+		name = "hunspell-eu-es"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-gl-es" [
-		label = "hunspell-gl-es"
+		name = "hunspell-gl-es"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-kk" [
-		label = "hunspell-kk"
+		name = "hunspell-kk"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-ko" [
-		label = "hunspell-ko"
+		name = "hunspell-ko"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-se" [
-		label = "hunspell-se"
+		name = "hunspell-se"
 		shape = "box"
 		color = "orange"
 	]
 	"hunspell-uz" [
-		label = "hunspell-uz"
+		name = "hunspell-uz"
 		shape = "box"
 		color = "orange"
 	]
 	"hyphen-en-us" [
-		label = "hyphen-en-us"
+		name = "hyphen-en-us"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-bg" [
-		label = "myspell-bg"
+		name = "myspell-bg"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-ca" [
-		label = "myspell-ca"
+		name = "myspell-ca"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-cs" [
-		label = "myspell-cs"
+		name = "myspell-cs"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-cs-cz" [
-		label = "myspell-cs-cz"
+		name = "myspell-cs-cz"
 		shape = "triangle"
 	]
 	"myspell-da" [
-		label = "myspell-da"
+		name = "myspell-da"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-de-at" [
-		label = "myspell-de-at"
+		name = "myspell-de-at"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-de-ch" [
-		label = "myspell-de-ch"
+		name = "myspell-de-ch"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-de-de" [
-		label = "myspell-de-de"
+		name = "myspell-de-de"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-de-de-oldspell" [
-		label = "myspell-de-de-oldspell"
+		name = "myspell-de-de-oldspell"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-el-gr" [
-		label = "myspell-el-gr"
+		name = "myspell-el-gr"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-en-au" [
-		label = "myspell-en-au"
+		name = "myspell-en-au"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-eo" [
-		label = "myspell-eo"
+		name = "myspell-eo"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-es" [
-		label = "myspell-es"
+		name = "myspell-es"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-et" [
-		label = "myspell-et"
+		name = "myspell-et"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-eu-es" [
-		label = "myspell-eu-es"
+		name = "myspell-eu-es"
 		shape = "triangle"
 	]
 	"myspell-fa" [
-		label = "myspell-fa"
+		name = "myspell-fa"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-fi" [
-		label = "myspell-fi"
+		name = "myspell-fi"
 		shape = "hexagon"
 	]
 	"myspell-fo" [
-		label = "myspell-fo"
+		name = "myspell-fo"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-fr" [
-		label = "myspell-fr"
+		name = "myspell-fr"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-fr-gut" [
-		label = "myspell-fr-gut"
+		name = "myspell-fr-gut"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-ga" [
-		label = "myspell-ga"
+		name = "myspell-ga"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-gd" [
-		label = "myspell-gd"
+		name = "myspell-gd"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-gl-es" [
-		label = "myspell-gl-es"
+		name = "myspell-gl-es"
 		shape = "triangle"
 	]
 	"myspell-gv" [
-		label = "myspell-gv"
+		name = "myspell-gv"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-he" [
-		label = "myspell-he"
+		name = "myspell-he"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-hr" [
-		label = "myspell-hr"
+		name = "myspell-hr"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-hu" [
-		label = "myspell-hu"
+		name = "myspell-hu"
 		shape = "diamond"
 	]
 	"myspell-hy" [
-		label = "myspell-hy"
+		name = "myspell-hy"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-ku" [
-		label = "myspell-ku"
+		name = "myspell-ku"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-lv" [
-		label = "myspell-lv"
+		name = "myspell-lv"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-nb" [
-		label = "myspell-nb"
+		name = "myspell-nb"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-nl" [
-		label = "myspell-nl"
+		name = "myspell-nl"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-nn" [
-		label = "myspell-nn"
+		name = "myspell-nn"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-nr" [
-		label = "myspell-nr"
+		name = "myspell-nr"
 		shape = "hexagon"
 	]
 	"myspell-ns" [
-		label = "myspell-ns"
+		name = "myspell-ns"
 		shape = "hexagon"
 	]
 	"myspell-pl" [
-		label = "myspell-pl"
+		name = "myspell-pl"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-pt-br" [
-		label = "myspell-pt-br"
+		name = "myspell-pt-br"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-pt-pt" [
-		label = "myspell-pt-pt"
+		name = "myspell-pt-pt"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-ru" [
-		label = "myspell-ru"
+		name = "myspell-ru"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-sk" [
-		label = "myspell-sk"
+		name = "myspell-sk"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-sl" [
-		label = "myspell-sl"
+		name = "myspell-sl"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-ss" [
-		label = "myspell-ss"
+		name = "myspell-ss"
 		shape = "hexagon"
 	]
 	"myspell-sv-se" [
-		label = "myspell-sv-se"
+		name = "myspell-sv-se"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-tn" [
-		label = "myspell-tn"
+		name = "myspell-tn"
 		shape = "hexagon"
 	]
 	"myspell-ts" [
-		label = "myspell-ts"
+		name = "myspell-ts"
 		shape = "hexagon"
 	]
 	"myspell-uk" [
-		label = "myspell-uk"
+		name = "myspell-uk"
 		shape = "box"
 		color = "orange"
 	]
 	"myspell-ve" [
-		label = "myspell-ve"
+		name = "myspell-ve"
 		shape = "hexagon"
 	]
 	"myspell-xh" [
-		label = "myspell-xh"
+		name = "myspell-xh"
 		shape = "hexagon"
 	]
 	"myspell-zu" [
-		label = "myspell-zu"
+		name = "myspell-zu"
 		shape = "hexagon"
 	]
 	"mythes-it" [
-		label = "mythes-it"
+		name = "mythes-it"
 		shape = "box"
 		color = "orange"
 	]
 	"openoffice.org-thesaurus-it" [
-		label = "openoffice.org-thesaurus-it"
+		name = "openoffice.org-thesaurus-it"
 		shape = "hexagon"
 	]
 	"myhungarian" [
-		label = "myhungarian"
+		name = "myhungarian"
 		shape = "triangle"
 	]
 	"openoffice.org" [
-		label = "openoffice.org"
+		name = "openoffice.org"
 		shape = "hexagon"
 	]
 	"libpam0g" [
-		label = "libpam0g"
+		name = "libpam0g"
 		shape = "box"
 	]
 	"libsemanage1" [
-		label = "libsemanage1"
+		name = "libsemanage1"
 		shape = "box"
 	]
 	"libpam-modules" [
-		label = "libpam-modules"
+		name = "libpam-modules"
 		shape = "box"
 	]
 	"debianutils" [
-		label = "debianutils"
+		name = "debianutils"
 		shape = "box"
 	]
 	"libsemanage-common" [
-		label = "libsemanage-common"
+		name = "libsemanage-common"
 		shape = "box"
 	]
 	"libsepol1" [
-		label = "libsepol1"
+		name = "libsepol1"
 		shape = "box"
 	]
 	"libustr-1.0-1" [
-		label = "libustr-1.0-1"
+		name = "libustr-1.0-1"
 		shape = "box"
 	]
 	"perlapi-5.20.1" [
-		label = "perlapi-5.20.1"
+		name = "perlapi-5.20.1"
 		shape = "triangle"
 	]
 	"sensible-utils" [
-		label = "sensible-utils"
+		name = "sensible-utils"
 		shape = "box"
 	]
 	"libsemanage1-dev" [
-		label = "libsemanage1-dev"
+		name = "libsemanage1-dev"
 		shape = "box"
 		color = "orange"
 	]
 	"perl-modules" [
-		label = "perl-modules"
+		name = "perl-modules"
 		shape = "box"
 	]
 	"libgdbm3" [
-		label = "libgdbm3"
+		name = "libgdbm3"
 		shape = "box"
 	]
 	"libjson-pp-perl" [
-		label = "libjson-pp-perl"
+		name = "libjson-pp-perl"
 		shape = "diamond"
 	]
 	"dh-make-perl" [
-		label = "dh-make-perl"
+		name = "dh-make-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"ftpmirror" [
-		label = "ftpmirror"
+		name = "ftpmirror"
 		shape = "hexagon"
 	]
 	"libcompress-raw-bzip2-perl" [
-		label = "libcompress-raw-bzip2-perl"
+		name = "libcompress-raw-bzip2-perl"
 		shape = "diamond"
 	]
 	"libcompress-raw-zlib-perl" [
-		label = "libcompress-raw-zlib-perl"
+		name = "libcompress-raw-zlib-perl"
 		shape = "diamond"
 	]
 	"libcompress-zlib-perl" [
-		label = "libcompress-zlib-perl"
+		name = "libcompress-zlib-perl"
 		shape = "triangle"
 	]
 	"libdigest-md5-perl" [
-		label = "libdigest-md5-perl"
+		name = "libdigest-md5-perl"
 		shape = "triangle"
 	]
 	"libdigest-sha-perl" [
-		label = "libdigest-sha-perl"
+		name = "libdigest-sha-perl"
 		shape = "diamond"
 	]
 	"libencode-perl" [
-		label = "libencode-perl"
+		name = "libencode-perl"
 		shape = "diamond"
 	]
 	"libhtml-template-compiled-perl" [
-		label = "libhtml-template-compiled-perl"
+		name = "libhtml-template-compiled-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libio-compress-base-perl" [
-		label = "libio-compress-base-perl"
+		name = "libio-compress-base-perl"
 		shape = "triangle"
 	]
 	"libio-compress-bzip2-perl" [
-		label = "libio-compress-bzip2-perl"
+		name = "libio-compress-bzip2-perl"
 		shape = "triangle"
 	]
 	"libio-compress-perl" [
-		label = "libio-compress-perl"
+		name = "libio-compress-perl"
 		shape = "diamond"
 	]
 	"libio-compress-zlib-perl" [
-		label = "libio-compress-zlib-perl"
+		name = "libio-compress-zlib-perl"
 		shape = "triangle"
 	]
 	"libload-perl" [
-		label = "libload-perl"
+		name = "libload-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libmime-base64-perl" [
-		label = "libmime-base64-perl"
+		name = "libmime-base64-perl"
 		shape = "triangle"
 	]
 	"libnet-jifty-perl" [
-		label = "libnet-jifty-perl"
+		name = "libnet-jifty-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libperl-apireference-perl" [
-		label = "libperl-apireference-perl"
+		name = "libperl-apireference-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libregexp-optimizer-perl" [
-		label = "libregexp-optimizer-perl"
+		name = "libregexp-optimizer-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libsoap-lite-perl" [
-		label = "libsoap-lite-perl"
+		name = "libsoap-lite-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libstorable-perl" [
-		label = "libstorable-perl"
+		name = "libstorable-perl"
 		shape = "triangle"
 	]
 	"libsys-syslog-perl" [
-		label = "libsys-syslog-perl"
+		name = "libsys-syslog-perl"
 		shape = "diamond"
 	]
 	"libthreads-perl" [
-		label = "libthreads-perl"
+		name = "libthreads-perl"
 		shape = "triangle"
 	]
 	"libthreads-shared-perl" [
-		label = "libthreads-shared-perl"
+		name = "libthreads-shared-perl"
 		shape = "triangle"
 	]
 	"libtime-hires-perl" [
-		label = "libtime-hires-perl"
+		name = "libtime-hires-perl"
 		shape = "triangle"
 	]
 	"libtime-piece-perl" [
-		label = "libtime-piece-perl"
+		name = "libtime-piece-perl"
 		shape = "triangle"
 	]
 	"libxml-parser-lite-tree-perl" [
-		label = "libxml-parser-lite-tree-perl"
+		name = "libxml-parser-lite-tree-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libyaml-perl" [
-		label = "libyaml-perl"
+		name = "libyaml-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"mrtg" [
-		label = "mrtg"
+		name = "mrtg"
 		shape = "box"
 		color = "orange"
 	]
 	"perl-doc" [
-		label = "perl-doc"
+		name = "perl-doc"
 		shape = "box"
 		color = "orange"
 	]
 	"ifupdown" [
-		label = "ifupdown"
+		name = "ifupdown"
 		shape = "diamond"
 	]
 	"iproute2" [
-		label = "iproute2"
+		name = "iproute2"
 		shape = "box"
 	]
 	"iproute" [
-		label = "iproute"
+		name = "iproute"
 		shape = "box"
 	]
 	"initscripts" [
-		label = "initscripts"
+		name = "initscripts"
 		shape = "box"
 	]
 	"dhcp3-client" [
-		label = "dhcp3-client"
+		name = "dhcp3-client"
 		shape = "hexagon"
 	]
 	"libpam-modules-bin" [
-		label = "libpam-modules-bin"
+		name = "libpam-modules-bin"
 		shape = "box"
 	]
 	"libpam-mkhomedir" [
-		label = "libpam-mkhomedir"
+		name = "libpam-mkhomedir"
 		shape = "triangle"
 	]
 	"libpam-motd" [
-		label = "libpam-motd"
+		name = "libpam-motd"
 		shape = "triangle"
 	]
 	"libpam-umask" [
-		label = "libpam-umask"
+		name = "libpam-umask"
 		shape = "triangle"
 	]
 	"cli-common" [
-		label = "cli-common"
+		name = "cli-common"
 		shape = "box"
 		color = "orange"
 	]
 	"libansicolor-perl" [
-		label = "libansicolor-perl"
+		name = "libansicolor-perl"
 		shape = "triangle"
 	]
 	"libarchive-tar-perl" [
-		label = "libarchive-tar-perl"
+		name = "libarchive-tar-perl"
 		shape = "triangle"
 	]
 	"libattribute-handlers-perl" [
-		label = "libattribute-handlers-perl"
+		name = "libattribute-handlers-perl"
 		shape = "triangle"
 	]
 	"libautodie-perl" [
-		label = "libautodie-perl"
+		name = "libautodie-perl"
 		shape = "diamond"
 	]
 	"libcgi-pm-perl" [
-		label = "libcgi-pm-perl"
+		name = "libcgi-pm-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libcpan-meta-perl" [
-		label = "libcpan-meta-perl"
+		name = "libcpan-meta-perl"
 		shape = "diamond"
 	]
 	"libcpan-meta-requirements-perl" [
-		label = "libcpan-meta-requirements-perl"
+		name = "libcpan-meta-requirements-perl"
 		shape = "diamond"
 	]
 	"libcpan-meta-yaml-perl" [
-		label = "libcpan-meta-yaml-perl"
+		name = "libcpan-meta-yaml-perl"
 		shape = "diamond"
 	]
 	"libdigest-perl" [
-		label = "libdigest-perl"
+		name = "libdigest-perl"
 		shape = "diamond"
 	]
 	"libexperimental-perl" [
-		label = "libexperimental-perl"
+		name = "libexperimental-perl"
 		shape = "diamond"
 	]
 	"libextutils-cbuilder-perl" [
-		label = "libextutils-cbuilder-perl"
+		name = "libextutils-cbuilder-perl"
 		shape = "diamond"
 	]
 	"libextutils-command-perl" [
-		label = "libextutils-command-perl"
+		name = "libextutils-command-perl"
 		shape = "triangle"
 	]
 	"libextutils-install-perl" [
-		label = "libextutils-install-perl"
+		name = "libextutils-install-perl"
 		shape = "triangle"
 	]
 	"libextutils-parsexs-perl" [
-		label = "libextutils-parsexs-perl"
+		name = "libextutils-parsexs-perl"
 		shape = "diamond"
 	]
 	"libhttp-tiny-perl" [
-		label = "libhttp-tiny-perl"
+		name = "libhttp-tiny-perl"
 		shape = "diamond"
 	]
 	"libi18n-langtags-perl" [
-		label = "libi18n-langtags-perl"
+		name = "libi18n-langtags-perl"
 		shape = "triangle"
 	]
 	"libio-zlib-perl" [
-		label = "libio-zlib-perl"
+		name = "libio-zlib-perl"
 		shape = "triangle"
 	]
 	"liblocale-codes-perl" [
-		label = "liblocale-codes-perl"
+		name = "liblocale-codes-perl"
 		shape = "triangle"
 	]
 	"liblocale-maketext-perl" [
-		label = "liblocale-maketext-perl"
+		name = "liblocale-maketext-perl"
 		shape = "triangle"
 	]
 	"liblocale-maketext-simple-perl" [
-		label = "liblocale-maketext-simple-perl"
+		name = "liblocale-maketext-simple-perl"
 		shape = "triangle"
 	]
 	"libmath-bigint-perl" [
-		label = "libmath-bigint-perl"
+		name = "libmath-bigint-perl"
 		shape = "diamond"
 	]
 	"libmath-complex-perl" [
-		label = "libmath-complex-perl"
+		name = "libmath-complex-perl"
 		shape = "diamond"
 	]
 	"libmodule-build-perl" [
-		label = "libmodule-build-perl"
+		name = "libmodule-build-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libmodule-corelist-perl" [
-		label = "libmodule-corelist-perl"
+		name = "libmodule-corelist-perl"
 		shape = "diamond"
 	]
 	"libmodule-load-conditional-perl" [
-		label = "libmodule-load-conditional-perl"
+		name = "libmodule-load-conditional-perl"
 		shape = "diamond"
 	]
 	"libmodule-load-perl" [
-		label = "libmodule-load-perl"
+		name = "libmodule-load-perl"
 		shape = "triangle"
 	]
 	"libmodule-metadata-perl" [
-		label = "libmodule-metadata-perl"
+		name = "libmodule-metadata-perl"
 		shape = "diamond"
 	]
 	"libnet-perl" [
-		label = "libnet-perl"
+		name = "libnet-perl"
 		shape = "triangle"
 	]
 	"libnet-ping-perl" [
-		label = "libnet-ping-perl"
+		name = "libnet-ping-perl"
 		shape = "triangle"
 	]
 	"libpackage-constants-perl" [
-		label = "libpackage-constants-perl"
+		name = "libpackage-constants-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"libparams-check-perl" [
-		label = "libparams-check-perl"
+		name = "libparams-check-perl"
 		shape = "triangle"
 	]
 	"libparent-perl" [
-		label = "libparent-perl"
+		name = "libparent-perl"
 		shape = "triangle"
 	]
 	"libparse-cpan-meta-perl" [
-		label = "libparse-cpan-meta-perl"
+		name = "libparse-cpan-meta-perl"
 		shape = "diamond"
 	]
 	"libperl-ostype-perl" [
-		label = "libperl-ostype-perl"
+		name = "libperl-ostype-perl"
 		shape = "triangle"
 	]
 	"libpod-escapes-perl" [
-		label = "libpod-escapes-perl"
+		name = "libpod-escapes-perl"
 		shape = "triangle"
 	]
 	"libpod-parser-perl" [
-		label = "libpod-parser-perl"
+		name = "libpod-parser-perl"
 		shape = "triangle"
 	]
 	"libpod-simple-perl" [
-		label = "libpod-simple-perl"
+		name = "libpod-simple-perl"
 		shape = "diamond"
 	]
 	"libtest-harness-perl" [
-		label = "libtest-harness-perl"
+		name = "libtest-harness-perl"
 		shape = "diamond"
 	]
 	"libtest-simple-perl" [
-		label = "libtest-simple-perl"
+		name = "libtest-simple-perl"
 		shape = "diamond"
 	]
 	"libthread-queue-perl" [
-		label = "libthread-queue-perl"
+		name = "libthread-queue-perl"
 		shape = "triangle"
 	]
 	"libtime-local-perl" [
-		label = "libtime-local-perl"
+		name = "libtime-local-perl"
 		shape = "triangle"
 	]
 	"libunicode-collate-perl" [
-		label = "libunicode-collate-perl"
+		name = "libunicode-collate-perl"
 		shape = "diamond"
 	]
 	"libversion-perl" [
-		label = "libversion-perl"
+		name = "libversion-perl"
 		shape = "diamond"
 	]
 	"libversion-requirements-perl" [
-		label = "libversion-requirements-perl"
+		name = "libversion-requirements-perl"
 		shape = "triangle"
 	]
 	"mono-apache-server2" [
-		label = "mono-apache-server2"
+		name = "mono-apache-server2"
 		shape = "box"
 		color = "orange"
 	]
 	"mono-apache-server4" [
-		label = "mono-apache-server4"
+		name = "mono-apache-server4"
 		shape = "box"
 		color = "orange"
 	]
 	"mono-fastcgi-server2" [
-		label = "mono-fastcgi-server2"
+		name = "mono-fastcgi-server2"
 		shape = "box"
 		color = "orange"
 	]
 	"mono-fastcgi-server4" [
-		label = "mono-fastcgi-server4"
+		name = "mono-fastcgi-server4"
 		shape = "box"
 		color = "orange"
 	]
 	"patcher" [
-		label = "patcher"
+		name = "patcher"
 		shape = "box"
 		color = "orange"
 	]
 	"podlators-perl" [
-		label = "podlators-perl"
+		name = "podlators-perl"
 		shape = "triangle"
 	]
 	"polygen-data" [
-		label = "polygen-data"
+		name = "polygen-data"
 		shape = "box"
 		color = "orange"
 	]
 	"pristine-tar" [
-		label = "pristine-tar"
+		name = "pristine-tar"
 		shape = "box"
 		color = "orange"
 	]
 	"pure-ftpd-common" [
-		label = "pure-ftpd-common"
+		name = "pure-ftpd-common"
 		shape = "box"
 		color = "orange"
 	]
 	"rinse" [
-		label = "rinse"
+		name = "rinse"
 		shape = "box"
 		color = "orange"
 	]
 	"shorewall" [
-		label = "shorewall"
+		name = "shorewall"
 		shape = "box"
 		color = "orange"
 	]
 	"shorewall-core" [
-		label = "shorewall-core"
+		name = "shorewall-core"
 		shape = "box"
 		color = "orange"
 	]
 	"tvtime" [
-		label = "tvtime"
+		name = "tvtime"
 		shape = "box"
 		color = "orange"
 	]
 	"libjson-perl" [
-		label = "libjson-perl"
+		name = "libjson-perl"
 		shape = "box"
 		color = "orange"
 	]
 	"perlapi-5.20.2" [
-		label = "perlapi-5.20.2"
+		name = "perlapi-5.20.2"
 		shape = "triangle"
 	]
 	"mount" [
-		label = "mount"
+		name = "mount"
 		shape = "box"
 	]
 	"sysvinit-utils" [
-		label = "sysvinit-utils"
+		name = "sysvinit-utils"
 		shape = "box"
 	]
 	"sysv-rc" [
-		label = "sysv-rc"
+		name = "sysv-rc"
 		shape = "diamond"
 	]
 	"file-rc" [
-		label = "file-rc"
+		name = "file-rc"
 		shape = "box"
 	]
 	"libdevmapper1.02.1" [
-		label = "libdevmapper1.02.1"
+		name = "libdevmapper1.02.1"
 		shape = "box"
 		color = "orange"
 	]
 	"aide" [
-		label = "aide"
+		name = "aide"
 		shape = "box"
 		color = "orange"
 	]
 	"atm-tools" [
-		label = "atm-tools"
+		name = "atm-tools"
 		shape = "box"
 		color = "orange"
 	]
 	"autofs" [
-		label = "autofs"
+		name = "autofs"
 		shape = "box"
 		color = "orange"
 	]
 	"bootchart" [
-		label = "bootchart"
+		name = "bootchart"
 		shape = "hexagon"
 	]
 	"console-common" [
-		label = "console-common"
+		name = "console-common"
 		shape = "box"
 		color = "orange"
 	]
 	"console-setup" [
-		label = "console-setup"
+		name = "console-setup"
 		shape = "box"
 		color = "orange"
 	]
 	"cruft" [
-		label = "cruft"
+		name = "cruft"
 		shape = "box"
 		color = "orange"
 	]
 	"eepc-acpi-scripts" [
-		label = "eepc-acpi-scripts"
+		name = "eepc-acpi-scripts"
 		shape = "hexagon"
 	]
 	"fcheck" [
-		label = "fcheck"
+		name = "fcheck"
 		shape = "box"
 		color = "orange"
 	]
 	"hostapd" [
-		label = "hostapd"
+		name = "hostapd"
 		shape = "box"
 		color = "orange"
 	]
 	"initramfs-tools" [
-		label = "initramfs-tools"
+		name = "initramfs-tools"
 		shape = "box"
 		color = "orange"
 	]
 	"libpam-mount" [
-		label = "libpam-mount"
+		name = "libpam-mount"
 		shape = "box"
 		color = "orange"
 	]
 	"live-build" [
-		label = "live-build"
+		name = "live-build"
 		shape = "box"
 		color = "orange"
 	]
 	"ltsp-client-core" [
-		label = "ltsp-client-core"
+		name = "ltsp-client-core"
 		shape = "box"
 		color = "orange"
 	]
 	"mdadm" [
-		label = "mdadm"
+		name = "mdadm"
 		shape = "box"
 		color = "orange"
 	]
 	"nbd-client" [
-		label = "nbd-client"
+		name = "nbd-client"
 		shape = "box"
 		color = "orange"
 	]
 	"nfs-common" [
-		label = "nfs-common"
+		name = "nfs-common"
 		shape = "box"
 		color = "orange"
 	]
 	"portmap" [
-		label = "portmap"
+		name = "portmap"
 		shape = "triangle"
 	]
 	"resolvconf" [
-		label = "resolvconf"
+		name = "resolvconf"
 		shape = "box"
 		color = "orange"
 	]
 	"rpcbind" [
-		label = "rpcbind"
+		name = "rpcbind"
 		shape = "box"
 		color = "orange"
 	]
 	"rsyslog" [
-		label = "rsyslog"
+		name = "rsyslog"
 		shape = "box"
 		color = "orange"
 	]
 	"selinux-policy-default" [
-		label = "selinux-policy-default"
+		name = "selinux-policy-default"
 		shape = "hexagon"
 	]
 	"splashy" [
-		label = "splashy"
+		name = "splashy"
 		shape = "hexagon"
 	]
 	"sysklogd" [
-		label = "sysklogd"
+		name = "sysklogd"
 		shape = "hexagon"
 	]
 	"util-linux" [
-		label = "util-linux"
+		name = "util-linux"
 		shape = "box"
 		color = "orange"
 	]
 	"wpasupplicant" [
-		label = "wpasupplicant"
+		name = "wpasupplicant"
 		shape = "box"
 		color = "orange"
 	]
 	"xymon" [
-		label = "xymon"
+		name = "xymon"
 		shape = "box"
 		color = "orange"
 	]
 	"libsub-identify-perl" [
-		label = "libsub-identify-perl"
+		name = "libsub-identify-perl"
 		shape = "box"
 	]
 	"texinfo" [
-		label = "texinfo"
+		name = "texinfo"
 		shape = "box"
 		color = "orange"
 	]
 	"arpd" [
-		label = "arpd"
+		name = "arpd"
 		shape = "triangle"
 	]
 	"libmount1" [
-		label = "libmount1"
+		name = "libmount1"
 		shape = "box"
 	]
 	"libsmartcols1" [
-		label = "libsmartcols1"
+		name = "libsmartcols1"
 		shape = "box"
 	]
 	"libblkid1" [
-		label = "libblkid1"
+		name = "libblkid1"
 		shape = "box"
 	]
 	"insserv" [
-		label = "insserv"
+		name = "insserv"
 		shape = "box"
 	]
 	"ash" [
-		label = "ash"
+		name = "ash"
 		shape = "box"
 		color = "orange"
 	]
 	"startpar" [
-		label = "startpar"
+		name = "startpar"
 		shape = "box"
 	]
 	"chkconfig" [
-		label = "chkconfig"
+		name = "chkconfig"
 		shape = "box"
 		color = "orange"
 	]
 	"last" [
-		label = "last"
+		name = "last"
 		shape = "hexagon"
 	]
 	"sysvconfig" [
-		label = "sysvconfig"
+		name = "sysvconfig"
 		shape = "hexagon"
 	]
 	"upstart" [
-		label = "upstart"
+		name = "upstart"
 		shape = "box"
 		color = "orange"
 	]
 	"libuuid1" [
-		label = "libuuid1"
+		name = "libuuid1"
 		shape = "box"
 	]
 	"n590" [
-		label = "n590"
-		label = "\N"
+		name = "n590"
 		shape = "ellipse"
 	]
 	"n591" [
-		label = "n591"
-		label = "\N"
+		name = "n591"
 		shape = "ellipse"
 	]
 	"n592" [
-		label = "n592"
-		label = "\N"
+		name = "n592"
 		shape = "ellipse"
 	]
 	"inkscape" -> "python:any" [

@@ -6,7 +6,7 @@ from networkx.drawing.nx_agraph import write_dot
 from networkx.readwrite import json_graph
 
 #G = read_dot("all_nobreak.dot")
-g = read_dot("inkscape-mergecycl2.dot")
+g = read_dot("inkscape-mergecycl.dot")
 cycles = list(nx.simple_cycles(g))
 print cycles
 for n1 in g.nodes_iter():
