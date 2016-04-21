@@ -4,6 +4,10 @@ function Sphere (world, material, type, id, name, vx, vy, vz,physSize,visSize,de
     this.mesh = null;
     this.body = null;
     this.name = name;
+    this.connections = [];
+    this.r_connections = [];
+    this.__dist = 0;
+    this.__parent = null;
     this.id = id;
     this.deps = deps;
     this.rdeps = rdeps;
@@ -52,6 +56,9 @@ function Connection (world, si1, si2, l) {
         console.warn("Connection ignored.");
         return;
     }
+
+    this.s1.connections.push(this.s2);
+    this.s2.r_connections.push(this.s1);
 
     var lineMaterial = new THREE.LineBasicMaterial({
         color: 0xffffff
