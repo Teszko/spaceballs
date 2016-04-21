@@ -1,0 +1,302 @@
+/udd-cache checkinstall inkscape -v
+Depends:
+  Good: adduser, aspell, aspell-en, coreutils, dbus, dbus-x11, debconf, debianutils, dictionaries-common, dpkg, emacsen-common, fontconfig, fontconfig-config, fonts-dejavu-core, gcc-4.9-base, gconf-service, gconf2, gconf2-common, gnome-mime-data, imagemagick-common, libacl1, libaspell15, libatk1.0-0, libatk1.0-data, libatkmm-1.6-1, libattr1, libaudit-common, libaudit1, libavahi-client3, libavahi-common-data, libavahi-common3, libavahi-glib1, libbz2-1.0, libc6, libcairo2, libcairomm-1.0-1, libcap-ng0, libcomerr2, libcups2, libdatrie1, libdb5.3, libdbus-1-3, libdbus-glib-1-2, libenchant1c2a, libexpat1, libffi6, libfftw3-double3, libfontconfig1, libfreetype6, libgc1c2, libgcc1, libgconf-2-4, libgcrypt20, libgdk-pixbuf2.0-0, libgdk-pixbuf2.0-common, libglib2.0-0, libglibmm-2.4-1c2a, libgmp10, libgnomevfs2-0, libgnomevfs2-common, libgnutls-deb0-28, libgomp1, libgpg-error0, libgraphite2-3, libgsl0ldbl, libgssapi-krb5-2, libgtk2.0-0, libgtk2.0-common, libgtkmm-2.4-1c2a, libgtkspell0, libharfbuzz0b, libhogweed2, libhunspell-1.3-0, libjasper1, libjbig0, libjpeg62-turbo, libk5crypto3, libkeyutils1, libkrb5-3, libkrb5support0, liblcms2-2, libldap-2.4-2, liblqr-1-0, libltdl7, liblzma5, libmagick++-6.q16-5, libmagickcore-6.q16-2, libmagickwand-6.q16-2, libncursesw5, libnettle4, libopenjpeg5, libp11-kit0, libpam-modules, libpam-modules-bin, libpam0g, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpangomm-1.4-1, libpcre3, libpixman-1-0, libpng12-0, libpoppler-glib8, libpoppler46, libpopt0, libpython-stdlib, libpython2.7-minimal, libpython2.7-stdlib, libreadline6, librevenge-0.0-0, libsasl2-2, libsasl2-modules-db, libselinux1, libsemanage-common, libsemanage1, libsepol1, libsigc++-2.0-0c2a, libsqlite3-0, libssl1.0.0, libstdc++6, libsystemd0, libtasn1-6, libtext-iconv-perl, libthai-data, libthai0, libtiff5, libtinfo5, libustr-1.0-1, libwpd-0.10-10, libwpg-0.3-3, libx11-6, libx11-data, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcomposite1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxml2, libxrandr2, libxrender1, libxslt1.1, lsb-base, mime-support, multiarch-support, passwd, perl-base, perlapi-5.20.0, psmisc, python, python-minimal, python2.7, python2.7-minimal, readline-common, sensible-utils, shared-mime-info, tar, ucf, zlib1g
+└─[0] Depends for inkscape:
+    Good: python:any (>= 2.6.6-7~), gconf-service, libaspell15 (>= 0.60.7~20110707), libatk1.0-0 (>= 1.12.4), libatkmm-1.6-1 (>= 2.22.1), libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcairomm-1.0-1 (>= 1.6.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgc1c2 (>= 1:7.2d), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 3.2.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libglibmm-2.4-1c2a (>= 2.42.0), libgnomevfs2-0 (>= 1:2.17.90), libgomp1 (>= 4.9), libgsl0ldbl (>= 1.9), libgtk2.0-0 (>= 2.24.0), libgtkmm-2.4-1c2a (>= 1:2.24.0), libgtkspell0 (>= 2.0.10), liblcms2-2 (>= 2.2+git20110628), libmagick++-6.q16-5 (>= 8:6.8.9.6), libmagickcore-6.q16-2 (>= 8:6.8.8.2), libmagickwand-6.q16-2 (>= 8:6.8.8.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpangomm-1.4-1 (>= 2.27.1), libpng12-0 (>= 1.2.13-4), libpoppler-glib8 (>= 0.18.0), libpoppler46 (>= 0.26.5), libpopt0 (>= 1.14), librevenge-0.0-0, libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.9), libwpg-0.3-3, libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+    ├─[1] Depends for python:
+    │   Good: python2.7 (>= 2.7.9-1~), libpython-stdlib (= 2.7.9-1), python-minimal (= 2.7.9-1)
+    │   ├─[2] Depends for python2.7:
+    │   │   Good: python2.7-minimal (= 2.7.9-2), libpython2.7-stdlib (= 2.7.9-2), mime-support
+    │   │   ├─[3] Depends for python2.7-minimal:
+    │   │   │   Good: libpython2.7-minimal (= 2.7.9-2), zlib1g (>= 1:1.2.0), libc6 (>= 2.15)
+    │   │   │   └─[4] Depends for zlib1g:
+    │   │   │       Good: libc6 (>= 2.14), multiarch-support
+    │   │   │       └─[5] Depends for libc6:
+    │   │   │           Good: libgcc1
+    │   │   │           └─[6] Depends for libgcc1:
+    │   │   │               Good: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.14), multiarch-support
+    │   │   │               └─[7] Depends for multiarch-support:
+    │   │   │                   Good: libc6 (>= 2.3.6-2)
+    │   │   └─[3] Depends for libpython2.7-stdlib:
+    │   │       Good: libpython2.7-minimal (= 2.7.9-2), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.1), libtinfo5
+    │   │       ├─[4] Depends for libbz2-1.0:
+    │   │       │   Good: libc6 (>= 2.4), multiarch-support
+    │   │       ├─[4] Depends for libdb5.3:
+    │   │       │   Good: libc6 (>= 2.17), multiarch-support
+    │   │       ├─[4] Depends for libexpat1:
+    │   │       │   Good: libc6 (>= 2.14), multiarch-support
+    │   │       ├─[4] Depends for libffi6:
+    │   │       │   Good: libc6 (>= 2.14), multiarch-support
+    │   │       ├─[4] Depends for libncursesw5:
+    │   │       │   Good: libtinfo5 (= 5.9+20140913-1+b1), libc6 (>= 2.15), multiarch-support
+    │   │       │   └─[5] Depends for libtinfo5:
+    │   │       │       Good: libc6 (>= 2.15), multiarch-support
+    │   │       ├─[4] Depends for libreadline6:
+    │   │       │   Good: readline-common, libc6 (>= 2.15), libtinfo5, multiarch-support
+    │   │       │   └─[5] Depends for readline-common:
+    │   │       │       Good: dpkg (>= 1.15.4) | install-info
+    │   │       │       └─[6] Depends for dpkg:
+    │   │       │           Good: libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4), tar (>= 1.23)
+    │   │       │           ├─[7] Depends for liblzma5:
+    │   │       │           │   Good: libc6 (>= 2.14), multiarch-support
+    │   │       │           ├─[7] Depends for libselinux1:
+    │   │       │           │   Good: libc6 (>= 2.14), libpcre3 (>= 8.10), multiarch-support
+    │   │       │           │   └─[8] Depends for libpcre3:
+    │   │       │           │       Good: libc6 (>= 2.14), multiarch-support
+    │   │       │           └─[7] Depends for tar:
+    │   │       │               Good: libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libselinux1 (>= 1.32)
+    │   │       │               └─[8] Depends for libacl1:
+    │   │       │                   Good: libattr1 (>= 1:2.4.46-8), libc6 (>= 2.14), multiarch-support
+    │   │       │                   └─[9] Depends for libattr1:
+    │   │       │                       Good: libc6 (>= 2.4), multiarch-support
+    │   │       ├─[4] Depends for libsqlite3-0:
+    │   │       │   Good: libc6 (>= 2.14), multiarch-support
+    │   │       └─[4] Depends for libssl1.0.0:
+    │   │           Good: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0, multiarch-support
+    │   │           └─[5] Depends for debconf:
+    │   │               Good: perl-base (>= 5.6.1-4)
+    │   │               └─[6] Depends for perl-base:
+    │   │                   Good: libc6 (>= 2.14), dpkg (>= 1.17.17)
+    │   ├─[2] Depends for libpython-stdlib:
+    │   │   Good: libpython2.7-stdlib (>= 2.7.9-1~)
+    │   └─[2] Depends for python-minimal:
+    │       Good: python2.7-minimal (>= 2.7.9-1~), dpkg (>= 1.13.20)
+    ├─[1] Depends for gconf-service:
+    │   Good: libc6 (>= 2.14), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgconf-2-4 (= 3.2.6-3), libglib2.0-0 (>= 2.31.0), libldap-2.4-2 (>= 2.4.7), libxml2 (>= 2.7.4), gconf2-common (= 3.2.6-3)
+    │   ├─[2] Depends for libdbus-1-3:
+    │   │   Good: libc6 (>= 2.17), multiarch-support
+    │   ├─[2] Depends for libdbus-glib-1-2:
+    │   │   Good: libc6 (>= 2.14), libdbus-1-3 (>= 1.2.16), libglib2.0-0 (>= 2.31.8), multiarch-support
+    │   │   └─[3] Depends for libglib2.0-0:
+    │   │       Good: libc6 (>= 2.17), libffi6 (>= 3.0.4), libpcre3 (>= 1:8.35), libselinux1 (>= 1.32), zlib1g (>= 1:1.2.2), multiarch-support
+    │   ├─[2] Depends for libgconf-2-4:
+    │   │   Good: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.35.9), gconf2-common (= 3.2.6-3), multiarch-support
+    │   │   └─[3] Depends for gconf2-common:
+    │   │       Good: ucf
+    │   │       └─[4] Depends for ucf:
+    │   │           Good: debconf (>= 1.5.19), coreutils (>= 5.91)
+    │   │           └─[5] Depends for coreutils:
+    │   │               Good: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.17), libselinux1 (>= 2.1.13)
+    │   ├─[2] Depends for libldap-2.4-2:
+    │   │   Good: libc6 (>= 2.14), libgnutls-deb0-28 (>= 3.3.0), libsasl2-2, multiarch-support
+    │   │   ├─[3] Depends for libgnutls-deb0-28:
+    │   │   │   Good: libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed2 (>= 2.7), libnettle4 (>= 2.7), libp11-kit0 (>= 0.20.7), libtasn1-6 (>= 4.1-0), zlib1g (>= 1:1.1.4), multiarch-support
+    │   │   │   ├─[4] Depends for libgmp10:
+    │   │   │   │   Good: libc6 (>= 2.14), multiarch-support
+    │   │   │   ├─[4] Depends for libhogweed2:
+    │   │   │   │   Good: libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle4 (= 2.7.1-5+deb8u1), multiarch-support
+    │   │   │   │   └─[5] Depends for libnettle4:
+    │   │   │   │       Good: libc6 (>= 2.14), multiarch-support
+    │   │   │   ├─[4] Depends for libp11-kit0:
+    │   │   │   │   Good: libc6 (>= 2.16), libffi6 (>= 3.0.4), multiarch-support
+    │   │   │   └─[4] Depends for libtasn1-6:
+    │   │   │       Good: libc6 (>= 2.14), multiarch-support
+    │   │   └─[3] Depends for libsasl2-2:
+    │   │       Good: libc6 (>= 2.15), libsasl2-modules-db (>= 2.1.26.dfsg1-13+deb8u1), multiarch-support
+    │   │       └─[4] Depends for libsasl2-modules-db:
+    │   │           Good: libc6 (>= 2.14), libdb5.3
+    │   └─[2] Depends for libxml2:
+    │       Good: libc6 (>= 2.15), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3), multiarch-support
+    ├─[1] Depends for libaspell15:
+    │   Good: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), multiarch-support
+    │   └─[2] Depends for libstdc++6:
+    │       Good: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.18), libgcc1 (>= 1:4.1.1), multiarch-support
+    ├─[1] Depends for libatk1.0-0:
+    │   Good: libc6 (>= 2.4), libglib2.0-0 (>= 2.41.1), libatk1.0-data (= 2.14.0-1), multiarch-support
+    ├─[1] Depends for libatkmm-1.6-1:
+    │   Good: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1c2a (>= 2.40.0), libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.1.1), multiarch-support
+    │   └─[2] Depends for libglibmm-2.4-1c2a:
+    │       Good: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.42.0), libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.9), multiarch-support
+    │       └─[3] Depends for libsigc++-2.0-0c2a:
+    │           Good: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), multiarch-support
+    ├─[1] Depends for libcairo2:
+    │   Good: libc6 (>= 2.14), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libpixman-1-0 (>= 0.30.0), libpng12-0 (>= 1.2.13-4), libx11-6, libxcb-render0, libxcb-shm0, libxcb1 (>= 1.6), libxext6, libxrender1, zlib1g (>= 1:1.1.4), multiarch-support
+    │   ├─[2] Depends for libfontconfig1:
+    │   │   Good: libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), fontconfig-config (>= 2.11.0-6.3), multiarch-support
+    │   │   ├─[3] Depends for libfreetype6:
+    │   │   │   Good: libc6 (>= 2.14), libpng12-0 (>= 1.2.13-4), zlib1g (>= 1:1.1.4), multiarch-support
+    │   │   │   └─[4] Depends for libpng12-0:
+    │   │   │       Good: libc6 (>= 2.14), zlib1g (>= 1:1.1.4), multiarch-support
+    │   │   └─[3] Depends for fontconfig-config:
+    │   │       Good: debconf (>= 0.5) | debconf-2.0, ucf (>= 0.29), fonts-dejavu-core | ttf-bitstream-vera | fonts-liberation | fonts-freefont
+    │   ├─[2] Depends for libpixman-1-0:
+    │   │   Good: libc6 (>= 2.14), multiarch-support
+    │   ├─[2] Depends for libx11-6:
+    │   │   Good: libc6 (>= 2.15), libxcb1 (>= 1.2), libx11-data, multiarch-support
+    │   │   ├─[3] Depends for libxcb1:
+    │   │   │   Good: libc6 (>= 2.14), libxau6, libxdmcp6, multiarch-support
+    │   │   │   ├─[4] Depends for libxau6:
+    │   │   │   │   Good: libc6 (>= 2.4), multiarch-support
+    │   │   │   └─[4] Depends for libxdmcp6:
+    │   │   │       Good: libc6 (>= 2.2.5), multiarch-support
+    │   ├─[2] Depends for libxcb-render0:
+    │   │   Good: libc6 (>= 2.4), libxcb1 (>= 1.8), multiarch-support
+    │   ├─[2] Depends for libxcb-shm0:
+    │   │   Good: libc6 (>= 2.4), libxcb1 (>= 1.9.2), multiarch-support
+    │   ├─[2] Depends for libxext6:
+    │   │   Good: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), multiarch-support
+    │   └─[2] Depends for libxrender1:
+    │       Good: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), multiarch-support
+    ├─[1] Depends for libcairomm-1.0-1:
+    │   Good: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libpng12-0 (>= 1.2.13-4), libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.4.0), libx11-6, libxext6, libxrender1, zlib1g (>= 1:1.1.4)
+    ├─[1] Depends for libgc1c2:
+    │   Good: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), multiarch-support
+    ├─[1] Depends for libgdk-pixbuf2.0-0:
+    │   Good: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.6), libjasper1, libjpeg62-turbo (>= 1.3.1), libpng12-0 (>= 1.2.13-4), libtiff5 (>= 4.0.3), libx11-6, libgdk-pixbuf2.0-common (= 2.31.1-2+deb8u4), multiarch-support
+    │   ├─[2] Depends for libjasper1:
+    │   │   Good: libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), multiarch-support
+    │   │   └─[3] Depends for libjpeg62-turbo:
+    │   │       Good: libc6 (>= 2.14)
+    │   ├─[2] Depends for libtiff5:
+    │   │   Good: libc6 (>= 2.14), libjbig0 (>= 2.0), libjpeg62-turbo (>= 1.3.1), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4), multiarch-support
+    │   │   └─[3] Depends for libjbig0:
+    │   │       Good: libc6 (>= 2.4), multiarch-support
+    ├─[1] Depends for libgnomevfs2-0:
+    │   Good: gconf-service, libacl1 (>= 2.2.51-8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.15), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.37.3), libgnutls-deb0-28 (>= 3.3.0), libselinux1 (>= 1.32), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), libgnomevfs2-common (= 1:2.24.4-6), multiarch-support
+    │   ├─[2] Depends for libavahi-client3:
+    │   │   Good: libavahi-common3 (>= 0.6.22), libc6 (>= 2.4), libdbus-1-3 (>= 1.1.1), multiarch-support
+    │   │   └─[3] Depends for libavahi-common3:
+    │   │       Good: libc6 (>= 2.14), libavahi-common-data, multiarch-support
+    │   ├─[2] Depends for libavahi-glib1:
+    │   │   Good: libavahi-common3 (>= 0.6.16), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.16.0), multiarch-support
+    │   └─[2] Depends for libgnomevfs2-common:
+    │       Good: gconf2 (>= 2.28.1-2), gnome-mime-data, shared-mime-info
+    │       ├─[3] Depends for gconf2:
+    │       │   Good: gconf-service (= 3.2.6-3), libc6 (>= 2.14), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.31.8), libxml2 (>= 2.7.4), psmisc, dbus-x11, python:any
+    │       │   ├─[4] Depends for psmisc:
+    │       │   │   Good: libc6 (>= 2.14), libtinfo5
+    │       │   └─[4] Depends for dbus-x11:
+    │       │       Good: libc6 (>= 2.15), libx11-6, dbus
+    │       │       └─[5] Depends for dbus:
+    │       │           Good: libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcap-ng0, libdbus-1-3 (>= 1.7.6), libexpat1 (>= 2.0.1), libselinux1 (>= 2.0.65), libsystemd0, adduser, lsb-base (>= 3.2-14)
+    │       │           ├─[6] Depends for libaudit1:
+    │       │           │   Good: libaudit-common (>= 1:2.4-1), libc6 (>= 2.14), multiarch-support
+    │       │           ├─[6] Depends for libcap-ng0:
+    │       │           │   Good: libc6 (>= 2.8), multiarch-support
+    │       │           ├─[6] Depends for libsystemd0:
+    │       │           │   Good: libc6 (>= 2.14), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), multiarch-support
+    │       │           │   └─[7] Depends for libgcrypt20:
+    │       │           │       Good: libc6 (>= 2.15), libgpg-error0 (>= 1.14), multiarch-support
+    │       │           │       └─[8] Depends for libgpg-error0:
+    │       │           │           Good: libc6 (>= 2.14), multiarch-support
+    │       │           ├─[6] Depends for adduser:
+    │       │           │   Good: perl-base (>= 5.6.0), passwd (>= 1:4.0.12), debconf | debconf-2.0
+    │       │           │   └─[7] Depends for passwd:
+    │       │           │       Good: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules, debianutils (>= 2.15.2)
+    │       │           │       ├─[8] Depends for libpam0g:
+    │       │           │       │   Good: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0, multiarch-support
+    │       │           │       ├─[8] Depends for libsemanage1:
+    │       │           │       │   Good: libsemanage-common (= 2.3-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.1.12), libsepol1 (>= 2.1.4), libustr-1.0-1 (>= 1.0.4), multiarch-support
+    │       │           │       │   ├─[9] Depends for libsepol1:
+    │       │           │       │   │   Good: libc6 (>= 2.14), multiarch-support
+    │       │           │       │   └─[9] Depends for libustr-1.0-1:
+    │       │           │       │       Good: libc6 (>= 2.14), multiarch-support
+    │       │           │       ├─[8] Depends for libpam-modules:
+    │       │           │       │   Good: libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.1+deb8u1+b1)
+    │       │           │       │   └─[9] Depends for libpam-modules-bin:
+    │       │           │       │       Good: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)
+    │       │           │       └─[8] Depends for debianutils:
+    │       │           │           Good: sensible-utils, libc6 (>= 2.15)
+    │       └─[3] Depends for shared-mime-info:
+    │           Good: libc6 (>= 2.14), libglib2.0-0 (>= 2.35.9), libxml2 (>= 2.7.4)
+    ├─[1] Depends for libgomp1:
+    │   Good: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.17), multiarch-support
+    ├─[1] Depends for libgsl0ldbl:
+    │   Good: libc6 (>= 2.14)
+    ├─[1] Depends for libgtk2.0-0:
+    │   Good: libgtk2.0-common, libatk1.0-0 (>= 1.32.0), libc6 (>= 2.14), libcairo2 (>= 1.6.4-6.1), libcups2 (>= 1.6.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libpango-1.0-0 (>= 1.28.3), libpangocairo-1.0-0 (>= 1.28.3), libpangoft2-1.0-0 (>= 1.28.3), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2 (>= 2:1.2.99.3), libxrender1, shared-mime-info, multiarch-support
+    │   ├─[2] Depends for libcups2:
+    │   │   Good: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libgnutls-deb0-28 (>= 3.3.0), libgssapi-krb5-2 (>= 1.10+dfsg~), zlib1g (>= 1:1.2.0), multiarch-support
+    │   │   └─[3] Depends for libgssapi-krb5-2:
+    │   │       Good: libc6 (>= 2.14), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1 (>= 1.4), libkrb5-3 (= 1.12.1+dfsg-19+deb8u2), libkrb5support0 (>= 1.12~alpha1+dfsg), multiarch-support
+    │   │       ├─[4] Depends for libcomerr2:
+    │   │       │   Good: libc6 (>= 2.17), multiarch-support
+    │   │       ├─[4] Depends for libk5crypto3:
+    │   │       │   Good: libc6 (>= 2.14), libkeyutils1 (>= 1.4), libkrb5support0 (>= 1.12~alpha1+dfsg), multiarch-support
+    │   │       │   ├─[5] Depends for libkeyutils1:
+    │   │       │   │   Good: libc6 (>= 2.14), multiarch-support
+    │   │       │   └─[5] Depends for libkrb5support0:
+    │   │       │       Good: libc6 (>= 2.14), libkeyutils1 (>= 1.4), multiarch-support
+    │   │       └─[4] Depends for libkrb5-3:
+    │   │           Good: libc6 (>= 2.16), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.12.1+dfsg-19+deb8u2), multiarch-support
+    │   ├─[2] Depends for libpango-1.0-0:
+    │   │   Good: fontconfig (>= 2.1.91), libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libthai0 (>= 0.1.12), multiarch-support
+    │   │   ├─[3] Depends for fontconfig:
+    │   │   │   Good: libc6 (>= 2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), fontconfig-config, dpkg (>= 1.16.1)
+    │   │   └─[3] Depends for libthai0:
+    │   │       Good: libthai-data (>= 0.1.10), libc6 (>= 2.14), libdatrie1 (>= 0.2.0), multiarch-support
+    │   │       └─[4] Depends for libdatrie1:
+    │   │           Good: libc6 (>= 2.14), multiarch-support
+    │   ├─[2] Depends for libpangocairo-1.0-0:
+    │   │   Good: libc6 (>= 2.4), libcairo2 (>= 1.12.10), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libpango-1.0-0 (>= 1.32.4), libpangoft2-1.0-0 (>= 1.28.1), multiarch-support
+    │   │   └─[3] Depends for libpangoft2-1.0-0:
+    │   │       Good: libc6 (>= 2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libharfbuzz0b (>= 0.9.9), libpango-1.0-0 (>= 1.36.0), multiarch-support
+    │   │       └─[4] Depends for libharfbuzz0b:
+    │   │           Good: libc6 (>= 2.14), libfreetype6 (>= 2.3.9), libglib2.0-0 (>= 2.30.0), libgraphite2-3 (>= 1.2.2), multiarch-support
+    │   │           └─[5] Depends for libgraphite2-3:
+    │   │               Good: libc6 (>= 2.14), multiarch-support
+    │   ├─[2] Depends for libxcomposite1:
+    │   │   Good: libc6 (>= 2.2.5), libx11-6 (>= 2:1.4.99.1), multiarch-support
+    │   ├─[2] Depends for libxcursor1:
+    │   │   Good: libc6 (>= 2.14), libx11-6 (>= 2:1.4.99.1), libxfixes3, libxrender1, multiarch-support
+    │   │   └─[3] Depends for libxfixes3:
+    │   │       Good: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), multiarch-support
+    │   ├─[2] Depends for libxdamage1:
+    │   │   Good: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1), libxfixes3, multiarch-support
+    │   ├─[2] Depends for libxi6:
+    │   │   Good: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6, multiarch-support
+    │   ├─[2] Depends for libxinerama1:
+    │   │   Good: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6, multiarch-support
+    │   └─[2] Depends for libxrandr2:
+    │       Good: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6, libxrender1, multiarch-support
+    ├─[1] Depends for libgtkmm-2.4-1c2a:
+    │   Good: libatk1.0-0 (>= 1.12.4), libatkmm-1.6-1 (>= 2.22.1), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcairomm-1.0-1 (>= 1.6.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libglibmm-2.4-1c2a (>= 2.40.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpangomm-1.4-1 (>= 2.27.1), libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.6), multiarch-support
+    │   └─[2] Depends for libpangomm-1.4-1:
+    │       Good: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcairomm-1.0-1 (>= 1.6.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libglibmm-2.4-1c2a (>= 2.40.0), libpango-1.0-0 (>= 1.23.0), libpangocairo-1.0-0 (>= 1.23.0), libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.1.1), multiarch-support
+    ├─[1] Depends for libgtkspell0:
+    │   Good: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libenchant1c2a (>= 1.6.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+    │   └─[2] Depends for libenchant1c2a:
+    │       Good: aspell-en | myspell-dictionary | aspell-dictionary | ispell-dictionary | hunspell-dictionary, libaspell15 (>= 0.60.7~20110707), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.35.9), libhunspell-1.3-0 (>= 1.3.3), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4), multiarch-support
+    │       ├─[3] Depends for aspell-en:
+    │       │   Good: aspell (>= 0.60.3-2), dictionaries-common (>= 0.49.2)
+    │       │   └─[4] Depends for aspell:
+    │       │       Good: libaspell15 (= 0.60.7~20110707-1.3), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libncursesw5 (>= 5.6+20070908), libstdc++6 (>= 4.1.1), libtinfo5, dictionaries-common (>> 0.40)
+    │       │       └─[5] Depends for dictionaries-common:
+    │       │           Good: debconf (>= 1.5.5) | debconf-2.0, libtext-iconv-perl, emacsen-common (>= 2.0.5)
+    │       │           ├─[6] Depends for libtext-iconv-perl:
+    │       │           │   Good: libc6 (>= 2.2.5), perl-base (>= 5.20.0-4), perlapi-5.20.0
+    │       └─[3] Depends for libhunspell-1.3-0:
+    │           Good: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), multiarch-support
+    ├─[1] Depends for liblcms2-2:
+    │   Good: libc6 (>= 2.14), multiarch-support
+    ├─[1] Depends for libmagick++-6.q16-5:
+    │   Good: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libmagickcore-6.q16-2 (>= 8:6.8.9.9), libmagickwand-6.q16-2 (>= 8:6.8.8.9), libstdc++6 (>= 4.9), multiarch-support
+    │   ├─[2] Depends for libmagickcore-6.q16-2:
+    │   │   Good: libbz2-1.0, libc6 (>= 2.14), libfftw3-double3, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgomp1 (>= 4.9), libjbig0 (>= 2.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), liblqr-1-0 (>= 0.4.0), libltdl7 (>= 2.4.2), liblzma5 (>= 5.1.1alpha+20120614), libpng12-0 (>= 1.2.13-4), libtiff5 (>= 4.0.3), libx11-6, libxext6, libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), imagemagick-common (= 8:6.8.9.9-5+deb8u1), multiarch-support, dpkg (>= 1.17.6)
+    │   │   ├─[3] Depends for libfftw3-double3:
+    │   │   │   Good: libc6 (>= 2.14), libgomp1 (>= 4.9), multiarch-support
+    │   │   ├─[3] Depends for liblqr-1-0:
+    │   │   │   Good: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.24.0), multiarch-support
+    │   │   ├─[3] Depends for libltdl7:
+    │   │   │   Good: libc6 (>= 2.14), multiarch-support
+    │   │   └─[3] Depends for imagemagick-common:
+    │   │       Good: dpkg (>= 1.15.7.2)
+    │   └─[2] Depends for libmagickwand-6.q16-2:
+    │       Good: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libgomp1 (>= 4.9), libmagickcore-6.q16-2 (>= 8:6.8.9.9), libx11-6, imagemagick-common (= 8:6.8.9.9-5+deb8u1), multiarch-support, dpkg (>= 1.17.6)
+    ├─[1] Depends for libpoppler-glib8:
+    │   Good: libc6 (>= 2.14), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libpoppler46 (>= 0.26.5), libstdc++6 (>= 4.9), multiarch-support
+    │   └─[2] Depends for libpoppler46:
+    │       Good: libc6 (>= 2.14), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libjpeg62-turbo (>= 1:1.3.1), liblcms2-2 (>= 2.2+git20110628), libopenjpeg5 (>= 1.3+dfsg), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.9), libtiff5 (>= 4.0.3), multiarch-support
+    │       └─[3] Depends for libopenjpeg5:
+    │           Good: libc6 (>= 2.14), multiarch-support
+    ├─[1] Depends for libpopt0:
+    │   Good: libc6 (>= 2.17), multiarch-support
+    ├─[1] Depends for librevenge-0.0-0:
+    │   Good: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), zlib1g (>= 1:1.1.4)
+    ├─[1] Depends for libwpg-0.3-3:
+    │   Good: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), librevenge-0.0-0, libstdc++6 (>= 4.1.1), libwpd-0.10-10
+    │   └─[2] Depends for libwpd-0.10-10:
+    │       Good: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), librevenge-0.0-0, libstdc++6 (>= 4.6)
+    └─[1] Depends for libxslt1.1:
+        Good: libc6 (>= 2.17), libgcrypt20 (>= 1.6.0), libxml2 (>= 2.9.0), multiarch-support
+
