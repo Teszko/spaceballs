@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 <html>
     <head>
-        <title>Spaceballs</title>
+        <title>little Newton</title>
          <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <style>
             body { margin: 0; }
@@ -23,10 +23,15 @@
         </style>
     </head>
     <body>
-        <div class="header">inkscape dependency graph</div>
+        <div class="header">inkscape dependency graph using littleNewton physics engine</div>
+        <script src="src/littleNewton.js"></script>
+        <script src="src/v3d.js"></script>
+        <script src="src/core.js"></script>
+        <script src="src/body.js"></script>
+        <script src="src/rubberband.js"></script>
+        <script src="src/repellant.js"></script>
         <script src="js/apt.js"></script>
         <script src="js/stats.min.js"></script>
-        <script src="js/cannon.min.js"></script>
         <script src="js/three.min.js"></script>
         <script src="js/orbitControls.js"></script>
         <script src="js/pathfinding.js"></script>
@@ -48,7 +53,7 @@
             basicMaterial = new THREE.MeshLambertMaterial({color: 0xffff00});
             specialMaterial = new THREE.MeshLambertMaterial({color: 0xff0000});
 
-            var radius = 100;
+            var radius = 10;
             var beta = 0;
 
             var pkg = JSON.parse(dep_json);
@@ -69,12 +74,13 @@
                     console.log(pkg.pkg.nodes[i].name+" deps "+pkg.pkg.nodes[i].deps+" rdeps "+pkg.pkg.nodes[i].rdeps+" sum "+sumdeps);
                     console.log(pkg.pkg.nodes[i].name+" phys: "+sphereRadius+" vis "+sphereRadius/6);
                 }
-                var sphere = new Sphere(world, basicMaterial, CANNON.Body.DYNAMIC, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ,
+                var sphere = new Sphere(world, basicMaterial, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ,
                                        sphereRadius,sphereRadius/6,pkg.pkg.nodes[i].deps,pkg.pkg.nodes[i].rdeps);
             }
 
             for (var z=0; z<pkg.pkg.links.length; z++) {
-                var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 2.2);
+                if (getNodeIdByName(world, "libc6") != pkg.pkg.links[z][1] && getNodeIdByName(world, "libc6") != pkg.pkg.links[z][0])
+                    var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 2.2);
             }
             
             var slidervars = { damping: 1.0 ,

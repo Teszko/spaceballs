@@ -18,11 +18,11 @@ function updatePhysics (world) {
             world.sphereList[j].body.mass = Math.sqrt(world.sphereList[j].rdeps/20);
         else
             world.sphereList[j].body.mass = 0.02;
-        world.sphereList[j].body.shapes[0].radius = slidervars.physicsRadius*world.sphereList[j].startphyssize;
+        // world.sphereList[j].body.shapes[0].radius = slidervars.physicsRadius*world.sphereList[j].startphyssize;
 
-        world.sphereList[j].body.velocity.x *= damping;
-        world.sphereList[j].body.velocity.y *= damping;
-        world.sphereList[j].body.velocity.z *= damping;
+        //world.sphereList[j].body.velocity.x *= damping;
+        //world.sphereList[j].body.velocity.y *= damping;
+        //world.sphereList[j].body.velocity.z *= damping;
           world.sphereList[j].update();
     }
     for (var h=0; h<world.connectionList.length; h++)

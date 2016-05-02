@@ -15,8 +15,7 @@ function World () {
 World.prototype.init = function (parent_dom_element) {
     this.scene = new THREE.Scene();
 
-    this.phyWorld = new CANNON.World();
-    this.phyWorld.gravity.set(0, 0, 0); // m/s²
+    this.phyWorld = new NEWTON.World();
 
     this.clock = new THREE.Clock();
 

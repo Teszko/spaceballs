@@ -1,4 +1,4 @@
-function Sphere (world, material, type, id, name, vx, vy, vz,physSize,visSize,deps,rdeps) {
+function Sphere (world, material, id, name, vx, vy, vz,physSize,visSize,deps,rdeps) {
     if (id != world.sphereList.length)
         console.warn("Node ID ", id, "does not match node index ", world.sphereList.length);
     this.mesh = null;
@@ -23,15 +23,14 @@ function Sphere (world, material, type, id, name, vx, vy, vz,physSize,visSize,de
     sprite.position.set(0,0.1,0);
     this.mesh.add(sprite);
 
-    this.body = new CANNON.Body({
-        mass: 0.2, // kg
-        position: new CANNON.Vec3(vx, vy, vz), // m
-        shape: new CANNON.Sphere(physSize), // radius in m
-        type: type,
-        linearDamping: 0.8,
-        angularDamping: 0.8
-    });
-    world.phyWorld.addBody(this.body);
+    this.body = new NEWTON.Body();
+    this.body.position.x = vx;
+    this.body.position.y = vy;
+    this.body.position.z = vz;
+    world.phyWorld.add(this.body);
+    var repellant = new NEWTON.Repellant(this.body);
+    world.phyWorld.add(repellant);
+
     world.sphereList.push(this);
 }
 
@@ -70,7 +69,8 @@ function Connection (world, si1, si2, l) {
     this.line.frustumCulled = false;
     world.scene.add(this.line);
     world.connectionList.push(this);
-    world.phyWorld.addConstraint(new CANNON.DistanceConstraint(this.s1.body, this.s2.body, l, 0.1));
+    var rubberband = new NEWTON.Rubberband(this.s1.body, this.s2.body);
+    world.phyWorld.add(rubberband);
 }
 
 Connection.prototype.update = function () {
