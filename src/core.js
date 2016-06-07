@@ -21,7 +21,7 @@ NEWTON.World.prototype.add = function (obj) {
         return obj;
     }
 
-    if (obj.type == 'Rubberband' || obj.type == 'Repellant') {
+    if (obj.type == 'Rubberband' || obj.type == 'Repellant' || obj.type == 'Gravity') {
         this.__force_modifiers.push(obj);
         return obj;
     }
@@ -30,16 +30,19 @@ NEWTON.World.prototype.add = function (obj) {
 };
 
 NEWTON.World.prototype.step = function (dt) {
+    for (var i=0; i<this.__bodies.length; i++) {
+        this.__bodies[i].__updatePosition(dt); //v-verlet 1)
+        this.__bodies[i].__resetForce();
+        this.__bodies[i].__damping();
+    }
+
     for (var i=0; i<this.__force_modifiers.length; i++) {
         this.__force_modifiers[i].__applyForce(this);
     }
 
     for (var i=0; i<this.__bodies.length; i++) {
-        this.__bodies[i].__damping();
-        this.__bodies[i].__forceToAcceleration();
-        this.__bodies[i].__accelerationToVelocity(dt);
-        this.__bodies[i].__velocityToPosition(dt);
-        this.__bodies[i].__resetForce();
+        this.__bodies[i].__updateAcceleration();
+        this.__bodies[i].__updateVelocity(dt);
     }
 };
 
