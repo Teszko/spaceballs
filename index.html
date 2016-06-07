@@ -30,6 +30,7 @@
         <script src="src/body.js"></script>
         <script src="src/rubberband.js"></script>
         <script src="src/repellant.js"></script>
+        <script src="src/gravity.js"></script>
         <script src="js/apt.js"></script>
         <script src="js/stats.min.js"></script>
         <script src="js/three.min.js"></script>
@@ -69,17 +70,20 @@
                 var pY = Math.sin(beta) * b;
                 var pZ = Math.cos(beta) * offset;
                 var sumdeps=pkg.pkg.nodes[i].deps+pkg.pkg.nodes[i].rdeps;
-                var sphereRadius = Math.sqrt(sumdeps/20);
+                var sphereRadius = (sumdeps/10);
+                
                 if (debugmsg){
                     console.log(pkg.pkg.nodes[i].name+" deps "+pkg.pkg.nodes[i].deps+" rdeps "+pkg.pkg.nodes[i].rdeps+" sum "+sumdeps);
-                    console.log(pkg.pkg.nodes[i].name+" phys: "+sphereRadius+" vis "+sphereRadius/6);
+                    console.log(pkg.pkg.nodes[i].name+" phys: "+sphereRadius+" vis "+sphereRadius/10);
                 }
                 var sphere = new Sphere(world, basicMaterial, pkg.pkg.nodes[i].id, pkg.pkg.nodes[i].name, pX, pY, pZ,
-                                       sphereRadius,sphereRadius/6,pkg.pkg.nodes[i].deps,pkg.pkg.nodes[i].rdeps);
+                                       sphereRadius,sphereRadius/10,pkg.pkg.nodes[i].deps,pkg.pkg.nodes[i].rdeps);
             }
-
+            var libc6id = getNodeIdByName(world, "libc6");
+            var libglib2id = getNodeIdByName(world, "libglib2.0-0");
             for (var z=0; z<pkg.pkg.links.length; z++) {
-                if (getNodeIdByName(world, "libc6") != pkg.pkg.links[z][1] && getNodeIdByName(world, "libc6") != pkg.pkg.links[z][0])
+                if (libc6id != pkg.pkg.links[z][1] && libc6id != pkg.pkg.links[z][0] &&
+                    libglib2id != pkg.pkg.links[z][1] && libglib2id != pkg.pkg.links[z][0]  )
                     var c_b = new Connection(world, pkg.pkg.links[z][0], pkg.pkg.links[z][1], 2.2);
             }
             
@@ -93,7 +97,7 @@
             var gui = new dat.GUI();
             gui.add(slidervars, 'damping',0,1);
             gui.add(slidervars, 'rdepmass');
-            gui.add(slidervars, 'physicsRadius',0,1.5);
+            gui.add(slidervars, 'physicsRadius',0,5);
             gui.add(slidervars, 'maxfps',1,60);
             //gui.add(slidervars, 'visualRadius');
 
