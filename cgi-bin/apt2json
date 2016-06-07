@@ -21,10 +21,10 @@ $pkgname = $FORM{pkg};
 $pkgname =~ s/[^-a-z:_]/./g;
 $pkgnamex= $pkgname;
 
-
+if(defined($ARGV[0])){$pkgname="$ARGV[0]";}
 # uncomment and use a fixed pkgname from commandline
-$pkgname ="inkscape";
-open(FS,"apt-cache xvcg $pkgname|");
+#open(FS,"apt-cache xvcg $pkgname|");
+open(FS,"$pkgname");
 $i=0;
 while(<FS>){
    if(/^node:/ and not /:i386/){ 
@@ -46,9 +46,10 @@ while(<FS>){
 }
 close(FS);
 
-
+if($ENV{'REQUEST_METHOD'} eq "GET"){
 print "Content-Type: application/javascript\r\n\r\n";
-print "{\"pkg\": {\n   \"name\": \"$pkgname\",\n";
+}
+print "dep_json = `{\"pkg\": {\n   \"name\": \"$pkgname\",\n";
 #print "   \"name1\": \"$pkgnamex\",\n";
 print "   \"nodes\": [\n";
 
@@ -76,5 +77,5 @@ foreach my $pkg1 ( sort keys %deps ) {
    printf("[%i,%i]",$nodes{$pkg1},$nodes{$pkg2});
    }
 }
-print "]\n}\n}\n";
+print "]\n}\n}\n`;";
 print "\n";
