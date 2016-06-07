@@ -23,6 +23,11 @@ NEWTON.v3d.prototype.length = function () {
     return Math.sqrt(this.x*this.x + this.y*this.y + this.z*this.z);
 };
 
+NEWTON.v3d.prototype.lengthsquare = function () {
+    /* for cutoff compare to computationally cheaper square */
+    return (this.x*this.x + this.y*this.y + this.z*this.z);
+};
+
 NEWTON.v3d.prototype.set = function (x, y, z) {
     this.x = NEWTON.isNumber(a) ? x : this.x;
     this.y = NEWTON.isNumber(a) ? y : this.y;
