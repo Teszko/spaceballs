@@ -27,9 +27,12 @@ function Sphere (world, material, id, name, vx, vy, vz,physSize,visSize,deps,rde
     this.body.position.x = vx;
     this.body.position.y = vy;
     this.body.position.z = vz;
+    this.body.radius = physSize;
     world.phyWorld.add(this.body);
     var repellant = new NEWTON.Repellant(this.body);
     world.phyWorld.add(repellant);
+    var gravity = new NEWTON.Gravity(this.body);
+    world.phyWorld.add(gravity);
 
     world.sphereList.push(this);
 }
