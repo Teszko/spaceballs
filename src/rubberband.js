@@ -16,11 +16,11 @@ NEWTON.Rubberband.prototype = {
 NEWTON.Rubberband.prototype.__applyForce = function () {
     var dV = new NEWTON.v3d();
     dV.subtract(this.body2.position, this.body1.position);
-    dV.multiply(this.force(dV.length())/dV.length());
+    dV.multiply(this.force(dV.length())/dV.lengthsquare());
     this.body1.applyForceVector(dV);
     this.body2.applyForceVector(dV.multiply(-1));
 };
 
 NEWTON.Rubberband.prototype.force = function (d) {
-    return 2 * d * d;
+    return 2 * d ;
 };
