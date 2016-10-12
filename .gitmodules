@@ -1,0 +1,3 @@
+[submodule "littleNewton"]
+	path = littleNewton
+	url = https://github.com/Teszko/littleNewton
