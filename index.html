@@ -51,6 +51,10 @@
             var world = new World();
             world.init(document.body);
 
+            window.onresize = function(event) {
+                world.renderer.setSize(window.innerWidth, window.innerHeight)
+            };
+
             basicMaterial = new THREE.MeshLambertMaterial({color: 0xffff00});
             specialMaterial = new THREE.MeshLambertMaterial({color: 0xff0000});
 
